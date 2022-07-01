@@ -9,6 +9,54 @@ body {
   overflow-x: hidden;
 }
 
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+html,
+input,
+select,
+textarea {
+  font-family: Poppins, sans-serif !important;
+}
+
+/* header-section
+-------------------- */
+.headerWrapper[_ngcontent-serverApp-c193] {
+  width: 100%;
+}
+.headingWrap-menu[_ngcontent-serverApp-c193] {
+  width: 100%;
+}
+ 
+.mobileView[_ngcontent-serverApp-c193] {
+  display: none!important;
+}
+
+.headingWrap-menu {
+  display: flex;
+}
+
+.pcView[_ngcontent-serverApp-c193] {
+  display: flex!important;
+}
+.headingWrap-menu[_ngcontent-serverApp-c193] {
+  width: 100%;
+}
+.headingWrap-menu {
+  display: flex;
+}
+.logo[_ngcontent-serverApp-c193] {
+  margin: auto 0;
+}
+
+.headingWrap-menu .logo {
+  flex: 0 0 20%;
+}
+
+
 /* banner-section
   -------------------- */
 .banner-section {
@@ -38,6 +86,7 @@ body {
 .banner-desc {
   font-size: 2.2vh;
   color: #333;
+  line-height: 30px;
   font-weight: 500;
   margin: 2.5vh 0 3.5vh;
 }
@@ -56,6 +105,16 @@ a {
   border-radius: 0.8vh;
   background: #f68a40;
   font-size: 2.4vh;
+
+  display: inline-block;
+  color: #fff;
+}
+.primaryBtn:hover {
+  transition: ease-in 0.1;
+  padding: 1.2vh 3.2vh;
+  border-radius: 0.8vh;
+  background: blue;
+  font-size: 2.4vh;
   display: inline-block;
   color: #fff;
 }
@@ -63,3 +122,110 @@ a {
 .getStartedBtn {
   margin-top: 5px;
 }
+
+/* banner-section-responsiveness with media query
+-------------------------------------------------- */
+/* banner-section for mobile */
+@media only screen and (max-width: 600px) {
+  .banner-section {
+    height: 36vh;
+    background-position: 88%;
+    position: relative;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  .banner-text-wrapper {
+    display: none;
+  }
+}
+
+/* banner-section for tablet */
+@media only screen and (max-width: 991px) and (min-width: 601px) {
+  .banner-section {
+    height: 50vh;
+    background-position: 80%;
+  }
+  .banner-text-wrapper {
+    width: 52vh;
+  }
+  .banner-title {
+    font-size: 4.3vh;
+  }
+}
+
+/* mental-health-section
+-------------------------- */
+.mental-health-section[_ngcontent-serverApp-c78] {
+  margin-top: 11vh;
+  position: relative;
+  background: #eff2f7;
+  padding-bottom: 5vh;
+}
+
+.custom-shape-divider-top-1639975762[_ngcontent-serverApp-c78] {
+  position: absolute;
+  top: -16vh;
+  left: 0;
+  width: 100%;
+  height: 25vh;
+  overflow: hidden;
+  line-height: 0;
+  background: #eff2f7;
+  fill: #fff;
+  z-index: -1;
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+
+svg {
+  overflow: hidden;
+}
+
+.section-title[_ngcontent-serverApp-c78] {
+  font-size: 36px;
+  text-align: center;
+  color: #333;
+  font-weight: 600;
+  z-index: 2!important;
+}
+
+.fade-in.appear[_ngcontent-serverApp-c78] {
+  opacity: 1;
+}
+ 
+.fade-in[_ngcontent-serverApp-c78] {
+  opacity: 0;
+  transition: opacity .5s ease-in;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.col-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.mental-health-tag-wrapper[_ngcontent-serverApp-c78] {
+  width: 100%;
+  text-align: center;
+  margin-top: 5vh;
+}
+
+.tag[_ngcontent-serverApp-c78] {
+  padding: 1.4vh 3.4vh;
+  background: #fff;
+  border-radius: 0.8vh;
+  display: inline-block;
+  margin: 1vh 1.6vh;
+  font-size: 2.2vh;
+  color: #333;
+}
+
+
