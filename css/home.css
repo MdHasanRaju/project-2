@@ -200,7 +200,7 @@ svg {
   transition: opacity .5s ease-in;
 }
 
-.row {
+/* .row {
   display: flex;
   flex-wrap: wrap;
   margin-left: -15px;
@@ -210,7 +210,7 @@ svg {
 .col-12 {
   flex: 0 0 100%;
   max-width: 100%;
-}
+} */
 
 .mental-health-tag-wrapper[_ngcontent-serverApp-c78] {
   width: 100%;
@@ -226,6 +226,79 @@ svg {
   margin: 1vh 1.6vh;
   font-size: 2.2vh;
   color: #333;
+}
+
+.specialBtn[_ngcontent-serverApp-c78] {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+/* mental-health-section-responsiveness with media query
+---------------------------------------------------------- */
+/* mental-health-section for mobile */
+@media only screen and (max-width: 600px){
+.mental-health-section[_ngcontent-serverApp-c78] {
+    padding: 0;
+}
+
+.custom-shape-divider-top-1639975762[_ngcontent-serverApp-c78] {
+  top: -8vh;
+  left: 45%;
+  width: 70vh;
+  transform: translateX(-50%);
+}
+
+.container[_ngcontent-serverApp-c78] {
+  padding: 0 1vh;
+}
+
+.section-title[_ngcontent-serverApp-c78] {
+  font-size: 20px;
+  color: #000;
+  line-height: 1.8;
+}
+
+.mental-health-tag-wrapper[_ngcontent-serverApp-c78] {
+  margin-top: 2vh;
+}
+
+.tag[_ngcontent-serverApp-c78] {
+  margin: 5px;
+  font-size: 14px;
+  padding: 0.8vh 1.22vh;
+} 
+
+.primaryBtn[_ngcontent-serverApp-c78] {
+  font-size: 12px;
+  padding: 5px 15px;
+} 
+}
+
+/* mental-health-section for tablet */
+@media only screen and (max-width:991px) and (min-width:601px) {
+  .mental-health-section[_ngcontent-serverApp-c78] {
+    margin-top: 15vh;
+}
+
+  .custom-shape-divider-top-1639975762[_ngcontent-serverApp-c78] {
+    top: -12vh;
+}
+
+  .container, .container-md, .container-sm {
+    max-width: 720px;
+}
+
+.section-title[_ngcontent-serverApp-c78] {
+  font-size: 37px;
+   
+}
+
+.tag[_ngcontent-serverApp-c78] {
+  padding: 0.5vh 2.8vh;
+  margin: 1vh;
+}
 }
 
 
