@@ -61,7 +61,7 @@ textarea {
 /* banner-section
   -------------------- */
 .banner-section {
-  background: url("/assets/images/banner.jpg");
+  background: url("../assets/images/banner.jpg");
   height: 70vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -462,4 +462,64 @@ svg {
   font-size: 1.6vh;
   padding: 1vh 2vh;
 }
+}
+
+
+/* connect-section
+---------------------- */
+.connect-section[_ngcontent-serverApp-c78] {
+  background-position: center -2vh;
+}
+
+.connect-section[_ngcontent-serverApp-c78] {
+  position: relative;
+  padding: 12vh 0;
+  background-image: url(../assets/images/new-waves.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.connect-section[_ngcontent-serverApp-c78] .custom-shape-divider-top-1639980888[_ngcontent-serverApp-c78] {
+  position: absolute;
+  top: -0.1vh;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.connect-section[_ngcontent-serverApp-c78] .custom-shape-divider-top-1639980888[_ngcontent-serverApp-c78] svg[_ngcontent-serverApp-c78] {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 66px;
+}
+
+.connect-section[_ngcontent-serverApp-c78] .custom-shape-divider-top-1639980888[_ngcontent-serverApp-c78] .shape-fill[_ngcontent-serverApp-c78] {
+  fill: #2d3091;
+}
+
+.connect-section[_ngcontent-serverApp-c78] .section-inner-title[_ngcontent-serverApp-c78] {
+  margin-top: 0;
+  
+}
+.section-inner-title[_ngcontent-serverApp-c78] {
+  margin-top: 10vh;
+  margin-bottom: 4vh;
+  font-size: 3.2vh;
+  color: #000;
+  font-weight: 600;
+  z-index: 1;
+}
+.reportSectionTxt[_ngcontent-serverApp-c78] {
+  font-size: 14px;
+}
+p{
+  margin-bottom: 0;
+}
+.connect-img[_ngcontent-serverApp-c78] {
+  width: 100%;
+  z-index: 1;
 }
