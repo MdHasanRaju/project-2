@@ -7,6 +7,8 @@
 html,
 body {
   overflow-x: hidden;
+  line-height: 30px;
+  scroll-behavior: smooth;
 }
 
 body,
@@ -30,9 +32,9 @@ textarea {
 .headingWrap-menu[_ngcontent-serverApp-c193] {
   width: 100%;
 }
- 
+
 .mobileView[_ngcontent-serverApp-c193] {
-  display: none!important;
+  display: none !important;
 }
 
 .headingWrap-menu {
@@ -40,7 +42,7 @@ textarea {
 }
 
 .pcView[_ngcontent-serverApp-c193] {
-  display: flex!important;
+  display: flex !important;
 }
 .headingWrap-menu[_ngcontent-serverApp-c193] {
   width: 100%;
@@ -55,7 +57,6 @@ textarea {
 .headingWrap-menu .logo {
   flex: 0 0 20%;
 }
-
 
 /* banner-section
   -------------------- */
@@ -86,7 +87,6 @@ textarea {
 .banner-desc {
   font-size: 2.2vh;
   color: #333;
-  line-height: 30px;
   font-weight: 500;
   margin: 2.5vh 0 3.5vh;
 }
@@ -105,7 +105,6 @@ a {
   border-radius: 0.8vh;
   background: #f68a40;
   font-size: 2.4vh;
-
   display: inline-block;
   color: #fff;
 }
@@ -113,9 +112,9 @@ a {
   transition: ease-in 0.1;
   padding: 1.2vh 3.2vh;
   border-radius: 0.8vh;
-  background: blue;
   font-size: 2.4vh;
   display: inline-block;
+  background: blue;
   color: #fff;
 }
 
@@ -175,7 +174,16 @@ a {
   z-index: -1;
 }
 
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
   display: block;
 }
 
@@ -188,16 +196,16 @@ svg {
   text-align: center;
   color: #333;
   font-weight: 600;
-  z-index: 2!important;
+  z-index: 2 !important;
 }
 
 .fade-in.appear[_ngcontent-serverApp-c78] {
   opacity: 1;
 }
- 
+
 .fade-in[_ngcontent-serverApp-c78] {
   opacity: 0;
-  transition: opacity .5s ease-in;
+  transition: opacity 0.5s ease-in;
 }
 
 /* .row {
@@ -238,67 +246,203 @@ svg {
 /* mental-health-section-responsiveness with media query
 ---------------------------------------------------------- */
 /* mental-health-section for mobile */
-@media only screen and (max-width: 600px){
-.mental-health-section[_ngcontent-serverApp-c78] {
+@media only screen and (max-width: 600px) {
+  .mental-health-section[_ngcontent-serverApp-c78] {
     padding: 0;
-}
+  }
 
-.custom-shape-divider-top-1639975762[_ngcontent-serverApp-c78] {
-  top: -8vh;
-  left: 45%;
-  width: 70vh;
-  transform: translateX(-50%);
-}
+  .custom-shape-divider-top-1639975762[_ngcontent-serverApp-c78] {
+    top: -8vh;
+    left: 45%;
+    width: 70vh;
+    transform: translateX(-50%);
+  }
 
-.container[_ngcontent-serverApp-c78] {
-  padding: 0 1vh;
-}
+  .container[_ngcontent-serverApp-c78] {
+    padding: 0 1vh;
+  }
 
-.section-title[_ngcontent-serverApp-c78] {
-  font-size: 20px;
-  color: #000;
-  line-height: 1.8;
-}
+  .section-title[_ngcontent-serverApp-c78] {
+    font-size: 20px;
+    color: #000;
+    line-height: 1.8;
+  }
 
-.mental-health-tag-wrapper[_ngcontent-serverApp-c78] {
-  margin-top: 2vh;
-}
+  .mental-health-tag-wrapper[_ngcontent-serverApp-c78] {
+    margin-top: 2vh;
+  }
 
-.tag[_ngcontent-serverApp-c78] {
-  margin: 5px;
-  font-size: 14px;
-  padding: 0.8vh 1.22vh;
-} 
+  .tag[_ngcontent-serverApp-c78] {
+    margin: 5px;
+    font-size: 14px;
+    padding: 0.8vh 1.22vh;
+  }
 
-.primaryBtn[_ngcontent-serverApp-c78] {
-  font-size: 12px;
-  padding: 5px 15px;
-} 
+  .primaryBtn[_ngcontent-serverApp-c78] {
+    font-size: 12px;
+    padding: 5px 15px;
+  }
+  .primaryBtn:hover {
+    background: blue !important;
+    color: #fff !important;
+  }
 }
 
 /* mental-health-section for tablet */
-@media only screen and (max-width:991px) and (min-width:601px) {
+@media only screen and (max-width: 991px) and (min-width: 601px) {
   .mental-health-section[_ngcontent-serverApp-c78] {
     margin-top: 15vh;
-}
+  }
 
   .custom-shape-divider-top-1639975762[_ngcontent-serverApp-c78] {
     top: -12vh;
-}
+  }
 
-  .container, .container-md, .container-sm {
+  .container,
+  .container-md,
+  .container-sm {
     max-width: 720px;
+  }
+
+  .section-title[_ngcontent-serverApp-c78] {
+    font-size: 37px;
+  }
+
+  .tag[_ngcontent-serverApp-c78] {
+    padding: 0.5vh 2.8vh;
+    margin: 1vh;
+  }
 }
 
-.section-title[_ngcontent-serverApp-c78] {
-  font-size: 37px;
-   
+/* report-section
+--------------------*/
+.report-section[_ngcontent-serverApp-c78] {
+  position: relative;
+  padding: 10vh 0;
+  background: #2d3091;
+  color: #fff;
 }
 
-.tag[_ngcontent-serverApp-c78] {
-  padding: 0.5vh 2.8vh;
-  margin: 1vh;
-}
+.custom-shape-divider-top-1639980888[_ngcontent-serverApp-c78] {
+  position: absolute;
+  top: -10px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  fill: #eff2f7;
+  transform: rotate(180deg);
 }
 
+.custom-shape-divider-top-1639980888[_ngcontent-serverApp-c78]
+  svg[_ngcontent-serverApp-c78] {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 66px;
+}
 
+.from-left.appear[_ngcontent-serverApp-c78],
+.from-right.appear[_ngcontent-serverApp-c78] {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.from-left[_ngcontent-serverApp-c78],
+.from-right[_ngcontent-serverApp-c78] {
+  transition: opacity 0.35s ease-in, transform 0.3s ease-in;
+  opacity: 0;
+}
+
+.test-img[_ngcontent-serverApp-c78] {
+  width: 100%;
+}
+
+.report-section[_ngcontent-serverApp-c78]
+  .section-inner-title[_ngcontent-serverApp-c78] {
+  color: #fff;
+  margin-top: 0;
+}
+
+.section-inner-title[_ngcontent-serverApp-c78] {
+  margin-top: 10vh;
+  margin-bottom: 4vh;
+  font-size: 3.2vh;
+  color: #000;
+  font-weight: 600;
+  z-index: 1;
+}
+
+.report-section[_ngcontent-serverApp-c78]
+  .section-inner-desc[_ngcontent-serverApp-c78] {
+  margin-bottom: 3vh;
+}
+
+.reportSectionTxt[_ngcontent-serverApp-c78] {
+  font-size: 14px;
+}
+
+/* a[_ngcontent-serverApp-c78] {
+  transition: all 0.5s ease;
+  text-decoration: none;
+} */
+
+.primaryBtn[_ngcontent-serverApp-c78] {
+  z-index: 2;
+}
+.report-btn[_ngcontent-serverApp-c78] {
+  background: #fff;
+  color: #2d3091;
+  padding: 1.3vh 3.2vh;
+  border-radius: 0.8vh;
+  font-size: 2.4vh;
+  display: inline-block;
+}
+
+.report-btn.primaryBtn:hover[_ngcontent-serverApp-c78] {
+  background: #f68a40;
+  color: #fff;
+}
+
+/* report-section-responsiveness with media query
+-------------------------------------------------- */
+/* report-section for mobile */
+@media only screen and (max-width: 600px) {
+  .report-section[_ngcontent-serverApp-c78] {
+    padding: 5vh 0 0;
+    text-align: center;
+  }
+  .custom-shape-divider-top-1639980888[_ngcontent-serverApp-c78] {
+    width: 150vh;
+    left: -52vh;
+  }
+  .container[_ngcontent-serverApp-c78] {
+    padding: 0 1vh;
+  }
+  .test-img[_ngcontent-serverApp-c78] {
+    width: 58% !important;
+  }
+
+  .report-section[_ngcontent-serverApp-c78]
+    .section-inner-title[_ngcontent-serverApp-c78] {
+    margin: 45px auto 2vh;
+    width: 80%;
+    color: #fff;
+  }
+  .section-inner-title[_ngcontent-serverApp-c78] {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.8;
+  }
+  .report-section[_ngcontent-serverApp-c78]
+    .section-inner-desc[_ngcontent-serverApp-c78] {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  .report-section[_ngcontent-serverApp-c78]
+    .primaryBtn[_ngcontent-serverApp-c78] {
+    margin-bottom: 3vh;
+    font-size: 12px;
+    padding: 5px 15px;
+  }
+}
