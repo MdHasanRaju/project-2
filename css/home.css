@@ -509,7 +509,7 @@ svg {
 .connect-section[_ngcontent-serverApp-c78]
   .section-inner-title[_ngcontent-serverApp-c78] {
   margin-top: 0;
-  margin-top: 10vh;
+  /* margin-top: 10vh; */
   margin-bottom: 4vh;
   font-size: 3.2vh;
   color: #000;
@@ -550,7 +550,7 @@ p {
   }
   .connect-section[_ngcontent-serverApp-c78]
     .section-inner-title[_ngcontent-serverApp-c78] {
-      margin-top: 0;
+    margin-top: 0;
     font-size: 2.2vh;
     width: 27.6vh;
     margin-left: auto;
@@ -558,9 +558,21 @@ p {
     line-height: 1.5;
     font-weight: 600;
   }
- 
+
   .connect-text-content[_ngcontent-serverApp-c78]
     .primaryBtn[_ngcontent-serverApp-c78] {
     margin-top: 20px !important;
+  }
+}
+
+/* connect-section for tablet */
+@media only screen and (max-width: 991px) and (min-width: 601px) {
+  .connect-section[_ngcontent-serverApp-c78]
+    .section-inner-title[_ngcontent-serverApp-c78] {
+    margin-bottom: 2vh;
+    font-size: 2.5vh;
+  }
+  .connect-text-content[_ngcontent-serverApp-c78] {
+    margin-top: 25px;
   }
 }
