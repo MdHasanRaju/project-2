@@ -263,7 +263,7 @@ svg {
   }
 
   .section-title[_ngcontent-serverApp-c78] {
-    font-size: 20px;
+    font-size: 20px !important;
     color: #000;
     line-height: 1.8;
   }
@@ -644,4 +644,49 @@ hr {
     height: 1em;
     overflow: visible;
     vertical-align: -0.125em;
+}
+
+/* how-it-works section responsiveness with media query
+---------------------------------------------------------- */
+/* how-it-works-section for mobile */
+@media only screen and (max-width: 600px) {
+.how-it-works-section[_ngcontent-serverApp-c78] {
+    padding: 20px 0 26px;
+}
+.how-it-works-section[_ngcontent-serverApp-c78] .section-title[_ngcontent-serverApp-c78] {
+  margin-bottom: 2vh;
+}
+.howItWorksMargin[_ngcontent-serverApp-c78] {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.step[_ngcontent-serverApp-c78] {
+  display: flex;
+  align-items: center;
+  margin-bottom: 28px;
+  margin-top: 12px;
+  justify-content: center;
+}
+.step-img[_ngcontent-serverApp-c78] {
+  width: 5vh;
+}
+.step-name-wrapper[_ngcontent-serverApp-c78] {
+  -moz-text-align-last: left!important;
+  text-align-last: left!important;
+  margin-left: 1.2vh;
+}
+.step-name[_ngcontent-serverApp-c78] {
+  font-size: 12px;
+  margin-top: 0;
+  text-align: left;
+  display: inline-block;
+} 
+.step-arrow[_ngcontent-serverApp-c78] {
+  font-size: 3vh;
+  right: 50%;
+  left: 50%;
+  top: 100%;
+  transform: translateX(-50%);
+  transform: rotate(90deg);
+}
 }
