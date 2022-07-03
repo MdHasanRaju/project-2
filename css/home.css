@@ -208,18 +208,6 @@ svg {
   transition: opacity 0.5s ease-in;
 }
 
-/* .row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: -15px;
-  margin-right: -15px;
-}
-
-.col-12 {
-  flex: 0 0 100%;
-  max-width: 100%;
-} */
-
 .mental-health-tag-wrapper[_ngcontent-serverApp-c78] {
   width: 100%;
   text-align: center;
@@ -589,25 +577,25 @@ p {
   text-align: center;
   color: #333;
   font-weight: 600;
-  z-index: 2!important;
+  z-index: 2 !important;
 }
 
 .howItWorksMargin[_ngcontent-serverApp-c78] {
   margin-bottom: 5vh;
-} 
+}
 .hrDivider[_ngcontent-serverApp-c78] {
   border-top: 5px solid #f77504;
-  max-width: 100px;  
+  max-width: 100px;
 }
- 
+
 /* hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
 } */
-hr { 
-  margin-top: 1rem;  
-  background-color:transparent; 
+hr {
+  margin-top: 1rem;
+  background-color: transparent;
   border: 0;
   opacity: 100;
 }
@@ -630,7 +618,7 @@ hr {
 
 .step-arrow[_ngcontent-serverApp-c78] {
   font-size: 5vh;
-} 
+}
 .step-arrow[_ngcontent-serverApp-c78] {
   /* font-size: 8vh; */
   color: #2d3091;
@@ -638,55 +626,73 @@ hr {
   right: -5vh;
   position: absolute;
 }
- 
+
 .svg-inline--fa {
-    display: var(--fa-display, inline-block);
-    height: 1em;
-    overflow: visible;
-    vertical-align: -0.125em;
+  display: var(--fa-display, inline-block);
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
 }
 
 /* how-it-works section responsiveness with media query
 ---------------------------------------------------------- */
 /* how-it-works-section for mobile */
 @media only screen and (max-width: 600px) {
-.how-it-works-section[_ngcontent-serverApp-c78] {
+  .how-it-works-section[_ngcontent-serverApp-c78] {
     padding: 20px 0 26px;
+  }
+  .how-it-works-section[_ngcontent-serverApp-c78]
+    .section-title[_ngcontent-serverApp-c78] {
+    margin-bottom: 2vh;
+  }
+  .howItWorksMargin[_ngcontent-serverApp-c78] {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .step[_ngcontent-serverApp-c78] {
+    display: flex;
+    align-items: center;
+    margin-bottom: 28px;
+    margin-top: 12px;
+    justify-content: center;
+  }
+  .step-img[_ngcontent-serverApp-c78] {
+    width: 5vh;
+  }
+  .step-name-wrapper[_ngcontent-serverApp-c78] {
+    text-align-last: left !important;
+    margin-left: 1.2vh;
+  }
+  .step-name[_ngcontent-serverApp-c78] {
+    font-size: 12px;
+    margin-top: 0;
+    text-align: left;
+    display: inline-block;
+  }
+  .step-arrow[_ngcontent-serverApp-c78] {
+    font-size: 3vh;
+    right: 50%;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+    transform: rotate(90deg);
+  }
 }
-.how-it-works-section[_ngcontent-serverApp-c78] .section-title[_ngcontent-serverApp-c78] {
-  margin-bottom: 2vh;
-}
-.howItWorksMargin[_ngcontent-serverApp-c78] {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-.step[_ngcontent-serverApp-c78] {
-  display: flex;
-  align-items: center;
-  margin-bottom: 28px;
-  margin-top: 12px;
-  justify-content: center;
-}
-.step-img[_ngcontent-serverApp-c78] {
-  width: 5vh;
-}
-.step-name-wrapper[_ngcontent-serverApp-c78] {
-  -moz-text-align-last: left!important;
-  text-align-last: left!important;
-  margin-left: 1.2vh;
-}
-.step-name[_ngcontent-serverApp-c78] {
-  font-size: 12px;
-  margin-top: 0;
-  text-align: left;
-  display: inline-block;
-} 
-.step-arrow[_ngcontent-serverApp-c78] {
-  font-size: 3vh;
-  right: 50%;
-  left: 50%;
-  top: 100%;
-  transform: translateX(-50%);
-  transform: rotate(90deg);
-}
+
+/* how it works section for tablet */
+@media only screen and (max-width: 991px) and (min-width: 601px) {
+  .step[_ngcontent-serverApp-c78] {
+    text-align: center;
+  }
+  .step-img[_ngcontent-serverApp-c78] {
+    width: 10vh;
+  }
+  .step-name[_ngcontent-serverApp-c78] {
+    font-size: 14px;
+  }
+  .step-arrow[_ngcontent-serverApp-c78] {
+    font-size: 3vh;
+    top: 19%;
+    right: -2vh;
+  }
 }
