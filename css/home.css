@@ -696,3 +696,44 @@ hr {
     right: -2vh;
   }
 }
+
+
+/* chat-now-section 
+-----------------------*/
+.chat-now-section  {
+  padding: 4vh 0;
+  background: #2d3091;
+  margin-bottom: 2vh;
+}
+
+.chat-now-text  {
+  font-size: 12px;
+  color: #fff;
+  margin-bottom: 0;
+  margin-right: 3vh;
+}
+
+.chat-now-section .primaryBtn:hover  {
+  padding: 1.2vh 3.2vh;
+  border-radius: 0.8vh;
+  background: #fff;
+  font-size: 2.4vh;
+  display: inline-block;
+  color: blue;
+}
+
+/* chat-now-section responsiveness with media query
+----------------------------------------------------- */
+/* chat-now-section for mobile */
+@media only screen and (max-width:600px) {
+  .chat-now-section {
+    padding: 2vh 0;
+}
+  .chat-now-section .container {
+    flex-direction: column;
+}
+}
+
+/* chat-now-section for tablet */
+/* it's already responsive */
+
