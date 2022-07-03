@@ -152,6 +152,126 @@ a {
   }
 }
 
+
+/* counselling-session-section 
+--------------------------------*/
+.counselling-session-section[_ngcontent-serverApp-c78] {
+  padding: 8vh 0;
+}
+.counselorBtn[_ngcontent-serverApp-c78], .counselorHolder[_ngcontent-serverApp-c78], .firstSectionMargin[_ngcontent-serverApp-c78] {
+  margin-top: 5vh;
+}
+
+.counsellor-slider[_ngcontent-serverApp-c78] {
+  height: 52vh;
+}
+
+.slick-slider[_ngcontent-serverApp-c78] {
+  -webkit-user-select: auto; 
+  user-select: auto;
+  z-index: 1;
+}
+
+.counsellor-slider[_ngcontent-serverApp-c78] {
+  z-index: 1;
+}
+.counsellor-slider[_ngcontent-serverApp-c78] {
+  margin-top: 8vh;
+}
+
+.slick-dotted.slick-slider {
+  margin-bottom: 30px;
+}
+.slick-list, .slick-slider {
+  position: relative;
+  display: block;
+}
+.slick-slider {
+  box-sizing: border-box; 
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.slick-slider .slick-list, .slick-slider .slick-track {
+  transform: translateZ(0);
+}
+
+element.style {
+  padding: 0px 60px;
+}
+.slick-slider .slick-list, .slick-slider .slick-track {
+  transform: translateZ(0);
+}
+.slick-list {
+  overflow: hidden;
+  /* margin: 0;
+  padding: 0; */
+}
+
+.slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item[_ngcontent-serverApp-c78] {
+  width: 26vh;
+  overflow: hidden;
+  margin-top: 7vh;
+  margin-left: 0.5vh;
+  margin-right: 0.5vh;
+  transition: all .5s ease;
+}
+
+.slick-initialized .slick-slide {
+  display: block;
+}
+.slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+.borderRadius[_ngcontent-serverApp-c78] {
+  border-radius: 12px;
+}
+.slick-slide img {
+  display: block;
+}
+.slider-info[_ngcontent-serverApp-c78] {
+  display: none;
+  transition: all .5s ease;
+}
+.counsellor-name[_ngcontent-serverApp-c78] {
+  color: #333;
+  text-align: center;
+  font-size: calc(20px / 1.8);
+  margin-top: calc(16px / 1.8);
+  margin-bottom: calc(8px / 1.8);
+}
+.counsellor-title[_ngcontent-serverApp-c78] {
+  font-size: 8px;
+  line-height: 1.3;
+  color: #333;
+  text-align: center;
+}
+
+.counselling-session-section[_ngcontent-serverApp-c78] .slick-current[_ngcontent-serverApp-c78] {
+  transform: scale(1.6);
+  margin-top: 14vh;
+  height: 300px;
+}
+.slick-current[_ngcontent-serverApp-c78], .slick-list[_ngcontent-serverApp-c78], .slick-track[_ngcontent-serverApp-c78] {
+  z-index: 5!important;
+}
+
+.counselling-session-section[_ngcontent-serverApp-c78] .slick-current[_ngcontent-serverApp-c78] .slider-info[_ngcontent-serverApp-c78] {
+  display: block;
+}
+
 /* mental-health-section
 -------------------------- */
 .mental-health-section[_ngcontent-serverApp-c78] {
@@ -819,4 +939,137 @@ hr {
   .our-platform-img[_ngcontent-serverApp-c78] {
     margin-right: 0;
 }
+}
+
+/* press-note-section
+------------------------ */
+.press-note-section[_ngcontent-serverApp-c78] {
+  padding: 8vh 0 25vh;
+  background: #fafafa;
+  position: relative;
+}
+.slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.happy-place-slider-item[_ngcontent-serverApp-c78] {
+  width: 44vh;
+  box-shadow: 0 0 10px rgb(0 0 0 / 16%);
+  border-radius: 0.8vh;
+  margin: 2vh 3vh;
+}
+.carousel {
+  position: relative;
+}
+.press-note-item[_ngcontent-serverApp-c78] {
+  min-height: 41vh;
+  background-color: #fff;
+}
+.slick-current[_ngcontent-serverApp-c78], .slick-list[_ngcontent-serverApp-c78], .slick-track[_ngcontent-serverApp-c78] {
+  z-index: 5!important;
+}
+
+.slick-initialized .slick-slide {
+  display: block;
+}
+.slick-slide {
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+.slick-slider .slick-list, .slick-slider .slick-track {
+  transform: translateZ(0);
+}
+
+.slick-list {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.place-info[_ngcontent-serverApp-c78] {
+  padding: 2vh;
+}
+.place-tag[_ngcontent-serverApp-c78] {
+  color: #f68a40;
+  font-size: 1.6vh;
+} 
+.newsTitle[_ngcontent-serverApp-c78] {
+  line-height: 1.5;
+}
+.place-title[_ngcontent-serverApp-c78] {
+  font-size: 2.4vh;
+  color: #333;
+  margin: 1vh 0;
+}
+
+
+/* subscribe-section
+---------------------- */
+/* .boxRound.subsBox[_ngcontent-serverApp-c78] {
+  margin-bottom: -50px;
+  margin-top: 70px;
+} */
+.boxRound[_ngcontent-serverApp-c78] {
+  box-shadow: 0 -3px 16px rgb(31 101 255 / 11%);
+  padding: 45px 80px;
+  text-align: center;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+  background: #fff;
+  min-height: 242px;
+}
+.boxRound.subsBox[_ngcontent-serverApp-c78]:before {
+  background: #07006e;
+}
+.boxRound[_ngcontent-serverApp-c78]:before {
+  left: 0;
+  background: #f47d31;
+  transform: translate(-50%);
+}
+.boxRound[_ngcontent-serverApp-c78]:after, .boxRound[_ngcontent-serverApp-c78]:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.secondaryHeading {
+  width: 100%;
+  text-align: center;
+}
+.secondaryHeading h2 {
+  color: #021744;
+  font-size: 36px;
+  margin: 0;
+  line-height: 1.5em;
+  font-weight: 600;
+}
+.secondaryHeading hr {
+  border-top: 2px solid #fd7d31;
+  max-width: 100px;
+  margin: 1rem auto;
+}
+.boxRound.subsBox[_ngcontent-serverApp-c78]:after {
+  background: #f47d31;
+} 
+.boxRound[_ngcontent-serverApp-c78]:after {
+  right: 0;
+  background: #07006e;
+  transform: translate(50%,100%);
+}
+.emailBox[_ngcontent-serverApp-c78] {
+  font-size: 12px;
+  height: 40px;
+}
+.subsButton[_ngcontent-serverApp-c78] {
+  border: none;
+  margin-right: 10px;
 }
