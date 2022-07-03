@@ -576,3 +576,72 @@ p {
     margin-top: 25px;
   }
 }
+
+/* how it works section
+--------------------------- */
+.how-it-works-section[_ngcontent-serverApp-c78] {
+  position: relative;
+  padding: 8vh 0 16vh;
+}
+
+.section-title[_ngcontent-serverApp-c78] {
+  font-size: 36px;
+  text-align: center;
+  color: #333;
+  font-weight: 600;
+  z-index: 2!important;
+}
+
+.howItWorksMargin[_ngcontent-serverApp-c78] {
+  margin-bottom: 5vh;
+} 
+.hrDivider[_ngcontent-serverApp-c78] {
+  border-top: 5px solid #f77504;
+  max-width: 100px;  
+}
+ 
+/* hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+} */
+hr { 
+  margin-top: 1rem;  
+  background-color:transparent; 
+  border: 0;
+  opacity: 100;
+}
+
+.step[_ngcontent-serverApp-c78] {
+  text-align: center;
+  position: relative;
+}
+
+.step-img[_ngcontent-serverApp-c78] {
+  width: 15vh;
+}
+
+.step-name[_ngcontent-serverApp-c78] {
+  font-size: 2vh;
+  line-height: 1.5;
+  margin-top: 2vh;
+  font-weight: 600;
+}
+
+.step-arrow[_ngcontent-serverApp-c78] {
+  font-size: 5vh;
+} 
+.step-arrow[_ngcontent-serverApp-c78] {
+  /* font-size: 8vh; */
+  color: #2d3091;
+  top: 26%;
+  right: -5vh;
+  position: absolute;
+}
+ 
+.svg-inline--fa {
+    display: var(--fa-display, inline-block);
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.125em;
+}
