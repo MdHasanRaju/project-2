@@ -101,6 +101,7 @@ a {
 }
 
 .primaryBtn {
+  cursor: pointer;
   padding: 1.2vh 3.2vh;
   border-radius: 0.8vh;
   background: #f68a40;
@@ -1010,10 +1011,10 @@ hr {
 
 /* subscribe-section
 ---------------------- */
-/* .boxRound.subsBox[_ngcontent-serverApp-c78] {
+.boxRound.subsBox[_ngcontent-serverApp-c78] {
   margin-bottom: -50px;
   margin-top: 70px;
-} */
+}
 .boxRound[_ngcontent-serverApp-c78] {
   box-shadow: 0 -3px 16px rgb(31 101 255 / 11%);
   padding: 45px 80px;
@@ -1029,9 +1030,9 @@ hr {
   background: #07006e;
 }
 .boxRound[_ngcontent-serverApp-c78]:before {
+  transform: translate(-50%);
   left: 0;
   background: #f47d31;
-  transform: translate(-50%);
 }
 .boxRound[_ngcontent-serverApp-c78]:after, .boxRound[_ngcontent-serverApp-c78]:before {
   content: "";
@@ -1072,4 +1073,106 @@ hr {
 .subsButton[_ngcontent-serverApp-c78] {
   border: none;
   margin-right: 10px;
+}
+
+/* footer-section
+------------------- */
+.footerWrap[_ngcontent-serverApp-c194] {
+  background: #07006e;
+  padding: 100px 0 50px;
+  color: #fff;
+  font-weight: 500;
+}
+.top-center[_ngcontent-serverApp-c63] {
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 1rem;
+} 
+.bootstrap-alert[_ngcontent-serverApp-c63] {
+  z-index: 2000;
+  position: fixed;
+}
+.footerCont[_ngcontent-serverApp-c194] {
+  max-width: 278px;
+}
+.img-fluid, .img-thumbnail {
+  max-width: 100%;
+  height: auto;
+}
+.contactInfo[_ngcontent-serverApp-c194] {
+  margin-top: 15px;
+}
+.contactInfo[_ngcontent-serverApp-c194] li[_ngcontent-serverApp-c194] {
+  position: relative;
+  padding-left: 25px;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 10px;
+  list-style: none;
+}
+.contactInfo[_ngcontent-serverApp-c194] li[_ngcontent-serverApp-c194] i[_ngcontent-serverApp-c194] {
+  position: absolute;
+  left: 0;
+  font-size: 14px;
+  line-height: 24px;
+}
+.phoneCssFix[_ngcontent-serverApp-c194] a[_ngcontent-serverApp-c194] {
+  text-decoration: underline;
+  color: #fff;
+}
+.socialIconCont[_ngcontent-serverApp-c194] li[_ngcontent-serverApp-c194] {
+  display: inline-block;
+  padding-right: 10px;
+}
+.socialIconCont[_ngcontent-serverApp-c194] li[_ngcontent-serverApp-c194] a[_ngcontent-serverApp-c194] {
+  font-size: 21px;
+  color: #fff;
+}
+.quickLinkBox[_ngcontent-serverApp-c194] h3[_ngcontent-serverApp-c194] {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.quickLinkBox[_ngcontent-serverApp-c194] ul[_ngcontent-serverApp-c194] {
+  padding-inline-start: 0;
+}
+.quickLinkBox[_ngcontent-serverApp-c194] ul[_ngcontent-serverApp-c194] li[_ngcontent-serverApp-c194] {
+  padding-bottom: 8px;
+  list-style: none;
+}
+.quickLinkBox[_ngcontent-serverApp-c194] ul[_ngcontent-serverApp-c194] li[_ngcontent-serverApp-c194] a[_ngcontent-serverApp-c194] {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+.callbackBox[_ngcontent-serverApp-c194] h3[_ngcontent-serverApp-c194] {
+  font-size: 20px;
+  margin: 0 0 19px;
+}
+.callbackInput[_ngcontent-serverApp-c194] input[_ngcontent-serverApp-c194] {
+  background: #f6f6f6;
+  font-size: 14px;
+  height: 50px;
+  padding: 10px 25px;
+  margin-bottom: 17px;
+}
+.callbackInput .primaryBtn:hover {
+  padding: 1.2vh 3.2vh;
+  border-radius: 0.8vh;
+  background: #2b1eeb;
+  font-size: 2.4vh;
+  display: inline-block;
+  color: #fff;
+}
+
+.footerWarningBox[_ngcontent-serverApp-c194] {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  background: #07006e;
+  padding-bottom: 35px;
+  color: #fff;
+}
+.footerWarningBox[_ngcontent-serverApp-c194] a[_ngcontent-serverApp-c194] {
+  color: #f47d31;
 }
