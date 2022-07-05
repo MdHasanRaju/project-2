@@ -153,16 +153,16 @@ a {
   }
   .banner-desc[_ngcontent-serverApp-c78] {
     font-size: 1.8vh;
-}
-.banner-text-wrapper .primaryBtn {
-  cursor: pointer;
-  padding: 1.2vh 3.2vh;
-  border-radius: 0.8vh;
-  background: #f68a40;
-  font-size: 1.6vh;
-  display: inline-block;
-  color: #fff;
-}
+  }
+  .banner-text-wrapper .primaryBtn {
+    cursor: pointer;
+    padding: 1.2vh 3.2vh;
+    border-radius: 0.8vh;
+    background: #f68a40;
+    font-size: 1.6vh;
+    display: inline-block;
+    color: #fff;
+  }
 }
 
 /* counselling-session-section 
@@ -212,9 +212,6 @@ a {
   transform: translateZ(0);
 }
 
-element.style {
-  padding: 0px 60px;
-}
 .slick-slider .slick-list,
 .slick-slider .slick-track {
   transform: translateZ(0);
@@ -223,6 +220,12 @@ element.style {
   overflow: hidden;
   /* margin: 0;
   padding: 0; */
+}
+
+.slick-track:after,
+.slick-track:before {
+  display: table;
+  content: "";
 }
 
 .slick-track {
@@ -292,6 +295,51 @@ element.style {
   .slick-current[_ngcontent-serverApp-c78]
   .slider-info[_ngcontent-serverApp-c78] {
   display: block;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: -25px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.slick-dots li,
+.slick-dots li button {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.slick-dots li {
+  position: relative;
+  display: inline-block;
+  margin: 0 5px;
+  padding: 0;
+}
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  padding: 5px;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  padding: 5px;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
 }
 
 /* mental-health-section
@@ -1031,6 +1079,40 @@ hr {
   margin: 1vh 0;
 }
 
+/* press-note-section responsiveness with media query
+-------------------------------------------------------- */
+/* press-note-section for mobile */
+@media only screen and (max-width: 600px) {
+  .press-note-section[_ngcontent-serverApp-c78] {
+    padding: 3vh 0 5vh;
+  }
+  .slick-dotted.slick-slider[_ngcontent-serverApp-c78] {
+    margin-bottom: 0;
+  }
+  .slick-track {
+    /* width: auto !important; */
+    /* transform: translate3d(0, 0px, 0px); */
+    /* width: 8080px;
+    transform: translate3d(-1929px, 0px, 0px) !important; */
+  }
+  .press-note-item {
+    width: 341.987px !important;
+  }
+  .happy-place-slider-item[_ngcontent-serverApp-c78] {
+    margin-left: 2vh;
+    margin-right: 2vh;
+  }
+  .place-title[_ngcontent-serverApp-c78] {
+    font-size: 12px !important;
+  }
+  .place-tag[_ngcontent-serverApp-c78] {
+    font-size: 12px !important;
+  }
+  .slick-dots {
+    right: 360px;
+}
+}
+
 /* subscribe-section
 ---------------------- */
 .boxRound.subsBox[_ngcontent-serverApp-c78] {
@@ -1101,22 +1183,24 @@ hr {
 /* subscribe section responsiveness with media query
 ------------------------------------------------------ */
 /* subscribe section for mobile */
-@media only screen and (max-width:600px) {
+@media only screen and (max-width: 600px) {
   .boxRound.subsBox[_ngcontent-serverApp-c78] {
     margin-top: 30px;
-  } 
+  }
   .boxRound.subsBox[_ngcontent-serverApp-c78] {
     padding: 40px;
   }
-  .boxRound.subsBox[_ngcontent-serverApp-c78]:after, .boxRound.subsBox[_ngcontent-serverApp-c78]:before {
+  .boxRound.subsBox[_ngcontent-serverApp-c78]:after,
+  .boxRound.subsBox[_ngcontent-serverApp-c78]:before {
     width: 90px;
     height: 90px;
+  }
+  .subsBox[_ngcontent-serverApp-c78]
+    .secondaryHeading[_ngcontent-serverApp-c78]
+    h2[_ngcontent-serverApp-c78] {
+    font-size: 16px;
+  }
 }
-.subsBox[_ngcontent-serverApp-c78] .secondaryHeading[_ngcontent-serverApp-c78] h2[_ngcontent-serverApp-c78] {
-  font-size: 16px;
-}
-}
-
 
 /* footer-section
 ------------------- */
@@ -1245,24 +1329,24 @@ hr {
   }
   .callbackInput[_ngcontent-serverApp-c194] {
     text-align: center;
+  }
+  .primaryBtn[_ngcontent-serverApp-c194] {
+    font-size: 12px;
+    padding: 5px 15px;
+  }
+  .primaryBtn:hover[_ngcontent-serverApp-c194] {
+    font-size: 12px;
+    padding: 5px 15px;
+  }
+  .footerWarningBox[_ngcontent-serverApp-c194]
+    .container[_ngcontent-serverApp-c194] {
+    font-size: 12px;
+    padding: 40px 10px 60px;
+  }
 }
-.primaryBtn[_ngcontent-serverApp-c194] {
-  font-size: 12px;
-  padding: 5px 15px;
-}
-.primaryBtn:hover[_ngcontent-serverApp-c194] {
-  font-size: 12px;
-  padding: 5px 15px;
-}
-.footerWarningBox[_ngcontent-serverApp-c194] .container[_ngcontent-serverApp-c194] {
-  font-size: 12px;
-  padding: 40px 10px 60px;
-}
-}
-
 
 /* footer-section for tablet */
-@media only screen and (max-width:991px) and (min-width:601px) {
+@media only screen and (max-width: 991px) and (min-width: 601px) {
   .footerWarningBox hr {
     display: block !important;
     margin: 0;
@@ -1271,5 +1355,7 @@ hr {
   .callbackInput .primaryBtn[_ngcontent-serverApp-c194] {
     font-size: 1.6vh;
     padding: 1vh 2vh;
+  }
 }
-}
+
+/* demo */
