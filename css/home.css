@@ -1108,10 +1108,23 @@ hr {
   .place-tag[_ngcontent-serverApp-c78] {
     font-size: 12px !important;
   }
-  .slick-dots {
+  /* .slick-dots {
     right: 360px;
+} */
+}
+
+/* press-note-section for tablet */
+@media only screen and (max-width:991px) and (min-width:601px) {
+  .press-note-section[_ngcontent-serverApp-c78] {
+    padding: 6vh 0 10vh;
+}
+  .place-title[_ngcontent-serverApp-c78] {
+    font-size: 2.4vh;
+    color: #333;; 
 }
 }
+
+
 
 /* subscribe-section
 ---------------------- */
