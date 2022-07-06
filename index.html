@@ -30,17 +30,114 @@
 
     <!-- slick carousel -->
     <!-- Add the slick-theme.css if you want default styling -->
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-<!-- Add the slick-theme.css if you want default styling -->
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <!-- <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    /> -->
+    <!-- Add the slick-theme.css if you want default styling -->
+    <!-- <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    /> -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <!-- style-sheet -->
     <link rel="stylesheet" href="./css/home.css" />
   </head>
 
-  <body>
+  <!-- 
+  
+   -->
+  <body> 
     <!-- header-menu -->
-    <header></header>
+  <header   class="ng-star-inserted">
+    <div  class="headerWrapper">
+      <div  class="headingWrap">
+        <!-- Pc View -->
+        <div  class="headingWrap pcView">
+          <div  class="headingWrap-menu">
+            <div  class="logo"><a  routerlink="" href="/"><img
+                   src="https://felicity.care/assets/images/logo.png" alt="felicity-logo"
+                  class="logoImage"></a></div>
+            <div  class="sidenav-container"><a 
+                id="sidenav-button"><i  class="fa fa-bars"></i></a>
+            </div>
+            <div  class="sidenav-plate closeSideNav">
+              <span id="sidenav-x-button" class="mobile-menu-x"><i class="fa-solid fa-xmark"></i></span>
+              <div  class="sidenav-menuHolder">
+                <ul  class="list">
+                  <li ><a 
+                      routerlink="online-counseling-psychologists/how-it-works" routerlinkactive="is-active"
+                      href="/online-counseling-psychologists/how-it-works">How it works</a></li>
+                  <li ><a 
+                      routerlink="online-counseling-psychologists/plans-pricing" routerlinkactive="is-active"
+                      href="/online-counseling-psychologists/plans-pricing">Plans &amp; Pricing</a></li>
+                  <li ><a  routerlink="our-counselors"
+                      routerlinkactive="is-active" href="/our-counselors">Our Counselors</a></li>
+                  <li ><a  routerlink="wellness-forum"
+                      routerlinkactive="is-active" href="/wellness-forum">Wellness Forum</a></li>
+                  <li ><a  routerlink="blog"
+                      routerlinkactive="is-active" href="/blog">Felicity Blog</a></li>
+                  <li  class="signup-btn ng-star-inserted"><button
+                       routerlink="sign-up" class="buttonTheme1 loginButton widthForButton"
+                      tabindex="0"> Sign Up </button></li>
+                  <!---->
+                  <li  class="login-btn ng-star-inserted"><button
+                       routerlink="login" class="buttonTheme2 widthForButton" tabindex="0">
+                      Login </button></li>
+                  <!---->
+                  <!---->
+                  <!---->
+                </ul>
+              </div>
+            </div>
+            <div  class="menuHolder"> 
+              <ul  class="list">
+                <li ><a 
+                    routerlink="online-counseling-psychologists/how-it-works" routerlinkactive="is-active"
+                    href="/online-counseling-psychologists/how-it-works">How it works</a></li>
+                <li ><a 
+                    routerlink="online-counseling-psychologists/plans-pricing" routerlinkactive="is-active"
+                    href="/online-counseling-psychologists/plans-pricing">Plans &amp; Pricing</a></li>
+                <li ><a  routerlink="our-counselors"
+                    routerlinkactive="is-active" href="/our-counselors">Our Counselors</a></li>
+                <li ><a  routerlink="wellness-forum"
+                    routerlinkactive="is-active" href="/wellness-forum">Wellness Forum</a></li>
+                <li ><a  routerlink="blog"
+                    routerlinkactive="is-active" href="/blog">Felicity Blog</a></li>
+                <li  class="signup-btn ng-star-inserted"><button
+                     routerlink="sign-up" class="buttonTheme1 loginButton widthForButton"
+                    tabindex="0"> Sign Up </button></li>
+                <!---->
+                <li  class="login-btn ng-star-inserted"><button 
+                    routerlink="login" class="buttonTheme2 widthForButton" tabindex="0"> Login </button></li>
+                <!---->
+                <!---->
+                <!---->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
 
     <main>
       <!-- banner-section -->
@@ -65,23 +162,16 @@
       </section>
 
       <!-- counselling-session-section -->
-      <section _ngcontent-serverapp-c78="" class="counselling-session-section">
-        <div _ngcontent-serverapp-c78="" class="container">
-          <h2 _ngcontent-serverapp-c78="" class="section-title title-with-line">
+      <section class="counselling-session-section">
+        <div class="container">
+          <h2 class="section-title title-with-line">
             Choose Help. Not Suffering.
           </h2>
-          <hr _ngcontent-serverapp-c78="" class="hrDivider mx-auto" />
-          <div _ngcontent-serverapp-c78="" class="row">
-            <div
-              _ngcontent-serverapp-c78=""
-              class="col-md-12 col-lg-6 text-center slider-col"
-            >
-              <div
-                _ngcontent-serverapp-c78=""
-                class="counselorHolder fade-in appear"
-              >
+          <hr class="hrDivider mx-auto" />
+          <div class="row">
+            <div class="col-md-12 col-lg-6 text-center slider-col">
+              <div class="counselorHolder fade-in appear">
                 <ngx-slick-carousel
-                  _ngcontent-serverapp-c78=""
                   class="counsellor-slider me-md-3 slick-initialized slick-slider slick-dotted"
                   ><!---->
                   <div class="slick-list draggable" style="padding: 0px 60px">
@@ -94,7 +184,6 @@
                       "
                     >
                       <div
-                        _ngcontent-serverapp-c78=""
                         ngxslickitem=""
                         class="item sldie ng-star-inserted slick-slide slick-cloned"
                         tabindex="-1"
@@ -105,28 +194,18 @@
                         aria-hidden="true"
                       >
                         <img
-                          _ngcontent-serverapp-c78=""
                           class="slider-img w-100 borderRadius"
                           src="./assets/images/sadaf-mir.jpg"
                           alt="Sadaf Mir"
                         />
-                        <div _ngcontent-serverapp-c78="" class="slider-info">
-                          <h3
-                            _ngcontent-serverapp-c78=""
-                            class="counsellor-name"
-                          >
-                            Sadaf Mir
-                          </h3>
-                          <p
-                            _ngcontent-serverapp-c78=""
-                            class="counsellor-title"
-                          >
+                        <div class="slider-info">
+                          <h3 class="counsellor-name">Sadaf Mir</h3>
+                          <p class="counsellor-title">
                             Master's in Clinical Psychology
                           </p>
                         </div>
                       </div>
                       <div
-                        _ngcontent-serverapp-c78=""
                         ngxslickitem=""
                         class="item sldie ng-star-inserted slick-slide slick-cloned"
                         tabindex="-1"
@@ -137,28 +216,18 @@
                         aria-hidden="true"
                       >
                         <img
-                          _ngcontent-serverapp-c78=""
                           class="slider-img w-100 borderRadius"
                           src="./assets/images/sakina-slide.jpg"
                           alt="Sakina Palitanawala"
                         />
-                        <div _ngcontent-serverapp-c78="" class="slider-info">
-                          <h3
-                            _ngcontent-serverapp-c78=""
-                            class="counsellor-name"
-                          >
-                            Sakina Palitanawala
-                          </h3>
-                          <p
-                            _ngcontent-serverapp-c78=""
-                            class="counsellor-title"
-                          >
+                        <div class="slider-info">
+                          <h3 class="counsellor-name">Sakina Palitanawala</h3>
+                          <p class="counsellor-title">
                             MA in Clinical Psychology
                           </p>
                         </div>
                       </div>
                       <div
-                        _ngcontent-serverapp-c78=""
                         ngxslickitem=""
                         class="item sldie ng-star-inserted slick-slide slick-cloned"
                         tabindex="-1"
@@ -169,28 +238,18 @@
                         aria-hidden="true"
                       >
                         <img
-                          _ngcontent-serverapp-c78=""
                           class="slider-img w-100 borderRadius"
                           src="./assets/images/anantha-krishnan-slide.jpg"
                           alt="Dr. V S Ananthakrishnan"
                         />
-                        <div _ngcontent-serverapp-c78="" class="slider-info">
-                          <h3
-                            _ngcontent-serverapp-c78=""
-                            class="counsellor-name"
-                          >
+                        <div class="slider-info">
+                          <h3 class="counsellor-name">
                             Dr. V S Ananthakrishnan
                           </h3>
-                          <p
-                            _ngcontent-serverapp-c78=""
-                            class="counsellor-title"
-                          >
-                            MBBS, MD (Psychiatry)
-                          </p>
+                          <p class="counsellor-title">MBBS, MD (Psychiatry)</p>
                         </div>
                       </div>
                       <div
-                        _ngcontent-serverapp-c78=""
                         ngxslickitem=""
                         class="item sldie ng-star-inserted slick-slide slick-cloned slick-active"
                         tabindex="-1"
@@ -201,28 +260,16 @@
                         aria-hidden="false"
                       >
                         <img
-                          _ngcontent-serverapp-c78=""
                           class="slider-img w-100 borderRadius"
                           src="./assets/images/zoha-slide.jpg"
                           alt="Zoha Merchant"
                         />
-                        <div _ngcontent-serverapp-c78="" class="slider-info">
-                          <h3
-                            _ngcontent-serverapp-c78=""
-                            class="counsellor-name"
-                          >
-                            Zoha Merchant
-                          </h3>
-                          <p
-                            _ngcontent-serverapp-c78=""
-                            class="counsellor-title"
-                          >
-                            M.Phil. in Psychology
-                          </p>
+                        <div class="slider-info">
+                          <h3 class="counsellor-name">Zoha Merchant</h3>
+                          <p class="counsellor-title">M.Phil. in Psychology</p>
                         </div>
                       </div>
                       <div
-                        _ngcontent-serverapp-c78=""
                         ngxslickitem=""
                         class="item sldie ng-star-inserted slick-slide slick-current slick-active slick-center"
                         tabindex="0"
@@ -234,28 +281,18 @@
                         aria-hidden="false"
                       >
                         <img
-                          _ngcontent-serverapp-c78=""
                           class="slider-img w-100 borderRadius"
                           src="./assets/images/pura-roy.jpg"
                           alt="Puja Roy"
                         />
-                        <div _ngcontent-serverapp-c78="" class="slider-info">
-                          <h3
-                            _ngcontent-serverapp-c78=""
-                            class="counsellor-name"
-                          >
-                            Puja Roy
-                          </h3>
-                          <p
-                            _ngcontent-serverapp-c78=""
-                            class="counsellor-title"
-                          >
+                        <div class="slider-info">
+                          <h3 class="counsellor-name">Puja Roy</h3>
+                          <p class="counsellor-title">
                             M.Sc in Health Psychology (Gold Medalist)
                           </p>
                         </div>
                       </div>
                       <div
-                        _ngcontent-serverapp-c78=""
                         ngxslickitem=""
                         class="item sldie ng-star-inserted slick-slide slick-active"
                         tabindex="0"
@@ -267,28 +304,18 @@
                         aria-hidden="false"
                       >
                         <img
-                          _ngcontent-serverapp-c78=""
                           class="slider-img w-100 borderRadius"
                           src="./assets/images/sadaf-mir.jpg"
                           alt="Sadaf Mir"
                         />
-                        <div _ngcontent-serverapp-c78="" class="slider-info">
-                          <h3
-                            _ngcontent-serverapp-c78=""
-                            class="counsellor-name"
-                          >
-                            Sadaf Mir
-                          </h3>
-                          <p
-                            _ngcontent-serverapp-c78=""
-                            class="counsellor-title"
-                          >
+                        <div class="slider-info">
+                          <h3 class="counsellor-name">Sadaf Mir</h3>
+                          <p class="counsellor-title">
                             Master's in Clinical Psychology
                           </p>
                         </div>
                       </div>
                       <div
-                        _ngcontent-serverapp-c78=""
                         ngxslickitem=""
                         class="item sldie ng-star-inserted slick-slide"
                         tabindex="0"
@@ -300,28 +327,18 @@
                         aria-hidden="true"
                       >
                         <img
-                          _ngcontent-serverapp-c78=""
                           class="slider-img w-100 borderRadius"
                           src="./assets/images/sakina-slide.jpg"
                           alt="Sakina Palitanawala"
                         />
-                        <div _ngcontent-serverapp-c78="" class="slider-info">
-                          <h3
-                            _ngcontent-serverapp-c78=""
-                            class="counsellor-name"
-                          >
-                            Sakina Palitanawala
-                          </h3>
-                          <p
-                            _ngcontent-serverapp-c78=""
-                            class="counsellor-title"
-                          >
+                        <div class="slider-info">
+                          <h3 class="counsellor-name">Sakina Palitanawala</h3>
+                          <p class="counsellor-title">
                             MA in Clinical Psychology
                           </p>
                         </div>
                       </div>
                       <div
-                        _ngcontent-serverapp-c78=""
                         ngxslickitem=""
                         class="item sldie ng-star-inserted slick-slide"
                         tabindex="-1"
@@ -333,28 +350,18 @@
                         aria-hidden="true"
                       >
                         <img
-                          _ngcontent-serverapp-c78=""
                           class="slider-img w-100 borderRadius"
                           src="./assets/images/anantha-krishnan-slide.jpg"
                           alt="Dr. V S Ananthakrishnan"
                         />
-                        <div _ngcontent-serverapp-c78="" class="slider-info">
-                          <h3
-                            _ngcontent-serverapp-c78=""
-                            class="counsellor-name"
-                          >
+                        <div class="slider-info">
+                          <h3 class="counsellor-name">
                             Dr. V S Ananthakrishnan
                           </h3>
-                          <p
-                            _ngcontent-serverapp-c78=""
-                            class="counsellor-title"
-                          >
-                            MBBS, MD (Psychiatry)
-                          </p>
+                          <p class="counsellor-title">MBBS, MD (Psychiatry)</p>
                         </div>
                       </div>
                       <div
-                        _ngcontent-serverapp-c78=""
                         ngxslickitem=""
                         class="item sldie ng-star-inserted slick-slide"
                         tabindex="-1"
@@ -366,28 +373,16 @@
                         aria-hidden="true"
                       >
                         <img
-                          _ngcontent-serverapp-c78=""
                           class="slider-img w-100 borderRadius"
                           src="./assets/images/zoha-slide.jpg"
                           alt="Zoha Merchant"
                         />
-                        <div _ngcontent-serverapp-c78="" class="slider-info">
-                          <h3
-                            _ngcontent-serverapp-c78=""
-                            class="counsellor-name"
-                          >
-                            Zoha Merchant
-                          </h3>
-                          <p
-                            _ngcontent-serverapp-c78=""
-                            class="counsellor-title"
-                          >
-                            M.Phil. in Psychology
-                          </p>
+                        <div class="slider-info">
+                          <h3 class="counsellor-name">Zoha Merchant</h3>
+                          <p class="counsellor-title">M.Phil. in Psychology</p>
                         </div>
                       </div>
                       <div
-                        _ngcontent-serverapp-c78=""
                         ngxslickitem=""
                         class="item sldie ng-star-inserted slick-slide slick-cloned"
                         tabindex="-1"
@@ -398,28 +393,18 @@
                         aria-hidden="true"
                       >
                         <img
-                          _ngcontent-serverapp-c78=""
                           class="slider-img w-100 borderRadius"
                           src="./assets/images/pura-roy.jpg"
                           alt="Puja Roy"
                         />
-                        <div _ngcontent-serverapp-c78="" class="slider-info">
-                          <h3
-                            _ngcontent-serverapp-c78=""
-                            class="counsellor-name"
-                          >
-                            Puja Roy
-                          </h3>
-                          <p
-                            _ngcontent-serverapp-c78=""
-                            class="counsellor-title"
-                          >
+                        <div class="slider-info">
+                          <h3 class="counsellor-name">Puja Roy</h3>
+                          <p class="counsellor-title">
                             M.Sc in Health Psychology (Gold Medalist)
                           </p>
                         </div>
                       </div>
                       <div
-                        _ngcontent-serverapp-c78=""
                         ngxslickitem=""
                         class="item sldie ng-star-inserted slick-slide slick-cloned slick-center"
                         tabindex="-1"
@@ -430,28 +415,18 @@
                         aria-hidden="true"
                       >
                         <img
-                          _ngcontent-serverapp-c78=""
                           class="slider-img w-100 borderRadius"
                           src="./assets/images/sadaf-mir.jpg"
                           alt="Sadaf Mir"
                         />
-                        <div _ngcontent-serverapp-c78="" class="slider-info">
-                          <h3
-                            _ngcontent-serverapp-c78=""
-                            class="counsellor-name"
-                          >
-                            Sadaf Mir
-                          </h3>
-                          <p
-                            _ngcontent-serverapp-c78=""
-                            class="counsellor-title"
-                          >
+                        <div class="slider-info">
+                          <h3 class="counsellor-name">Sadaf Mir</h3>
+                          <p class="counsellor-title">
                             Master's in Clinical Psychology
                           </p>
                         </div>
                       </div>
                       <div
-                        _ngcontent-serverapp-c78=""
                         ngxslickitem=""
                         class="item sldie ng-star-inserted slick-slide slick-cloned"
                         tabindex="-1"
@@ -462,28 +437,18 @@
                         aria-hidden="true"
                       >
                         <img
-                          _ngcontent-serverapp-c78=""
                           class="slider-img w-100 borderRadius"
                           src="./assets/images/sakina-slide.jpg"
                           alt="Sakina Palitanawala"
                         />
-                        <div _ngcontent-serverapp-c78="" class="slider-info">
-                          <h3
-                            _ngcontent-serverapp-c78=""
-                            class="counsellor-name"
-                          >
-                            Sakina Palitanawala
-                          </h3>
-                          <p
-                            _ngcontent-serverapp-c78=""
-                            class="counsellor-title"
-                          >
+                        <div class="slider-info">
+                          <h3 class="counsellor-name">Sakina Palitanawala</h3>
+                          <p class="counsellor-title">
                             MA in Clinical Psychology
                           </p>
                         </div>
                       </div>
                       <div
-                        _ngcontent-serverapp-c78=""
                         ngxslickitem=""
                         class="item sldie ng-star-inserted slick-slide slick-cloned"
                         tabindex="-1"
@@ -494,28 +459,18 @@
                         aria-hidden="true"
                       >
                         <img
-                          _ngcontent-serverapp-c78=""
                           class="slider-img w-100 borderRadius"
                           src="./assets/images/anantha-krishnan-slide.jpg"
                           alt="Dr. V S Ananthakrishnan"
                         />
-                        <div _ngcontent-serverapp-c78="" class="slider-info">
-                          <h3
-                            _ngcontent-serverapp-c78=""
-                            class="counsellor-name"
-                          >
+                        <div class="slider-info">
+                          <h3 class="counsellor-name">
                             Dr. V S Ananthakrishnan
                           </h3>
-                          <p
-                            _ngcontent-serverapp-c78=""
-                            class="counsellor-title"
-                          >
-                            MBBS, MD (Psychiatry)
-                          </p>
+                          <p class="counsellor-title">MBBS, MD (Psychiatry)</p>
                         </div>
                       </div>
                       <div
-                        _ngcontent-serverapp-c78=""
                         ngxslickitem=""
                         class="item sldie ng-star-inserted slick-slide slick-cloned"
                         tabindex="-1"
@@ -526,24 +481,13 @@
                         aria-hidden="true"
                       >
                         <img
-                          _ngcontent-serverapp-c78=""
                           class="slider-img w-100 borderRadius"
                           src="./assets/images/zoha-slide.jpg"
                           alt="Zoha Merchant"
                         />
-                        <div _ngcontent-serverapp-c78="" class="slider-info">
-                          <h3
-                            _ngcontent-serverapp-c78=""
-                            class="counsellor-name"
-                          >
-                            Zoha Merchant
-                          </h3>
-                          <p
-                            _ngcontent-serverapp-c78=""
-                            class="counsellor-title"
-                          >
-                            M.Phil. in Psychology
-                          </p>
+                        <div class="slider-info">
+                          <h3 class="counsellor-name">Zoha Merchant</h3>
+                          <p class="counsellor-title">M.Phil. in Psychology</p>
                         </div>
                       </div>
                     </div>
@@ -612,9 +556,8 @@
                     </li>
                   </ul></ngx-slick-carousel
                 >
-                <div _ngcontent-serverapp-c78="" class="zIndexForBtn">
+                <div class="zIndexForBtn">
                   <a
-                    _ngcontent-serverapp-c78=""
                     routerlink="our-counselors"
                     class="primaryBtn counselorBtn"
                     href="/our-counselors"
@@ -623,33 +566,21 @@
                 </div>
               </div>
             </div>
-            <div _ngcontent-serverapp-c78="" class="col-md-12 col-lg-6">
-              <div
-                _ngcontent-serverapp-c78=""
-                class="counsellor-session-text ms-md-3"
-              >
-                <h3
-                  _ngcontent-serverapp-c78=""
-                  class="section-inner-title firstSectionMargin"
-                >
+            <div class="col-md-12 col-lg-6">
+              <div class="counsellor-session-text ms-md-3">
+                <h3 class="section-inner-title firstSectionMargin">
                   Counselling Therapy Sessions With Licensed &amp; Verified
                   Experts
                 </h3>
-                <p _ngcontent-serverapp-c78="" class="section-inner-desc">
+                <p class="section-inner-desc">
                   Highly qualified team of some of the best names in psychology
                   who deliver improved well-being to you. Carefully vetted
                   through a rigorous selection process. Trained and experienced
                   in all psychotherapy techniques.
                 </p>
-                <div
-                  _ngcontent-serverapp-c78=""
-                  class="session-icons-wrapper d-flex"
-                >
-                  <div
-                    _ngcontent-serverapp-c78=""
-                    class="session from-left slide-in appear"
-                  >
-                    <fa-icon _ngcontent-serverapp-c78="" class="ng-fa-icon"
+                <div class="session-icons-wrapper d-flex">
+                  <div class="session from-left slide-in appear">
+                    <fa-icon class="ng-fa-icon"
                       ><svg
                         role="img"
                         aria-hidden="true"
@@ -664,28 +595,14 @@
                           fill="currentColor"
                           d="M336.2 64H47.8C21.4 64 0 85.4 0 111.8v288.4C0 426.6 21.4 448 47.8 448h288.4c26.4 0 47.8-21.4 47.8-47.8V111.8c0-26.4-21.4-47.8-47.8-47.8zm189.4 37.7L416 177.3v157.4l109.6 75.5c21.2 14.6 50.4-.3 50.4-25.8V127.5c0-25.4-29.1-40.4-50.4-25.8z"
                         ></path></svg></fa-icon
-                    ><span
-                      _ngcontent-serverapp-c78=""
-                      class="session-name d-block"
-                      >Video Session</span
-                    >
+                    ><span class="session-name d-block">Video Session</span>
                   </div>
-                  <div
-                    _ngcontent-serverapp-c78=""
-                    class="session fade-in appear"
-                  >
-                    <i _ngcontent-serverapp-c78="" class="fa fa-microphone"></i
-                    ><span
-                      _ngcontent-serverapp-c78=""
-                      class="session-name d-block"
-                      >Audio Session</span
-                    >
+                  <div class="session fade-in appear">
+                    <i class="fa fa-microphone"></i
+                    ><span class="session-name d-block">Audio Session</span>
                   </div>
-                  <div
-                    _ngcontent-serverapp-c78=""
-                    class="session from-right slide-in appear"
-                  >
-                    <fa-icon _ngcontent-serverapp-c78="" class="ng-fa-icon"
+                  <div class="session from-right slide-in appear">
+                    <fa-icon class="ng-fa-icon"
                       ><svg
                         role="img"
                         aria-hidden="true"
@@ -700,20 +617,14 @@
                           fill="currentColor"
                           d="M448 0H64C28.7 0 0 28.7 0 64v288c0 35.3 28.7 64 64 64h96v84c0 9.8 11.2 15.5 19.1 9.7L304 416h144c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64z"
                         ></path></svg></fa-icon
-                    ><span
-                      _ngcontent-serverapp-c78=""
-                      class="session-name d-block"
-                      >Chat Session</span
-                    >
+                    ><span class="session-name d-block">Chat Session</span>
                   </div>
                 </div>
-                <p _ngcontent-serverapp-c78="" class="tag-line">
+                <p class="tag-line">
                   English And All Regional Indian Languages
                 </p>
-                <p _ngcontent-serverapp-c78="" class="tag-line">
-                  100% Private &amp; Secure Platform
-                </p>
-                <p _ngcontent-serverapp-c78="" class="tag-line">24/7 Support</p>
+                <p class="tag-line">100% Private &amp; Secure Platform</p>
+                <p class="tag-line">24/7 Support</p>
               </div>
             </div>
           </div>
@@ -721,61 +632,40 @@
       </section>
 
       <!-- mental-health-section -->
-      <section _ngcontent-serverapp-c78="" class="mental-health-section">
-        <div
-          _ngcontent-serverapp-c78=""
-          class="custom-shape-divider-top-1639975762"
-        >
+      <section class="mental-health-section">
+        <div class="custom-shape-divider-top-1639975762">
           <svg
-            _ngcontent-serverApp-c78=""
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1200 120"
             preserveAspectRatio="none"
           >
             <path
-              _ngcontent-serverApp-c78=""
               d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
               class="shape-fill"
             ></path>
           </svg>
         </div>
-        <div _ngcontent-serverapp-c78="" class="container">
-          <h2 _ngcontent-serverapp-c78="" class="section-title">
-            Specialized Help For Your Mental Health
-          </h2>
-          <div _ngcontent-serverapp-c78="" class="row fade-in appear">
-            <div _ngcontent-serverapp-c78="" class="col-12">
-              <div
-                _ngcontent-serverapp-c78=""
-                class="mental-health-tag-wrapper"
-              >
-                <a _ngcontent-serverapp-c78="" class="tag"
-                  >Anxiety &amp; Stress</a
-                ><a _ngcontent-serverapp-c78="" class="tag">Depression</a
-                ><a _ngcontent-serverapp-c78="" class="tag"
-                  >Relationship Issues</a
-                ><a _ngcontent-serverapp-c78="" class="tag">OCD</a
-                ><a _ngcontent-serverapp-c78="" class="tag">Bipolar Disorder</a
-                ><a _ngcontent-serverapp-c78="" class="tag">Psychosis</a
-                ><a _ngcontent-serverapp-c78="" class="tag">Grief &amp; Loss</a
-                ><a _ngcontent-serverapp-c78="" class="tag">Trauma</a
-                ><a _ngcontent-serverapp-c78="" class="tag">Couple Therapy</a
-                ><a _ngcontent-serverapp-c78="" class="tag">LGBTQIA+</a
-                ><a _ngcontent-serverapp-c78="" class="tag"
-                  >ADHD &amp; Teenage Issues</a
-                ><a _ngcontent-serverapp-c78="" class="tag">Sexual Issues</a>
+        <div class="container">
+          <h2 class="section-title">Specialized Help For Your Mental Health</h2>
+          <div class="row fade-in appear">
+            <div class="col-12">
+              <div class="mental-health-tag-wrapper">
+                <a class="tag">Anxiety &amp; Stress</a
+                ><a class="tag">Depression</a
+                ><a class="tag">Relationship Issues</a><a class="tag">OCD</a
+                ><a class="tag">Bipolar Disorder</a><a class="tag">Psychosis</a
+                ><a class="tag">Grief &amp; Loss</a><a class="tag">Trauma</a
+                ><a class="tag">Couple Therapy</a><a class="tag">LGBTQIA+</a
+                ><a class="tag">ADHD &amp; Teenage Issues</a
+                ><a class="tag">Sexual Issues</a>
               </div>
             </div>
           </div>
-          <div _ngcontent-serverapp-c78="" class="row justify-content-center">
-            <div _ngcontent-serverapp-c78="" class="col-md-3">
-              <div
-                _ngcontent-serverapp-c78=""
-                class="specialBtn fade-in appear"
-              >
+          <div class="row justify-content-center">
+            <div class="col-md-3">
+              <div class="specialBtn fade-in appear">
                 <a
-                  _ngcontent-serverapp-c78=""
                   id="getStartedBanner2"
                   class="primaryBtn ng-star-inserted"
                   href="/sign-up?redirect=online-counseling-psychologists%2Fplans-pricing"
@@ -788,33 +678,24 @@
       </section>
 
       <!-- report section -->
-      <section _ngcontent-serverapp-c78="" class="report-section">
-        <div
-          _ngcontent-serverapp-c78=""
-          class="custom-shape-divider-top-1639980888"
-        >
+      <section class="report-section">
+        <div class="custom-shape-divider-top-1639980888">
           <svg
-            _ngcontent-serverApp-c78=""
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1200 120"
             preserveAspectRatio="none"
           >
             <path
-              _ngcontent-serverApp-c78=""
               d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
               class="shape-fill"
             ></path>
           </svg>
         </div>
-        <div _ngcontent-serverapp-c78="" class="container">
-          <div _ngcontent-serverapp-c78="" class="row">
-            <div
-              _ngcontent-serverapp-c78=""
-              class="col-md-4 order-2 from-left slide-in appear"
-            >
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 order-2 from-left slide-in appear">
               <img
-                _ngcontent-serverapp-c78=""
                 applazyload=""
                 alt="Test image"
                 class="test-img"
@@ -822,26 +703,18 @@
               />
             </div>
             <div
-              _ngcontent-serverapp-c78=""
               class="col-md-7 order-1 d-flex align-items-center from-right slide-in appear"
             >
-              <div
-                _ngcontent-serverapp-c78=""
-                class="report-text-content ms-md-5"
-              >
-                <h3 _ngcontent-serverapp-c78="" class="section-inner-title">
+              <div class="report-text-content ms-md-5">
+                <h3 class="section-inner-title">
                   Take a Free Mental Health Test Today! Know How You Feel.
                 </h3>
-                <p
-                  _ngcontent-serverapp-c78=""
-                  class="section-inner-desc reportSectionTxt"
-                >
+                <p class="section-inner-desc reportSectionTxt">
                   Scientifically validated standard assessments - quickest way
                   to determine if you are suffering from symptoms of any mental
                   health disorder.
                 </p>
                 <a
-                  _ngcontent-serverapp-c78=""
                   routerlink="free-report"
                   class="primaryBtn report-btn"
                   href="/free-report"
@@ -854,55 +727,42 @@
       </section>
 
       <!-- connect-section -->
-      <section _ngcontent-serverapp-c78="" class="connect-section">
-        <div
-          _ngcontent-serverapp-c78=""
-          class="custom-shape-divider-top-1639980888"
-        >
+      <section class="connect-section">
+        <div class="custom-shape-divider-top-1639980888">
           <svg
-            _ngcontent-serverApp-c78=""
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1200 120"
             preserveAspectRatio="none"
           >
             <path
-              _ngcontent-serverApp-c78=""
               d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
               class="shape-fill"
             ></path>
           </svg>
         </div>
-        <div _ngcontent-serverapp-c78="" class="container">
-          <div _ngcontent-serverapp-c78="" class="row">
+        <div class="container">
+          <div class="row">
             <div
-              _ngcontent-serverapp-c78=""
               class="col-md-6 col-lg-5 d-flex align-items-center text-lg-center text-center"
             >
-              <div _ngcontent-serverapp-c78="" class="connect-text-content">
-                <h3 _ngcontent-serverapp-c78="" class="section-inner-title">
+              <div class="connect-text-content">
+                <h3 class="section-inner-title">
                   Have Questions? Felicity Support Has You Covered.
                 </h3>
-                <p
-                  _ngcontent-serverapp-c78=""
-                  class="section-inner-desc reportSectionTxt"
-                >
+                <p class="section-inner-desc reportSectionTxt">
                   Get help in choosing the right counselling therapist -
                   specialization, preferred time, language &amp; gender
                 </p>
-                <a
-                  _ngcontent-serverapp-c78=""
-                  class="primaryBtn connect-btn mt-5 mt-md-4 mt-xl-5"
+                <a class="primaryBtn connect-btn mt-5 mt-md-4 mt-xl-5"
                   >Connect Now</a
                 >
               </div>
             </div>
             <div
-              _ngcontent-serverapp-c78=""
               class="col-md-6 col-lg-7 d-flex align-items-center mt-5 mt-md-0 justify-content-center fade-in appear"
             >
               <img
-                _ngcontent-serverapp-c78=""
                 applazyload=""
                 alt="Connect image"
                 class="connect-img"
@@ -914,37 +774,23 @@
       </section>
 
       <!-- how it works section -->
-      <section
-        _ngcontent-serverapp-c78=""
-        id="how-it-works"
-        class="how-it-works-section"
-      >
-        <div _ngcontent-serverapp-c78="" class="container">
-          <h2 _ngcontent-serverapp-c78="" class="section-title title-with-line">
-            How It Works
-          </h2>
-          <hr
-            _ngcontent-serverapp-c78=""
-            class="hrDivider mx-auto howItWorksMargin"
-          />
-          <div _ngcontent-serverapp-c78="" class="row">
-            <div _ngcontent-serverapp-c78="" class="col-md-3 text-center">
-              <div _ngcontent-serverapp-c78="" class="step">
+      <section id="how-it-works" class="how-it-works-section">
+        <div class="container">
+          <h2 class="section-title title-with-line">How It Works</h2>
+          <hr class="hrDivider mx-auto howItWorksMargin" />
+          <div class="row">
+            <div class="col-md-3 text-center">
+              <div class="step">
                 <img
-                  _ngcontent-serverapp-c78=""
                   applazyload=""
                   alt=""
                   class="step-img"
                   src="./assets/icons/how-it-works-booking.png"
                 />
-                <div _ngcontent-serverapp-c78="" class="step-name-wrapper">
-                  <h3 _ngcontent-serverapp-c78="" class="step-name">
-                    Book A Counselling Plan
-                  </h3>
+                <div class="step-name-wrapper">
+                  <h3 class="step-name">Book A Counselling Plan</h3>
                 </div>
-                <fa-icon
-                  _ngcontent-serverapp-c78=""
-                  class="ng-fa-icon step-arrow"
+                <fa-icon class="ng-fa-icon step-arrow"
                   ><svg
                     role="img"
                     aria-hidden="true"
@@ -962,23 +808,20 @@
                 ></fa-icon>
               </div>
             </div>
-            <div _ngcontent-serverapp-c78="" class="col-md-3 text-center">
-              <div _ngcontent-serverapp-c78="" class="step">
+            <div class="col-md-3 text-center">
+              <div class="step">
                 <img
-                  _ngcontent-serverapp-c78=""
                   applazyload=""
                   alt=""
                   class="step-img"
                   src="./assets/icons/how-it-works-counselor.webp"
                 />
-                <div _ngcontent-serverapp-c78="" class="step-name-wrapper">
-                  <h3 _ngcontent-serverapp-c78="" class="step-name">
+                <div class="step-name-wrapper">
+                  <h3 class="step-name">
                     Choose A Counselor &amp; Pick A Time
                   </h3>
                 </div>
-                <fa-icon
-                  _ngcontent-serverapp-c78=""
-                  class="ng-fa-icon step-arrow"
+                <fa-icon class="ng-fa-icon step-arrow"
                   ><svg
                     role="img"
                     aria-hidden="true"
@@ -996,23 +839,20 @@
                 ></fa-icon>
               </div>
             </div>
-            <div _ngcontent-serverapp-c78="" class="col-md-3 text-center">
-              <div _ngcontent-serverapp-c78="" class="step">
+            <div class="col-md-3 text-center">
+              <div class="step">
                 <img
-                  _ngcontent-serverapp-c78=""
                   applazyload=""
                   alt=""
                   class="step-img"
                   src="./assets/icons/how-it-works-chat.png"
                 />
-                <div _ngcontent-serverapp-c78="" class="step-name-wrapper">
-                  <h3 _ngcontent-serverapp-c78="" class="step-name">
+                <div class="step-name-wrapper">
+                  <h3 class="step-name">
                     Join The Session &amp; Chat Afterwards
                   </h3>
                 </div>
-                <fa-icon
-                  _ngcontent-serverapp-c78=""
-                  class="ng-fa-icon step-arrow"
+                <fa-icon class="ng-fa-icon step-arrow"
                   ><svg
                     role="img"
                     aria-hidden="true"
@@ -1030,17 +870,16 @@
                 ></fa-icon>
               </div>
             </div>
-            <div _ngcontent-serverapp-c78="" class="col-md-3 text-center">
-              <div _ngcontent-serverapp-c78="" class="step mb-0">
+            <div class="col-md-3 text-center">
+              <div class="step mb-0">
                 <img
-                  _ngcontent-serverapp-c78=""
                   applazyload=""
                   alt=""
                   class="step-img"
                   src="./assets/icons/how-it-works-reschedule.png"
                 />
-                <div _ngcontent-serverapp-c78="" class="step-name-wrapper">
-                  <h3 _ngcontent-serverapp-c78="" class="step-name">
+                <div class="step-name-wrapper">
+                  <h3 class="step-name">
                     Reschedule Or Change Counselor If Needed
                   </h3>
                 </div>
@@ -1051,16 +890,10 @@
       </section>
 
       <!-- chat-now section -->
-      <section _ngcontent-serverapp-c78="" class="chat-now-section d-flex">
-        <div
-          _ngcontent-serverapp-c78=""
-          class="container d-flex align-items-center justify-content-center"
-        >
-          <p _ngcontent-serverapp-c78="" class="chat-now-text">
-            Need more details? See how Felicity works
-          </p>
+      <section class="chat-now-section d-flex">
+        <div class="container d-flex align-items-center justify-content-center">
+          <p class="chat-now-text">Need more details? See how Felicity works</p>
           <a
-            _ngcontent-serverapp-c78=""
             class="primaryBtn chat-now-btn"
             href="/online-counseling-psychologists/how-it-works"
             >Click here</a
@@ -1069,49 +902,37 @@
       </section>
 
       <!-- our-platform-section -->
-      <section _ngcontent-serverapp-c78="" class="our-platform-section">
-        <h2 _ngcontent-serverapp-c78="" class="section-title title-with-line">
-          Our Platform
-        </h2>
-        <hr _ngcontent-serverapp-c78="" class="hrDivider mx-auto" />
-        <div _ngcontent-serverapp-c78="" class="container-fluid">
-          <div _ngcontent-serverapp-c78="" class="row justify-content-center">
+      <section class="our-platform-section">
+        <h2 class="section-title title-with-line">Our Platform</h2>
+        <hr class="hrDivider mx-auto" />
+        <div class="container-fluid">
+          <div class="row justify-content-center">
             <!-- pe-lg-5 -->
             <div
-              _ngcontent-serverapp-c78=""
               class="col-lg-12 col-xl-6 d-flex align-items-center justify-content-center"
             >
-              <div
-                _ngcontent-serverapp-c78=""
-                class="our-plateform-img-wrapper"
-              >
+              <div class="our-plateform-img-wrapper">
                 <img
-                  _ngcontent-serverapp-c78=""
                   applazyload=""
                   alt=""
                   class="our-platform-img w-100"
                   src="./assets/images/our-platform-devices.jpg"
                 />
                 <div
-                  _ngcontent-serverapp-c78=""
                   class="download-app-wrapper d-md-flex align-items-center text-center text-md-start"
                 >
                   <a
-                    _ngcontent-serverapp-c78=""
                     href="https://play.google.com/store/apps/details?id=com.care.felicity"
                     target="_blank"
                     ><img
-                      _ngcontent-serverapp-c78=""
                       applazyload=""
                       alt=""
                       class="store-icon from-left slide-in appear"
                       src="./assets/icons/Google-Play.png" /></a
                   ><a
-                    _ngcontent-serverapp-c78=""
                     href="https://apps.apple.com/in/app/felicity-1-mental-health-app/id1607318415"
                     target="_blank"
                     ><img
-                      _ngcontent-serverapp-c78=""
                       applazyload=""
                       alt=""
                       class="store-icon from-right slide-in appear"
@@ -1121,182 +942,104 @@
               </div>
             </div>
             <!-- ps-lg-5 -->
-            <div _ngcontent-serverapp-c78="" class="col-lg-12 col-xl-6 mt-3">
-              <div _ngcontent-serverapp-c78="" class="row mt-5">
+            <div class="col-lg-12 col-xl-6 mt-3">
+              <div class="row mt-5">
                 <div
-                  _ngcontent-serverapp-c78=""
                   class="col-md-6 col-lg-4 col-xl-6 from-left slide-in appear"
                 >
-                  <div
-                    _ngcontent-serverapp-c78=""
-                    class="platform-content-wrapper"
-                  >
+                  <div class="platform-content-wrapper">
                     <img
-                      _ngcontent-serverapp-c78=""
                       applazyload=""
                       alt=""
                       class="platform-icon"
                       src="./assets/icons/our-platform-secure.png"
                     />
-                    <h4
-                      _ngcontent-serverapp-c78=""
-                      class="platform-content-name"
-                    >
-                      Secure platform
-                    </h4>
-                    <p
-                      _ngcontent-serverapp-c78=""
-                      class="platform-content-text"
-                    >
+                    <h4 class="platform-content-name">Secure platform</h4>
+                    <p class="platform-content-text">
                       HIPAA compliant &amp; 256-Bit SSL Secure
                     </p>
                   </div>
                 </div>
                 <div
-                  _ngcontent-serverapp-c78=""
                   class="col-md-6 col-lg-4 col-xl-6 from-right slide-in appear"
                 >
-                  <div
-                    _ngcontent-serverapp-c78=""
-                    class="platform-content-wrapper"
-                  >
+                  <div class="platform-content-wrapper">
                     <img
-                      _ngcontent-serverapp-c78=""
                       applazyload=""
                       alt=""
                       class="platform-icon"
                       src="./assets/icons/our-platform-verified.png"
                     />
-                    <h4
-                      _ngcontent-serverapp-c78=""
-                      class="platform-content-name"
-                    >
-                      Verified Experts
-                    </h4>
-                    <p
-                      _ngcontent-serverapp-c78=""
-                      class="platform-content-text"
-                    >
+                    <h4 class="platform-content-name">Verified Experts</h4>
+                    <p class="platform-content-text">
                       Masters or higher degree, solid practice experience &amp;
                       2 step background verification.
                     </p>
                   </div>
                 </div>
                 <div
-                  _ngcontent-serverapp-c78=""
                   class="col-md-6 col-lg-4 col-xl-6 from-left slide-in appear"
                 >
-                  <div
-                    _ngcontent-serverapp-c78=""
-                    class="platform-content-wrapper"
-                  >
+                  <div class="platform-content-wrapper">
                     <img
-                      _ngcontent-serverapp-c78=""
                       applazyload=""
                       alt=""
                       class="platform-icon"
                       src="./assets/icons/our-platform-matching.png"
                     />
-                    <h4
-                      _ngcontent-serverapp-c78=""
-                      class="platform-content-name"
-                    >
-                      Nuanced Matching
-                    </h4>
-                    <p
-                      _ngcontent-serverapp-c78=""
-                      class="platform-content-text"
-                    >
+                    <h4 class="platform-content-name">Nuanced Matching</h4>
+                    <p class="platform-content-text">
                       Counselling therapist is recommended based on your major
                       concerns, preferred time, language, gender &amp; age.
                     </p>
                   </div>
                 </div>
                 <div
-                  _ngcontent-serverapp-c78=""
                   class="col-md-6 col-lg-4 col-xl-6 from-right slide-in appear"
                 >
-                  <div
-                    _ngcontent-serverapp-c78=""
-                    class="platform-content-wrapper"
-                  >
+                  <div class="platform-content-wrapper">
                     <img
-                      _ngcontent-serverapp-c78=""
                       applazyload=""
                       alt=""
                       class="platform-icon"
                       src="./assets/icons/our-platorm-journal.png"
                     />
-                    <h4
-                      _ngcontent-serverapp-c78=""
-                      class="platform-content-name"
-                    >
-                      Mood Journal
-                    </h4>
-                    <p
-                      _ngcontent-serverapp-c78=""
-                      class="platform-content-text"
-                    >
+                    <h4 class="platform-content-name">Mood Journal</h4>
+                    <p class="platform-content-text">
                       Track your mental well-being by logging in your mood &amp;
                       journaling your thoughts.
                     </p>
                   </div>
                 </div>
                 <div
-                  _ngcontent-serverapp-c78=""
                   class="col-md-6 col-lg-4 col-xl-6 from-left slide-in appear"
                 >
-                  <div
-                    _ngcontent-serverapp-c78=""
-                    class="platform-content-wrapper"
-                  >
+                  <div class="platform-content-wrapper">
                     <img
-                      _ngcontent-serverapp-c78=""
                       applazyload=""
                       alt=""
                       class="platform-icon"
                       src="./assets/icons/our-platform-happy-place.png"
                     />
-                    <h4
-                      _ngcontent-serverapp-c78=""
-                      class="platform-content-name"
-                    >
-                      Happy Place
-                    </h4>
-                    <p
-                      _ngcontent-serverapp-c78=""
-                      class="platform-content-text"
-                    >
+                    <h4 class="platform-content-name">Happy Place</h4>
+                    <p class="platform-content-text">
                       Unlimited wellness content blogs, meditation, breathing
                       exercises, educational videos &amp; podcasts
                     </p>
                   </div>
                 </div>
                 <div
-                  _ngcontent-serverapp-c78=""
                   class="col-md-6 col-lg-4 col-xl-6 from-right slide-in appear"
                 >
-                  <div
-                    _ngcontent-serverapp-c78=""
-                    class="platform-content-wrapper"
-                  >
+                  <div class="platform-content-wrapper">
                     <img
-                      _ngcontent-serverapp-c78=""
                       applazyload=""
                       alt=""
                       class="platform-icon"
                       src="./assets/icons/our-platform-discussion.png"
                     />
-                    <h4
-                      _ngcontent-serverapp-c78=""
-                      class="platform-content-name"
-                    >
-                      Discussion Forum
-                    </h4>
-                    <p
-                      _ngcontent-serverapp-c78=""
-                      class="platform-content-text"
-                    >
+                    <h4 class="platform-content-name">Discussion Forum</h4>
+                    <p class="platform-content-text">
                       Ask anything &amp; initiate discussions with a community
                       of like-minded users and psychologists.
                     </p>
@@ -1305,9 +1048,8 @@
               </div>
             </div>
           </div>
-          <div _ngcontent-serverapp-c78="" class="learnMoreHolder">
+          <div class="learnMoreHolder">
             <!----><a
-              _ngcontent-serverapp-c78=""
               routerlink="sign-up"
               class="primaryBtn ng-star-inserted"
               href="/sign-up"
@@ -1317,28 +1059,135 @@
         </div>
       </section>
 
-      <!-- press-note-section -->
-      <section _ngcontent-serverapp-c78="" class="press-note-section">
-        <h2 _ngcontent-serverapp-c78="" class="section-title title-with-line">
-          We've been featured!
+      <!-- happy-place-section -->
+      <section class="happy-place-section">
+        <h2 class="section-title">
+          Your <span class="orangeTxt">Happy Place</span>
         </h2>
-        <div _ngcontent-serverapp-c78="" class="container">
-          <div _ngcontent-serverapp-c78="" class="happy-place-slider-wrapper">
-            <ngx-slick-carousel
-              _ngcontent-serverapp-c78=""
-              class="carousel slick-initialized slick-slider"
+        <p class="section-desc text-center">
+          Join our community and get access to exclusive content on mental
+          wellness.
+        </p>
+        <div class="container">
+          <div class="row  responsive">
+            <div class="col-md-12">
+              <div class="bg-warning me-3">
+                <div>
+                  <p>By Nanditha S Kumar, Content Writer</p>
+                  <h3>
+                    How Can Yoga and Meditation Help in Uplifting Mental Health?
+                  </h3>
+                  <span>Tuesday, 21 June</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="bg-warning me-3">
+                <div>
+                  <p>By Nanditha S Kumar, Content Writer</p>
+                  <h3>
+                    How Can Yoga and Meditation Help in Uplifting Mental Health?
+                  </h3>
+                  <span>Tuesday, 21 June</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="bg-warning me-3 me-3">
+                <div>
+                  <p>By Nanditha S Kumar, Content Writer</p>
+                  <h3>
+                    How Can Yoga and Meditation Help in Uplifting Mental Health?
+                  </h3>
+                  <span>Tuesday, 21 June</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="bg-warning me-3">
+                <div>
+                  <p>By Nanditha S Kumar, Content Writer</p>
+                  <h3>
+                    How Can Yoga and Meditation Help in Uplifting Mental Health?
+                  </h3>
+                  <span>Tuesday, 21 June</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="bg-warning me-3">
+                <div>
+                  <p>By Nanditha S Kumar, Content Writer</p>
+                  <h3>
+                    How Can Yoga and Meditation Help in Uplifting Mental Health?
+                  </h3>
+                  <span>Tuesday, 21 June</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row justify-content-center">
+            <div class="col-md-3">
+              <div class="blogButtonHolder">
+                <button aria-label="Previous" class="prevBlog">
+                  <fa-icon class="ng-fa-icon"
+                    ><svg
+                      role="img"
+                      aria-hidden="true"
+                      focusable="false"
+                      data-prefix="fas"
+                      data-icon="chevron-left"
+                      class="svg-inline--fa fa-chevron-left"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 320 512"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"
+                      ></path></svg
+                  ></fa-icon></button
+                ><button aria-label="Next" class="nextBlog">
+                  <fa-icon class="ng-fa-icon"
+                    ><svg
+                      role="img"
+                      aria-hidden="true"
+                      focusable="false"
+                      data-prefix="fas"
+                      data-icon="chevron-right"
+                      class="svg-inline--fa fa-chevron-right"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 320 512"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"
+                      ></path></svg
+                  ></fa-icon>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="blogViewHolder">
+            <a class="primaryBtn" href="/blog">View All</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- press-note-section -->
+      <section class="press-note-section">
+        <h2 class="section-title title-with-line">We've been featured!</h2>
+        <div class="container">
+          <div class="happy-place-slider-wrapper">
+            <ngx-slick-carousel class="carousel slick-initialized slick-slider"
               ><div class="slick-list draggable">
                 <!-- style="
                     opacity: 1;
                     width: 1110px;
                     transform: translate3d(0px, 0px, 0px);
                   " -->
-                <div
-                  class="slick-track"
-                  
-                >
+                <div class="slick-track">
                   <div
-                    _ngcontent-serverapp-c78=""
                     ngxslickitem=""
                     class="happy-place-slider-item press-note-item slick-slide slick-current slick-active"
                     data-slick-index="0"
@@ -1346,26 +1195,16 @@
                     style="width: 347.426px"
                     tabindex="0"
                   >
-                    <a
-                      _ngcontent-serverapp-c78=""
-                      href="#"
-                      target="_blank"
-                      tabindex="0"
+                    <a href="#" target="_blank" tabindex="0"
                       ><img
-                        _ngcontent-serverapp-c78=""
                         applazyload=""
                         alt=""
                         class="w-100"
                         src="./assets/images/ys.jpg"
                       />
-                      <div _ngcontent-serverapp-c78="" class="place-info">
-                        <p
-                          _ngcontent-serverapp-c78=""
-                          class="place-tag newsTitle"
-                        >
-                          Press-release
-                        </p>
-                        <h3 _ngcontent-serverapp-c78="" class="place-title">
+                      <div class="place-info">
+                        <p class="place-tag newsTitle">Press-release</p>
+                        <h3 class="place-title">
                           Jaipur-based Felicity is bridging the gap between
                           demand and supply for mental healthcare
                         </h3>
@@ -1373,7 +1212,6 @@
                     >
                   </div>
                   <div
-                    _ngcontent-serverapp-c78=""
                     ngxslickitem=""
                     class="happy-place-slider-item press-note-item slick-slide slick-active"
                     data-slick-index="1"
@@ -1381,26 +1219,16 @@
                     style="width: 347.426px"
                     tabindex="0"
                   >
-                    <a
-                      _ngcontent-serverapp-c78=""
-                      href="#"
-                      target="_blank"
-                      tabindex="0"
+                    <a href="#" target="_blank" tabindex="0"
                       ><img
-                        _ngcontent-serverapp-c78=""
                         applazyload=""
                         alt=""
                         class="w-100"
                         src="./assets/images/outreach.jpg"
                       />
-                      <div _ngcontent-serverapp-c78="" class="place-info">
-                        <p
-                          _ngcontent-serverapp-c78=""
-                          class="place-tag newsTitle"
-                        >
-                          Press-release
-                        </p>
-                        <h3 _ngcontent-serverapp-c78="" class="place-title">
+                      <div class="place-info">
+                        <p class="place-tag newsTitle">Press-release</p>
+                        <h3 class="place-title">
                           These 7 startups from Bharat started during the
                           pandemic
                         </h3>
@@ -1408,7 +1236,6 @@
                     >
                   </div>
                   <div
-                    _ngcontent-serverapp-c78=""
                     ngxslickitem=""
                     class="happy-place-slider-item press-note-item slick-slide slick-active"
                     data-slick-index="2"
@@ -1416,26 +1243,16 @@
                     style="width: 347.426px"
                     tabindex="0"
                   >
-                    <a
-                      _ngcontent-serverapp-c78=""
-                      href="#"
-                      target="_blank"
-                      tabindex="0"
+                    <a href="#" target="_blank" tabindex="0"
                       ><img
-                        _ngcontent-serverapp-c78=""
                         applazyload=""
                         alt=""
                         class="w-100"
                         src="./assets/images/spill.jpg"
                       />
-                      <div _ngcontent-serverapp-c78="" class="place-info">
-                        <p
-                          _ngcontent-serverapp-c78=""
-                          class="place-tag newsTitle"
-                        >
-                          Press-release
-                        </p>
-                        <h3 _ngcontent-serverapp-c78="" class="place-title">
+                      <div class="place-info">
+                        <p class="place-tag newsTitle">Press-release</p>
+                        <h3 class="place-title">
                           52 Innovative Psychology Startups Worth A Follow In
                           2021
                         </h3>
@@ -1450,36 +1267,30 @@
       </section>
 
       <!-- subscribe-section -->
-      <section _ngcontent-serverapp-c78="">
-        <div _ngcontent-serverapp-c78="" class="container">
-          <div _ngcontent-serverapp-c78="" class="boxRound subsBox">
-            <div _ngcontent-serverapp-c78="" class="secondaryHeading">
-              <h2 _ngcontent-serverapp-c78="">
+      <section>
+        <div class="container">
+          <div class="boxRound subsBox">
+            <div class="secondaryHeading">
+              <h2>
                 The latest mental health news and tips, delivered to your inbox
                 weekly.
               </h2>
-              <hr _ngcontent-serverapp-c78="" />
+              <hr />
             </div>
-            <div _ngcontent-serverapp-c78="" class="subsEmail formRound1">
+            <div class="subsEmail formRound1">
               <form
-                _ngcontent-serverapp-c78=""
                 novalidate=""
                 class="ng-untouched ng-pristine ng-invalid"
                 siq_id="autopick_1031"
               >
-                <div _ngcontent-serverapp-c78="" class="d-flex">
+                <div class="d-flex">
                   <input
-                    _ngcontent-serverapp-c78=""
                     type="text"
                     placeholder="Email"
                     formcontrolname="email"
                     class="form-control emailBox ng-untouched ng-pristine ng-invalid"
                     data-gaconnector-tracked="true"
-                  /><button
-                    _ngcontent-serverapp-c78=""
-                    type="submit"
-                    class="primaryBtn subsButton"
-                  >
+                  /><button type="submit" class="primaryBtn subsButton">
                     Subscribe
                   </button>
                 </div>
@@ -1491,156 +1302,106 @@
     </main>
 
     <!-- footer -->
-    <app-footer
-      _ngcontent-serverapp-c195=""
-      _nghost-serverapp-c194=""
-      class="ng-star-inserted"
-      ><div _ngcontent-serverapp-c194="">
-        <div _ngcontent-serverapp-c194="" class="footerWrap">
-          <bootstrap-alert
-            _ngcontent-serverapp-c194=""
-            alertposition="top-center"
-            _nghost-serverapp-c63=""
-            class="ng-tns-c63-0"
-            ><div
-              _ngcontent-serverapp-c63=""
-              class="bootstrap-alert col-lg-4 ng-tns-c63-0 top-center"
-            >
+    <footer class="ng-star-inserted">
+      <div>
+        <div class="footerWrap">
+          <bootstrap-alert alertposition="top-center" class="ng-tns-c63-0"
+            ><div class="bootstrap-alert col-lg-4 ng-tns-c63-0 top-center">
               <!---->
             </div></bootstrap-alert
           >
-          <div _ngcontent-serverapp-c194="" class="container">
-            <div _ngcontent-serverapp-c194="" class="row">
-              <div
-                _ngcontent-serverapp-c194=""
-                class="col-lg-4 col-md-6 col-sm-6 col-12"
-              >
-                <div _ngcontent-serverapp-c194="" class="footerCont">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                <div class="footerCont">
                   <img
-                    _ngcontent-serverapp-c194=""
                     src="./assets/icons/logo-white.svg"
                     alt="Felicity"
                     draggable="false"
                     class="img-fluid"
                   />
-                  <ul _ngcontent-serverapp-c194="" class="contactInfo">
-                    <li _ngcontent-serverapp-c194="">
-                      <i
-                        _ngcontent-serverapp-c194=""
-                        class="fa fa-map-marker"
-                      ></i>
+                  <ul class="contactInfo">
+                    <li>
+                      <i class="fa fa-map-marker"></i>
                       Sapphire Space, Bani Park,
-                      <br _ngcontent-serverapp-c194="" />
+                      <br />
                       Jaipur 302016, India
                     </li>
-                    <li _ngcontent-serverapp-c194="" class="phoneCssFix">
-                      <a
-                        _ngcontent-serverapp-c194=""
-                        href="mailto:hola@felicity.care"
-                        ><i
-                          _ngcontent-serverapp-c194=""
-                          class="fa fa-envelope"
-                        ></i>
-                        hola@felicity.care</a
+                    <li class="phoneCssFix">
+                      <a href="mailto:hola@felicity.care"
+                        ><i class="fa fa-envelope"></i> hola@felicity.care</a
                       >
                     </li>
-                    <li _ngcontent-serverapp-c194="" class="phoneCssFix">
-                      <a _ngcontent-serverapp-c194="" href="tel:+918035385678"
-                        ><i
-                          _ngcontent-serverapp-c194=""
-                          class="fa fa-phone"
-                        ></i>
-                        +918035385678</a
+                    <li class="phoneCssFix">
+                      <a href="tel:+918035385678"
+                        ><i class="fa fa-phone"></i> +918035385678</a
                       >
                     </li>
                   </ul>
-                  <ul _ngcontent-serverapp-c194="" class="socialIconCont">
-                    <li _ngcontent-serverapp-c194="">
+                  <ul class="socialIconCont">
+                    <li>
                       <a
-                        _ngcontent-serverapp-c194=""
                         target="_blank"
                         href="https://www.facebook.com/felicitycareofficial/"
                         ><i class="fa-brands fa-facebook-f"></i
                       ></a>
                     </li>
-                    <li _ngcontent-serverapp-c194="">
-                      <a
-                        _ngcontent-serverapp-c194=""
-                        target="_blank"
-                        href="https://twitter.com/CareFelicity"
+                    <li>
+                      <a target="_blank" href="https://twitter.com/CareFelicity"
                         ><i class="fa-brands fa-twitter-square"></i
                       ></a>
                     </li>
-                    <li _ngcontent-serverapp-c194="">
+                    <li>
                       <a
-                        _ngcontent-serverapp-c194=""
                         target="_blank"
                         href="https://www.instagram.com/felicity_care/"
-                        ><i
-                          _ngcontent-serverapp-c194=""
-                          class="fa-brands fa-instagram"
-                        ></i
+                        ><i class="fa-brands fa-instagram"></i
                       ></a>
                     </li>
-                    <li _ngcontent-serverapp-c194="">
+                    <li>
                       <a
-                        _ngcontent-serverapp-c194=""
                         target="_blank"
                         href="https://www.youtube.com/channel/UC5JO-2aftdLYSUupZm2Ca1A"
-                        ><i
-                          _ngcontent-serverapp-c194=""
-                          class="fa-brands fa-youtube"
-                        ></i
+                        ><i class="fa-brands fa-youtube"></i
                       ></a>
                     </li>
-                    <li _ngcontent-serverapp-c194="">
+                    <li>
                       <a
-                        _ngcontent-serverapp-c194=""
                         target="_blank"
                         href="https://in.pinterest.com/felicity_care/"
-                        ><i
-                          _ngcontent-serverapp-c194=""
-                          class="fa-brands fa-pinterest"
-                        ></i
+                        ><i class="fa-brands fa-pinterest"></i
                       ></a>
                     </li>
                   </ul>
                 </div>
               </div>
-              <div
-                _ngcontent-serverapp-c194=""
-                class="col-lg-2 col-md-3 col-sm-6 col-6"
-              >
-                <div _ngcontent-serverapp-c194="" class="quickLinkBox">
-                  <h3 _ngcontent-serverapp-c194="">Quick Links</h3>
-                  <ul _ngcontent-serverapp-c194="">
-                    <li _ngcontent-serverapp-c194="">
+              <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                <div class="quickLinkBox">
+                  <h3>Quick Links</h3>
+                  <ul>
+                    <li>
                       <a
-                        _ngcontent-serverapp-c194=""
                         routerlink="/corporate-mental-wellness-programs/get-demo"
                         href="/corporate-mental-wellness-programs/get-demo"
                         >For Corporates</a
                       >
                     </li>
-                    <li _ngcontent-serverapp-c194="">
+                    <li>
                       <a
-                        _ngcontent-serverapp-c194=""
                         routerlink="/counseling-therapy-clinical-psychology-jobs/get-onboard"
                         href="/counseling-therapy-clinical-psychology-jobs/get-onboard"
                         >For Therapists</a
                       >
                     </li>
-                    <li _ngcontent-serverapp-c194="">
+                    <li>
                       <a
-                        _ngcontent-serverapp-c194=""
                         routerlink="online-counseling-psychologists/contact-us"
                         href="/online-counseling-psychologists/contact-us"
                         >Contact</a
                       >
                     </li>
-                    <li _ngcontent-serverapp-c194="">
+                    <li>
                       <a
-                        _ngcontent-serverapp-c194=""
                         routerlink="mental-health-community/about-the-company"
                         href="/mental-health-community/about-the-company"
                         >About us</a
@@ -1649,32 +1410,26 @@
                   </ul>
                 </div>
               </div>
-              <div
-                _ngcontent-serverapp-c194=""
-                class="col-lg-2 col-md-3 col-sm-4 col-6"
-              >
-                <div _ngcontent-serverapp-c194="" class="quickLinkBox">
-                  <h3 _ngcontent-serverapp-c194="">Legal Stuff</h3>
-                  <ul _ngcontent-serverapp-c194="">
-                    <li _ngcontent-serverapp-c194="">
+              <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <div class="quickLinkBox">
+                  <h3>Legal Stuff</h3>
+                  <ul>
+                    <li>
                       <a
-                        _ngcontent-serverapp-c194=""
                         routerlink="/online-counseling-psychologists/disclaimer"
                         href="#"
                         >Disclaimer</a
                       >
                     </li>
-                    <li _ngcontent-serverapp-c194="">
+                    <li>
                       <a
-                        _ngcontent-serverapp-c194=""
                         routerlink="/online-counseling-psychologists/privacy-policy"
                         href="#"
                         >Privacy Policy</a
                       >
                     </li>
-                    <li _ngcontent-serverapp-c194="">
+                    <li>
                       <a
-                        _ngcontent-serverapp-c194=""
                         routerlink="/online-counseling-psychologists/terms-of-service"
                         href="#"
                         >Terms Of Service</a
@@ -1683,33 +1438,22 @@
                   </ul>
                 </div>
               </div>
-              <div
-                _ngcontent-serverapp-c194=""
-                class="col-lg-4 col-md-12 col-sm-8 col-12"
-              >
-                <div _ngcontent-serverapp-c194="" class="callbackBox">
+              <div class="col-lg-4 col-md-12 col-sm-8 col-12">
+                <div class="callbackBox">
                   <form
-                    _ngcontent-serverapp-c194=""
                     novalidate=""
                     class="ng-untouched ng-pristine ng-invalid"
                     siq_id="autopick_3359"
                   >
-                    <h3 _ngcontent-serverapp-c194="">
-                      We are here to make sure that you are always happy
-                    </h3>
-                    <div _ngcontent-serverapp-c194="" class="callbackInput">
+                    <h3>We are here to make sure that you are always happy</h3>
+                    <div class="callbackInput">
                       <input
-                        _ngcontent-serverapp-c194=""
                         type="text"
                         placeholder="Enter your phone number"
                         formcontrolname="phone"
                         class="form-control one ng-untouched ng-pristine ng-invalid"
                         data-gaconnector-tracked="true"
-                      /><a
-                        _ngcontent-serverapp-c194=""
-                        type="submit"
-                        class="primaryBtn"
-                      >
+                      /><a type="submit" class="primaryBtn">
                         Request Callback
                       </a>
                     </div>
@@ -1719,23 +1463,18 @@
             </div>
           </div>
         </div>
-        <div _ngcontent-serverapp-c194="" class="footerWarningBox">
+        <div class="footerWarningBox">
           <hr class="d-none" />
-          <div _ngcontent-serverapp-c194="" class="container">
+          <div class="container">
             If you are in a life-threatening situation – DO NOT use this site.
             Use these
-            <a
-              _ngcontent-serverapp-c194=""
-              target="_blank"
-              href="#"
-              >resources</a
-            >
-            to get immediate help. <br _ngcontent-serverapp-c194="" />
+            <a target="_blank" href="#">resources</a>
+            to get immediate help. <br />
             ©Felicity. All rights reserved.
           </div>
         </div>
-      </div></app-footer
-    >
+      </div>
+    </footer>
 
     <!-- bundle-js -->
     <script
@@ -1744,21 +1483,71 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
     <!-- slick -->
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script> -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
+    <!-- <script type="text/javascript">
+      $(".responsive").slick({
+        dots: true,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true,
+            },
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+          // You can unslick at a given breakpoint now by adding:
+          // settings: "unslick"
+          // instead of a settings object
+        ],
+      }); 
+    </script> -->
+     
     <script>
-      $(document).ready(function(){
-        $('.slick-track').slick({
+      $(document).ready(function () {
+        $(".slick-track").slick({
           dots: false,
           infinite: false,
           speed: 300,
           slidesToShow: 3,
+          centerPadding: '40px',
           slidesToScroll: 3,
           responsive: [
             {
@@ -1767,66 +1556,65 @@
                 slidesToShow: 2,
                 slidesToScroll: 2,
                 infinite: true,
-                dots: false
-              }
+                dots: false,
+              },
             },
             {
               breakpoint: 600,
               settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2,
-                dots: true
-              }
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: true,
+              },
             },
             {
               breakpoint: 480,
               settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                dots: true
-              }
-            }
-            // You can unslick at a given breakpoint now by adding:
-            // settings: "unslick"
-            // instead of a settings object
-          ]
+                dots: true,
+              },
+            },
+          ],
         });
-      });
-    </script>
-    <!-- <script>
-      $(document).ready(function(){
-        $('.slick-track').slick({
-          dots: false,
-          infinite: true,
-          speed: 700,
-          autoplay:false,
-          autoplaySpeed: 2000,
-          arrows:true,
-          slidesToShow: 3, 
-          slidesToScroll: 1
-          ,responsive: [{
-            breakpoint: 992,
+
+        $(".responsive").slick({
+        dots: true,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        responsive: [
+          {
+            breakpoint: 1024,
             settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
               dots: true,
-              arrows: false,
-              centerMode: true, 
-              slidesToShow: 3
-            }
+            },
           },
           {
             breakpoint: 600,
             settings: {
-              dots: true,
-              autoplay:false,
-              arrows: false,
-              centerMode: true, 
-              slidesToShow: 1
-            }
-          }
-        ]
-       });
+              slidesToShow: 2,
+              slidesToScroll: 2,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+        ],
       });
-    </script> -->
+      });
+    </script>
+     
+
+    <script src="./js/menu.js"></script>
   </body>
 </html>
 
