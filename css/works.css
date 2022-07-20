@@ -1,0 +1,355 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    overflow-x: hidden;
+    line-height: 30px; 
+  }
+
+
+/* header-section-start
+------------------------*/
+.headerWrapper {
+    width: 100%;
+  }
+  
+  .headerWrapper {
+    box-shadow: 0 1px 0 rgb(0 0 0 / 10%);
+  }
+  
+  .headingWrap-menu {
+    width: 100%;
+  }
+  
+  .mobileView {
+    display: block!important;
+  }
+  
+  .headingWrap-menu {
+    display: flex;
+  }
+  
+  .headingSection1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    margin: auto 0;
+  }
+  
+  .headingWrap-menu .logo {
+    flex: 0 0 20%;
+  }
+  
+  .logoImage {
+    width: 230px;
+    margin-left: 10px;
+  }
+  
+  .headTryNow button {
+    border-radius: .8vh!important;
+  }
+  
+  .buttonTheme2 {
+    background: #fff;
+    font-size: 16px;
+    color: #f47d31;
+    display: inline-block;
+    border-radius: 25px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+    padding: 10px 25px;
+    border: 1px solid #f47d31!important;
+    text-align: center;
+  }
+  
+  .sidenav-container {
+    display: none;
+  }
+  
+  .closeSideNav{
+    display: none !important;
+  }
+  .sidenav-plate {
+    display: block;
+    position: fixed;
+    height: 100%;
+    width: 230px;
+    top: 0;
+    right: 0;
+    background-color: #070245;
+    z-index: 999;
+  }
+   
+  .sidenav-menuHolder {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .sidenav-menuHolder {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  
+  .sidenav-menuHolder ul {
+    list-style: none;
+    color: #fff;
+    padding-left: 20px;
+  }
+  
+  .sidenav-menuHolder ul li {
+    margin-top: 30px;
+  }
+  
+  .mobile-menu-li ul li {
+    margin-top: 30px;
+  }
+  
+  .sidenav-menuHolder ul li a {
+    color: #fff;
+    font-size: .8rem;
+  }
+  
+  .socialMediaContainer {
+    margin-bottom: 20vh;
+  }
+  
+  .socialMediaContainer p {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .socialMediaIconsHolder {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: #fff;
+  }
+  
+  .socialMediaIconsHolder a {
+    text-decoration: none!important;
+    color: #fff!important;
+    font-size: 20px;
+  }
+  
+  .menuHolder {
+    margin-left: 2%;
+  }
+  
+  .menuHolder {
+    margin-top: 10px;
+    flex: 1;
+  }
+  
+  .menuHolder ul {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .menuHolder .list li {
+    padding: 0 10px;
+  }
+  
+  .menuHolder ul li {
+    list-style: none;
+    padding: 0 .5rem;
+    text-decoration: none;
+  }
+  
+  .menuHolder .list li a {
+    font: 12px;
+  }
+  
+  .menuHolder ul li a {
+    color: #000;
+    font-size: 1rem;
+  }
+  
+  .menuHolder ul li a:hover {
+    color: #f47d31;
+    text-decoration: none;
+  }
+  
+  .pcView {
+    display: flex!important;
+  }
+  
+  .headingWrap-menu {
+    width: 100%;
+  }
+  .headingWrap-menu {
+    display: flex;
+  }
+  
+  .logo {
+    margin: auto 0;
+  }
+  
+  .headingWrap-menu .logo {
+    flex: 0 0 20%;
+  }
+  
+  .logoImage {
+    width: 230px;
+    margin-left: 10px;
+  }
+  
+  .mobile-icon {
+    display: none;
+  }
+  
+  a:not([href]):not([class]), a:not([href]):not([class]):hover {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .loginButton {
+    color: #fff!important;
+  }
+  
+  .buttonTheme1 {
+    background: #f47d31;
+    font-size: 16px;
+    color: #fff;
+    display: inline-block;
+    border-radius: 25px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+    padding: 10px 25px;
+    border: 1px solid #f47d31;
+    text-align: center;
+  }
+  
+  .menuHolder .list li {
+    padding: 0 10px;
+  }
+  
+  #sidenav-button , #sidenav-x-button{
+    font-size: 29px;
+    color: #f47d31;
+  }
+  .mobile-menu-x {
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+  }
+  /* header-section-responsiveness with media query
+  -------------------------------------------------- */
+  /* header-section for tablet */
+  @media only screen and (max-width: 991px) and (min-width: 601px) {
+     
+    .headingWrap-menu{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-right: 20px;
+    }
+    .menuHolder{
+      display: none;
+    } 
+    .sidenav-container{
+      display: block;
+    }
+  }
+  
+  /* header-section for mobile */
+  @media only screen and (max-width: 600px) {
+    .menuHolder{
+      display: none;
+    } 
+  
+    .sidenav-container{
+      display: block;
+    }
+  
+    .headingWrap-menu{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-right: 20px;
+    }
+  } 
+  /* header-section-end
+  ----------------------*/ 
+
+  
+/* how-it-works-page-start
+---------------------------*/
+.secPadding {
+    padding: 50px 0;
+}
+.boxRoundCircle.howHeading {
+    background: #f6f8f9;
+}
+.boxRoundCircle {
+    box-shadow: 0 -3px 16px rgb(31 101 255 / 11%);
+    padding: 45px 80px;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    background: #fff;
+    min-height: 242px;
+}
+.boxRoundCircle:after, .boxRoundCircle:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+ 
+.boxRoundCircle:before {
+    left: 0;
+    background: #f47d31;
+    transform: translate(-50%);
+}
+.boxRoundCircle:after {
+    right: 0;
+    background: #07006e;
+    transform: translate(50%,100%);
+}
+.secondaryHeading {
+    width: 100%;
+    text-align: center;
+}
+.secondaryHeading h2 {
+    color: #021744;
+    font-size: 36px;
+    margin: 0;
+    line-height: 1.5em;
+}
+.secondaryHeading hr {
+    border-top: 2px solid #fd7d31;
+    max-width: 100px;
+    margin: auto;
+}
+hr {
+    margin-top: 1rem;
+    background-color: transparent;
+    border: 0;
+    opacity: 100;
+  }
+
+.secondaryHeading p {
+    font-size: 16px;
+    line-height: 25px;
+    color: #000d30;
+}
