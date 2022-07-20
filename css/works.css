@@ -262,6 +262,10 @@ a:not([href]):not([class]):hover {
   top: 5px;
   right: 10px;
 }
+
+.headTryNow{
+    display: none;
+}
 /* header-section-responsiveness with media query
   -------------------------------------------------- */
 /* header-section for tablet */
@@ -273,7 +277,7 @@ a:not([href]):not([class]):hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 20px;
+    margin-right: 10px;
   }
   .menuHolder {
     display: none;
@@ -281,6 +285,18 @@ a:not([href]):not([class]):hover {
   .sidenav-container {
     display: block;
   }
+  .headTryNow {
+    display: block;
+    margin-left: auto;
+    margin-right: 50px;
+}
+  .headTryNow button {
+    border-radius: 0.8vh!important;
+}
+.headTryNow .buttonTheme2 {
+    font-size: 14px;
+    padding: 5px 16px;
+}
 }
 
 /* header-section for mobile */
@@ -292,6 +308,10 @@ a:not([href]):not([class]):hover {
   .headerWrapper {
     padding: 10px 0;
   }
+  .headingWrap-menu { 
+    margin-right: 10px;
+  }
+
   .menuHolder {
     display: none;
   }
@@ -302,8 +322,17 @@ a:not([href]):not([class]):hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 20px;
+    margin-right: 10px;
   }
+  .headTryNow {
+    display: block;
+    margin-left: auto;
+    margin-right: 10px;
+}
+  .headTryNow .buttonTheme2 {
+    font-size: 14px;
+    padding: 5px 16px;
+}
 }
 /* header-section-end
   ----------------------*/
