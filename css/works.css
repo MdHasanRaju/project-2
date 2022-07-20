@@ -309,7 +309,7 @@ a:not([href]):not([class]):hover {
   background: #f6f8f9;
 }
 .boxRoundCircle {
-  box-shadow: 0 -3px 16px rgb(31 101 255 / 11%);
+  /* box-shadow: 0 -3px 16px rgb(31 101 255 / 11%); */
   padding: 45px 80px;
   text-align: center;
   border-radius: 10px;
@@ -365,4 +365,42 @@ hr {
   font-size: 16px;
   line-height: 25px;
   color: #000d30;
+}
+
+
+/* how-it-works-section responsiveness with media query
+--------------------------------------------------------- */
+/* how-it-works-section for tablet device */
+@media only screen and (min-width:601px) and (max-width:991px) {
+    
+    .secPadding {
+        padding-top: 20px;
+    }
+    .boxRoundCircle {
+        margin-top: 50px;
+    }
+}
+
+/* how-it-works-section for mobile tablet device */
+@media only screen and (max-width:600px) { 
+    .boxRoundCircle.howHeading {
+        padding: 30px 48px;
+    }
+    .boxRoundCircle {
+        min-height: 180px;
+        box-shadow: none;
+    }
+    .boxRoundCircle.howHeading:after, .boxRoundCircle.howHeading:before {
+        width: 90px;
+        height: 90px;
+    }
+    .secondaryHeading h2 {
+        font-size: 19px;
+        line-height: 1em;
+    }
+    .secondaryHeading p {
+        font-size: 14px;
+        margin: 0;
+    }
+
 }
