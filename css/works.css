@@ -266,6 +266,9 @@ a:not([href]):not([class]):hover {
   -------------------------------------------------- */
 /* header-section for tablet */
 @media only screen and (max-width: 991px) and (min-width: 601px) {
+  .headerWrapper {
+    padding: 10px 0;
+  }
   .headingWrap-menu {
     display: flex;
     justify-content: space-between;
@@ -282,14 +285,19 @@ a:not([href]):not([class]):hover {
 
 /* header-section for mobile */
 @media only screen and (max-width: 600px) {
+    .logoImage {
+        width: 200px;
+        padding-left: 10px;
+    }
+  .headerWrapper {
+    padding: 10px 0;
+  }
   .menuHolder {
     display: none;
   }
-
   .sidenav-container {
     display: block;
   }
-
   .headingWrap-menu {
     display: flex;
     justify-content: space-between;
@@ -309,7 +317,7 @@ a:not([href]):not([class]):hover {
   background: #f6f8f9;
 }
 .boxRoundCircle {
-  /* box-shadow: 0 -3px 16px rgb(31 101 255 / 11%); */
+  box-shadow: 0 -3px 16px rgb(31 101 255 / 11%);
   padding: 45px 80px;
   text-align: center;
   border-radius: 10px;
@@ -351,11 +359,11 @@ a:not([href]):not([class]):hover {
 }
 .secondaryHeading hr {
   border-top: 2px solid #fd7d31;
-  max-width: 100px; 
+  max-width: 100px;
 }
 
-hr { 
-  margin: 1rem auto !important;   
+hr {
+  margin: 1rem auto !important;
   background-color: transparent;
   border: 0;
   opacity: 100;
@@ -367,40 +375,40 @@ hr {
   color: #000d30;
 }
 
-
 /* how-it-works-section responsiveness with media query
 --------------------------------------------------------- */
 /* how-it-works-section for tablet device */
-@media only screen and (min-width:601px) and (max-width:991px) {
-    
-    .secPadding {
-        padding-top: 20px;
-    }
-    .boxRoundCircle {
-        margin-top: 50px;
-    }
+@media only screen and (min-width: 601px) and (max-width: 991px) {
+  .secPadding {
+    padding-top: 20px;
+  }
+  .boxRoundCircle {
+    margin-top: 50px;
+  }
 }
 
 /* how-it-works-section for mobile tablet device */
-@media only screen and (max-width:600px) { 
-    .boxRoundCircle.howHeading {
-        padding: 30px 48px;
-    }
-    .boxRoundCircle {
-        min-height: 180px;
-        box-shadow: none;
-    }
-    .boxRoundCircle.howHeading:after, .boxRoundCircle.howHeading:before {
-        width: 90px;
-        height: 90px;
-    }
-    .secondaryHeading h2 {
-        font-size: 19px;
-        line-height: 1em;
-    }
-    .secondaryHeading p {
-        font-size: 14px;
-        margin: 0;
-    }
-
+@media only screen and (max-width: 600px) {
+    .secPadding {
+        padding-top: 35px;
+      }
+  .boxRoundCircle.howHeading {
+    padding: 30px 48px;
+  }
+  .boxRoundCircle {
+    min-height: 180px; 
+  }
+  .boxRoundCircle.howHeading:after,
+  .boxRoundCircle.howHeading:before {
+    width: 90px;
+    height: 90px;
+  }
+  .secondaryHeading h2 {
+    font-size: 19px;
+    line-height: 1em;
+  }
+  .secondaryHeading p {
+    font-size: 14px;
+    margin: 0;
+  }
 }
