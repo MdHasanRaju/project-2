@@ -576,6 +576,100 @@ a {
   }
 }
 
+
+/* meet-therapist-section
+--------------------------- */
+.therapistsWrapper {
+  padding: 120px 0 90px;
+  background: #f6f8f9;
+}
+.therapistsWrapper .container  {
+  display: flex;
+  flex-direction: column;
+}
+.midTextWrapper {
+  margin-bottom: 90px;
+}
+.secondaryHeading {
+  width: 100%;
+  text-align: center;
+}
+.secondaryHeading h2 {
+  color: #021744;
+  font-size: 37.5px;
+  margin: 0;
+  line-height: 1.5em;
+}
+.secondaryHeading hr {
+  border-top: 2px solid #fd7d31;
+  max-width: 100px;
+}
+.secondaryHeading p {
+  font-size: 17.5px;
+  line-height: 25px;
+  color: #000d30;
+  margin-bottom: 0;
+}
+.topRowTBox  {
+  order: -1;
+}
+.therapistBox {
+  position: relative;
+  display: block;
+}
+.aboutTBox {
+  box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+  background: #fff;
+  border-radius: 25px;
+  font-size: 16px;
+  color: #06006e;
+  padding: 6px 20px;
+  display: inline-block;
+  white-space: nowrap;
+  position: absolute;
+  left: 60px;
+  top: -50px;
+}
+.tBoxIcon {
+  width: 89px;
+  height: 89px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.aboutTBox:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -16px;
+  background: url("../assets/images/chat-arrow.b6f35496417ec17821bd.png");
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.rightBox {
+  margin-top: 60px;
+}
+.therapistBox.rightBox {
+  float: right;
+}
+.therapistBox.rightBox .aboutTBox {
+  left: auto;
+  right: 60px;
+}
+.rightBox .aboutTBox:before {
+  left: auto;
+  right: 0;
+  transform: rotateY(180deg);
+}
+.bottomRowTBox {
+  padding: 0;
+}
+
+
+
+
 /* footer-section
 ------------------- */
 .footerWrap {
@@ -689,7 +783,20 @@ a {
 }
 
 /* footer section responsiveness with media query
----------------------------------------------------- */
+---------------------------------------------------- */ 
+/* footer-section for tablet */
+@media only screen and (max-width: 991px) and (min-width: 601px) {
+  .footerWarningBox hr {
+    display: none !important;
+    margin: 0;
+    background-color: #fff;
+  }
+  .callbackInput .primaryBtn {
+    font-size: 1.6vh;
+    padding: 1vh 2vh;
+  }
+}
+
 /* footer section for mobile */
 @media only screen and (max-width: 600px) {
   .footerWarningBox hr {
@@ -715,18 +822,5 @@ a {
   .footerWarningBox .container {
     font-size: 12px;
     padding: 40px 10px 60px;
-  }
-}
-
-/* footer-section for tablet */
-@media only screen and (max-width: 991px) and (min-width: 601px) {
-  .footerWarningBox hr {
-    display: none !important;
-    margin: 0;
-    background-color: #fff;
-  }
-  .callbackInput .primaryBtn {
-    font-size: 1.6vh;
-    padding: 1vh 2vh;
   }
 }
