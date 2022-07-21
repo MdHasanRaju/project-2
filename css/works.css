@@ -668,6 +668,71 @@ a {
 }
 
 
+/* meet-therapist-section responsiveness with media query
+----------------------------------------------------------- */
+/* meet-therapist-section for tablet device
+-------------------------------------------- */
+@media only screen and (min-width: 601px) and (max-width:991px) {
+  .secondaryHeading h2 {
+    font-size: 25px;
+}
+.buttonTheme1, .buttonTheme2 {
+  border-radius: 25px;
+  padding: 5px 16px;
+}
+.buttonTheme1 {
+  font-size: 16px;
+}
+}
+
+/* meet-therapist-section for mobile device
+-------------------------------------------- */
+@media only screen and (max-width: 600px){
+  .therapistsWrapper {
+    padding: 50px 0 0;
+  }
+  .secondaryHeading {
+    margin-bottom: 20px;
+}
+.secondaryHeading h2 {
+  font-size: 19px;
+  line-height: 1.5em;
+}
+.secondaryHeading p {
+  font-size: 14px;
+  margin: 0 13px 12px;
+  line-height: 25px;
+  color: #000d30;
+}
+.buttonTheme1 {
+  font-size: 14px;
+}
+.buttonTheme1, .buttonTheme2 {
+  border-radius: 25px;
+  padding: 5px 16px;
+}
+.topRowTBox {
+  order: 0;
+}
+.therapistBox {
+  margin-bottom: 80px;
+}
+.aboutTBox {
+  font-size: 13px;
+  width: 200px;
+  white-space: unset;
+  left: 80px;
+  top: -70px;
+}
+.rightBox {
+  margin-top: 0;
+}
+.bottomRowTBox {
+  padding: 0;
+}
+
+} 
+
 
 
 /* footer-section
