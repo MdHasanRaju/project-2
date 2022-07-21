@@ -222,6 +222,10 @@ textarea {
   margin-left: 10px;
 }
 
+.headTryNow{
+  display: none;
+}
+  
 .mobile-icon {
   display: none;
 }
@@ -265,21 +269,31 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
 -------------------------------------------------- */
 /* header-section for tablet */
 @media only screen and (max-width: 991px) and (min-width: 601px) {
-   /* .list{
-    display: none;
-  } */
+  
+  .headerWrapper {
+    padding: 10px 0;
+  }
   .headingWrap-menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 20px;
+    margin-right: 10px;
+  }
+  .headTryNow {
+    display: block;
+    margin-left: auto;
+    margin-right: 54px;
+  }
+  .headTryNow button {
+    border-radius: 0.8vh!important;
+  }
+  .headTryNow .buttonTheme2 {
+    font-size: 14px;
+    padding: 5px 16px;
   }
   .menuHolder{
     display: none;
-  }
-    /* .mobile-icon{
-      display: inline-block;
-    }  */
+  } 
   .sidenav-container{
     display: block;
   }
@@ -287,6 +301,13 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
 
 /* header-section for mobile */
 @media only screen and (max-width: 600px) {
+  .logoImage {
+    width: 200px;
+    padding-left: 10px;
+}
+.headerWrapper {
+  padding: 10px 0;
+}
   .menuHolder{
     display: none;
   } 
@@ -299,8 +320,18 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 20px;
+    margin-right: 10px;
   }
+  .headTryNow {
+    display: block;
+    margin-left: auto;
+    margin-right: 10px;
+}
+  .headTryNow .buttonTheme2 {
+    font-size: 14px;
+    padding: 5px 16px;
+}
+
 } 
 /* header-section-end
 ----------------------*/
