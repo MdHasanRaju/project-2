@@ -496,7 +496,7 @@ hr {
 .flip-card {
   background-color: transparent;
   width: auto;
-  height: 200px;
+  height: 240px;
   perspective: 1000px;
 }
 .flip-card-inner {
@@ -525,6 +525,9 @@ hr {
   height: 100%;
   backface-visibility: hidden;
 }
+.flip-card-inner:hover {
+    transform: rotateY(180deg); 
+}
 .flip-card-back {
   background-color: #f1f0f6;
   transform: rotateY(180deg);
@@ -533,6 +536,150 @@ hr {
 .flip-card-back p {
   margin-bottom: 0;
 }
+
+/* app-general-counseling-section responsiveness with media query
+  --------------------------------------------------------------- */
+/* app-general-counseling-section for tablet device*/
+@media only screen and (min-width: 601px) and (max-width: 991px) {
+    .topMenuMargin {
+        margin-top: 66px;
+    } 
+    .secondaryHeading {
+        margin-top: 75px;
+    }
+    .planBoxWrap {
+        padding-top: 60px;
+    }
+    .flip-card, .planRes {
+        margin-bottom: 30px;
+    }
+    .buttonTheme1, .buttonTheme2 {
+        border-radius: 25px;
+        padding: 5px 16px;
+    }
+    .buttonTheme1 {
+        font-size: 16px;
+    }
+    .plansTip {
+        font-size: 18px;
+        line-height: 1.7em;
+        padding-top: 50px;
+    }
+    .faqHolder {
+        padding: 40px 20px 20px;
+    }
+    .flip-card, .planRes {
+        margin-bottom: 30px;
+    }
+    .flip-card-back {
+        font-size: 14px;
+    }
+
+}
+
+/* app-general-counseling-section for mobile device */
+@media only screen and (max-width: 600px) {
+    .topMenuMargin {
+        margin-top: 66px;
+    }
+    .secondaryHeading {
+        margin-top: 20px;
+    }
+    .secondaryHeading h2 {
+        font-size: 18px;
+        line-height: 1.5em;
+    }
+    .secondaryHeading p {
+        font-size: 14px;
+        line-height: 1.5em;
+        margin: 0 12px 12px;
+    }
+    .planBoxWrap {
+        padding-top: 0;
+    }
+    
+    .planRes {
+        margin-right: 2px;
+    }  
+    .flip-card, .planRes {
+        margin-bottom: 30px;
+    }
+    .planContWrap {
+        height: auto;
+        margin-top: 40px;
+    } 
+    .recommendedTag {
+        height: 30px;
+        right: -14px;
+    }
+    .planIcon {
+        height: 100px;
+    }
+    .planIcon .img-fluid {
+        height: 80px;
+    }
+    .planConts {
+        margin: 0 0 20px;
+    }
+    .planConts h2 {
+        font-size: 19px;
+        margin: 0;
+    }
+    .planConts h5 {
+        font-size: 17px;
+        margin: 0 0 8px;
+    }
+    .planConts p {
+        font-size: 14px;
+    }
+    .planConts h3 {
+        font-size: 17px;
+        margin: 0;
+    }
+    .planPrice h2 {
+        font-size: 25px;
+    }
+    .planPrice p {
+        margin: 0;
+        font-size: 12px;
+    }
+    .planBuy a {
+        width: 120px 
+    ;
+    }
+    .buttonTheme1 {
+        font-size: 14px;
+    }
+    .buttonTheme1, .buttonTheme2 {
+        border-radius: 25px;
+        padding: 5px 16px;
+    }
+    .plansTip {
+        font-size: 15px;
+        line-height: 1.7em;
+        padding-top: 50px
+    }
+    .faqHolder {
+        padding: 20px;
+    }
+    .faqHeading h2 {
+        font-size: 17px;
+        margin: 0;
+    }
+    .flip-card {
+        height: 160px;
+        margin: 15px;
+    }
+    .flip-card-inner {
+        height: 150px;
+    }
+    .flip-card-back {
+        font-size: 13px;
+    }
+
+
+}
+
 
 /* footer-section
 ------------------- */
