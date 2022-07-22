@@ -461,9 +461,9 @@ filter-data-datepicker {
   background: #f6f8f9;
   border-color: #b3b3b3 #ccc #d9d9d9;
 }
-.ng-select.ng-select-single .ng-select-container {
-  height: 36px;
-}
+/* .ng-select.ng-select-single .ng-select-container {
+  height: 46px;
+} */
 .ng-select.ng-select-opened > .ng-select-container {
   background: #fff;
 }
@@ -475,17 +475,16 @@ filter-data-datepicker {
   position: relative;
   width: 100%;
 }
-.ng-select .ng-select-container {
-  color: #333;
+.ng-select .ng-select-container { 
   background-color: #f6f8f9;
   border-radius: 4px;
   border: none;
-  min-height: 36px;
+  min-height: 46px;
   align-items: center;
 }
 .ng-select .ng-select-container {
   background-color: #fff;
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
 }
 .ng-select.ng-select-single .ng-select-container .ng-value-container,
 .ng-select.ng-select-single .ng-select-container .ng-value-container .ng-value {
