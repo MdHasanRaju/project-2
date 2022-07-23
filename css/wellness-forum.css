@@ -1,0 +1,1083 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    overflow-x: hidden;
+    line-height: 30px;
+    font-family: "Roboto", sans-serif;
+  }
+  b,
+  strong {
+    font-weight: bolder;
+  }
+  
+  hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+  }
+  p {
+    margin-bottom: 0;
+  }
+  hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .hideDesktop[_ngcontent-serverApp-c121],
+  .mobileview[_ngcontent-serverApp-c121] {
+    display: none;
+  }
+  
+  svg:not(:root).svg-inline--fa,
+  svg:not(:host).svg-inline--fa {
+    overflow: visible;
+    box-sizing: content-box;
+  }
+  
+  .svg-inline--fa {
+    display: var(--fa-display, inline-block);
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.125em;
+  }
+  
+  /* header-section-start
+    ------------------------*/
+  .headerWrapper {
+    width: 100%;
+  }
+  
+  .headerWrapper {
+    box-shadow: 0 1px 0 rgb(0 0 0 / 10%);
+  }
+  
+  .headingWrap-menu {
+    width: 100%;
+  }
+  
+  .mobileView {
+    display: block !important;
+  }
+  
+  .headingWrap-menu {
+    display: flex;
+  }
+  
+  .headingSection1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    margin: auto 0;
+  }
+  
+  .headingWrap-menu .logo {
+    flex: 0 0 20%;
+  }
+  
+  .logoImage {
+    width: 230px;
+    margin-left: 10px;
+  }
+  
+  .headTryNow button {
+    border-radius: 0.8vh !important;
+  }
+  
+  .buttonTheme2 {
+    background: #fff;
+    font-size: 16px;
+    color: #f47d31;
+    display: inline-block;
+    border-radius: 25px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+    padding: 10px 25px;
+    border: 1px solid #f47d31 !important;
+    text-align: center;
+  }
+  
+  .thm-3[_ngcontent-serverApp-c121] {
+    background: #fff;
+    font-size: 14px;
+    color: #f47d31;
+    display: inline-block;
+    border-radius: 25px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+    padding: 6px 25px;
+    border: 1px solid #fff;
+    width: 160px;
+    text-align: center;
+  }
+  
+  .thm-3[_ngcontent-serverApp-c121]:hover {
+    background: #f47d31;
+    color: #fff;
+    border-color: #f47d31;
+  }
+  
+  .thm-2[_ngcontent-serverApp-c121] {
+    background: #f47d31;
+    font-size: 16px;
+    color: #fff;
+    display: inline-block;
+    border-radius: 25px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+    padding: 10px 25px;
+    border: 1px solid #f47d31;
+    min-width: 150px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .thm-2[_ngcontent-serverApp-c121]:focus,
+  .thm-2[_ngcontent-serverApp-c121]:hover {
+    background: #e6732a;
+    color: #fff;
+    border-color: #e6732a;
+  }
+  
+  .thm-1[_ngcontent-serverApp-c121] {
+    background: #f47d31;
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+    border-radius: 25px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+    padding: 6px 25px;
+    border: 1px solid #f47d31;
+    width: 160px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .thm-1[_ngcontent-serverApp-c121]:focus,
+  .thm-1[_ngcontent-serverApp-c121]:hover {
+    background: #e6732a;
+    color: #fff;
+    border-color: #e6732a;
+  }
+  
+  .extraThm-1[_ngcontent-serverApp-c121],
+  .extraThm-3[_ngcontent-serverApp-c121] {
+    border: 1px solid #f47d31;
+  }
+  .padding[_ngcontent-serverApp-c121],
+  .paddingShare[_ngcontent-serverApp-c121] {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .padding[_ngcontent-serverApp-c121] {
+    padding-top: 10px;
+  }
+  .sidenav-container {
+    display: none;
+  }
+  
+  .closeSideNav {
+    display: none !important;
+  }
+  .sidenav-plate {
+    display: block;
+    position: fixed;
+    height: 100%;
+    width: 230px;
+    top: 0;
+    right: 0;
+    background-color: #070245;
+    z-index: 999;
+  }
+  
+  .sidenav-menuHolder {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .sidenav-menuHolder {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  
+  .sidenav-menuHolder ul {
+    list-style: none;
+    color: #fff;
+    padding-left: 20px;
+  }
+  
+  .sidenav-menuHolder ul li {
+    margin-top: 30px;
+  }
+  
+  .mobile-menu-li ul li {
+    margin-top: 30px;
+  }
+  
+  .sidenav-menuHolder ul li a {
+    color: #fff;
+    font-size: 0.8rem;
+  }
+  
+  .socialMediaContainer {
+    margin-bottom: 20vh;
+  }
+  
+  .socialMediaContainer p {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .socialMediaIconsHolder {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: #fff;
+  }
+  
+  .socialMediaIconsHolder a {
+    text-decoration: none !important;
+    color: #fff !important;
+    font-size: 20px;
+  }
+  
+  .menuHolder {
+    margin-left: 2%;
+  }
+  
+  .menuHolder {
+    margin-top: 10px;
+    flex: 1;
+  }
+  
+  .menuHolder ul {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .menuHolder .list li {
+    padding: 0 10px;
+  }
+  
+  .menuHolder ul li {
+    list-style: none;
+    padding: 0 0.5rem;
+    text-decoration: none;
+  }
+  
+  .menuHolder .list li a {
+    font: 12px;
+  }
+  
+  .menuHolder ul li a {
+    color: #000;
+    font-size: 1rem;
+    text-decoration: none;
+  }
+  
+  .menuHolder ul li a:hover {
+    color: #f47d31;
+    text-decoration: none;
+  }
+  
+  .pcView {
+    display: flex !important;
+  }
+  
+  .headingWrap-menu {
+    width: 100%;
+  }
+  .headingWrap-menu {
+    display: flex;
+  }
+  
+  .logo {
+    margin: auto 0;
+  }
+  
+  .headingWrap-menu .logo {
+    flex: 0 0 20%;
+  }
+  
+  .logoImage {
+    width: 230px;
+    margin-left: 10px;
+  }
+  
+  .mobile-icon {
+    display: none;
+  }
+  
+  a:not([href]):not([class]),
+  a:not([href]):not([class]):hover {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .loginButton {
+    color: #fff !important;
+  }
+  
+  .buttonTheme1 {
+    background: #f47d31;
+    font-size: 16px;
+    color: #fff;
+    display: inline-block;
+    border-radius: 25px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+    padding: 10px 25px;
+    border: 1px solid #f47d31;
+    text-align: center;
+  }
+  
+  .menuHolder .list li {
+    padding: 0 10px;
+  }
+  
+  #sidenav-button,
+  #sidenav-x-button {
+    font-size: 29px;
+    color: #f47d31;
+  }
+  .mobile-menu-x {
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+  }
+  
+  .headTryNow {
+    display: none;
+  }
+  /* header-section-responsiveness with media query
+      -------------------------------------------------- */
+  /* header-section for tablet */
+  @media only screen and (max-width: 991px) and (min-width: 601px) {
+    .headerWrapper {
+      padding: 10px 0;
+      background-color: #fff;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 5;
+    }
+    .headingWrap-menu {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-right: 10px;
+    }
+    .menuHolder {
+      display: none;
+    }
+    .sidenav-container {
+      display: block;
+    }
+    .headTryNow {
+      display: block;
+      margin-left: auto;
+      margin-right: 54px;
+    }
+    .headTryNow button {
+      border-radius: 0.8vh !important;
+    }
+    .headTryNow .buttonTheme2 {
+      font-size: 14px;
+      padding: 5px 16px;
+    }
+  }
+  
+  /* header-section for mobile */
+  @media only screen and (max-width: 600px) {
+    .headerWrapper {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #fff;
+      left: 0;
+      z-index: 5;
+    }
+    .logoImage {
+      width: 200px;
+      padding-left: 10px;
+    }
+    .headerWrapper {
+      padding: 10px 0;
+    }
+    .headingWrap-menu {
+      margin-right: 10px;
+    }
+  
+    .menuHolder {
+      display: none;
+    }
+    .sidenav-container {
+      display: block;
+    }
+    .headingWrap-menu {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-right: 10px;
+    }
+    .headTryNow {
+      display: block;
+      margin-left: auto;
+      margin-right: 10px;
+    }
+    .headTryNow .buttonTheme2 {
+      font-size: 14px;
+      padding: 5px 16px;
+    }
+  }
+  /* header-section-end
+      ----------------------*/
+  
+  /* Discussion forum start */
+  .marginExtra[_ngcontent-serverApp-c121] {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  
+  *[_ngcontent-serverApp-c121],
+  [_ngcontent-serverApp-c121]:after,
+  [_ngcontent-serverApp-c121]:before {
+    box-sizing: inherit;
+  }
+  
+  .secPadding {
+    padding: 50px 0;
+  }
+  
+  .extraCss[_ngcontent-serverApp-c121] {
+    margin: auto;
+    padding-bottom: 15px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .secondaryHeading[_ngcontent-serverApp-c121] h2[_ngcontent-serverApp-c121] {
+    color: #07006e;
+    font-size: 28px;
+    margin: 0;
+    line-height: 40px;
+  }
+  
+  .secondaryHeading {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .secondaryHeading hr {
+    border-top: 2px solid #fd7d31;
+    max-width: 100px;
+    opacity: 100;
+    margin:1rem auto;
+  }
+  
+  .secondaryHeading[_ngcontent-serverApp-c121] hr[_ngcontent-serverApp-c121] {
+    border-top: 2px solid #f47d31;
+    max-width: 400px;
+  }
+  
+  .fontSize[_ngcontent-serverApp-c121] {
+    font-size: 20px;
+  }
+  
+  .askAnonButton[_ngcontent-serverApp-c121] {
+    margin-top: 25px;
+  }
+  
+  .askAnonButton[_ngcontent-serverApp-c121],
+  .categoryList[_ngcontent-serverApp-c121] {
+    text-align: center;
+  }
+  
+  .askAnonButton[_ngcontent-serverApp-c121] button[_ngcontent-serverApp-c121] {
+    font-size: 15px;
+    width: 112%;
+  }
+  
+  .buttonTheme1[_ngcontent-serverApp-c121] {
+    background: #ffba8e;
+    font-size: 16px;
+    color: #000;
+    display: inline-block;
+    border-radius: 25px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+    padding: 10px 25px;
+    border: 1px solid #ffba8e;
+    text-align: center;
+  }
+  
+  .hrDivTag1[_ngcontent-serverApp-c121] hr[_ngcontent-serverApp-c121],
+  .hrDivTag[_ngcontent-serverApp-c121] hr[_ngcontent-serverApp-c121] {
+    border-top: 2px solid #eee9e9;
+    width: 100%; 
+    line-height: 40px;
+  }
+  
+  .margin[_ngcontent-serverApp-c121] {
+    margin-left: 20px;
+    margin-right: 30px;
+  }
+  
+  .categoryBoxHeader[_ngcontent-serverApp-c121] h3[_ngcontent-serverApp-c121] {
+    font-size: 18px;
+    margin: 0 0 15px;
+    color: #010c27;
+    line-height: 20px;
+    text-align: center;
+  }
+  
+  ul[_ngcontent-serverApp-c121] {
+    padding: 0;
+  }
+  
+  label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .faicon[_ngcontent-serverApp-c121],
+  .faiconinside[_ngcontent-serverApp-c121] {
+    font-size: 20px;
+    color: #00f;
+  }
+  .faiconinside[_ngcontent-serverApp-c121] {
+    vertical-align: sub;
+  }
+  
+  .faicon[_ngcontent-serverApp-c121] {
+    float: left;
+  }
+  
+  .alignLeft[_ngcontent-serverApp-c121] {
+    float: left;
+  }
+  
+  .css[_ngcontent-serverApp-c121] {
+    min-height: 0 !important;
+    margin-bottom: 50px;
+  }
+  
+  .exploreBox[_ngcontent-serverApp-c121] {
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 10px rgb(31 101 255 / 10%);
+    border: 3px solid #f7f7f7;
+    border-radius: 10px;
+    min-height: 180px;
+    margin-left: 20px;
+    margin-right: 30px;
+    padding: 15px 15px 0;
+  }
+  
+  .forumBox[_ngcontent-serverApp-c121] {
+    display: flex;
+    display: -o-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    align-items: center;
+  }
+  
+  .imgBox[_ngcontent-serverApp-c121] {
+    width: 45px;
+  }
+  
+  .imgBox[_ngcontent-serverApp-c121] img[_ngcontent-serverApp-c121] {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+  }
+  
+  .fontSizeColor[_ngcontent-serverApp-c121] {
+    font-size: 10px;
+    color: #969595;
+    margin-bottom: 0;
+  }
+  
+  a[_ngcontent-serverApp-c121],
+  a[_ngcontent-serverApp-c121]:active,
+  a[_ngcontent-serverApp-c121]:focus,
+  a[_ngcontent-serverApp-c121]:hover {
+    color: #00e;
+    text-decoration: none;
+  }
+  
+  .forumContentBox[_ngcontent-serverApp-c121] {
+    width: calc(100% - 20px);
+    padding-left: 10px;
+  }
+  
+  .selected[_ngcontent-serverApp-c121] {
+    text-align: center;
+    background: #8e8ef3;
+    font-size: 12px;
+    color: #000;
+    display: inline-block;
+    border-radius: 25px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+    border: 1px solid #8e8ef3;
+    max-width: 150px;
+    margin: 5px 10px 0 5px;
+    padding: 4px 10px;
+  }
+  
+  .forumText[_ngcontent-serverApp-c121] {
+    font-size: 14px;
+    color: #1e2f4f;
+    text-align: justify;
+    overflow: hidden;
+    word-break: break-word;
+  }
+  
+  .forumText1[_ngcontent-serverApp-c121] {
+    font-size: 12px;
+    color: #1e2f4f;
+    text-align: left;
+  }
+  
+  .h5Tag[_ngcontent-serverApp-c121] {
+    font-size: 15px;
+    margin-bottom: 0;
+    margin-top: 15px;
+    line-height: 30px;
+    color: #000;
+  }
+  
+  .hrDivTag1[_ngcontent-serverApp-c121] hr[_ngcontent-serverApp-c121],
+  .hrDivTag[_ngcontent-serverApp-c121] hr[_ngcontent-serverApp-c121] {
+    border-top: 2px solid #eee9e9;
+    width: 100%;
+    line-height: 40px;
+  }
+  
+  .hrClass[_ngcontent-serverApp-c121] {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .likeShareSection[_ngcontent-serverApp-c121] {
+    height: 80px;
+  }
+  
+  .lastPart[_ngcontent-serverApp-c121] {
+    font-size: 13px;
+    color: #969595;
+  }
+  
+  
+  .like-btn[_ngcontent-serverApp-c121] {
+    display: inline-block;
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    padding-top: 80px;
+    background: url(heart.26fd544….png) no-repeat 0 50%;
+    background-size: 2900%;
+  }
+  
+  .heartText[_ngcontent-serverApp-c121] {
+    position: absolute;
+    margin-top: 32px;
+    margin-left: -5px;
+    left: 74px !important;
+  }
+  
+  .forumTexta[_ngcontent-serverApp-c121] {
+    display: inline-block;
+    color: #00f;
+  }
+  
+  .fontSizeColor[_ngcontent-serverApp-c121] {
+    font-size: 10px;
+    color: #969595;
+    margin-bottom: 0;
+  }
+  
+  .padding[_ngcontent-serverApp-c121],
+  .paddingShare[_ngcontent-serverApp-c121] {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .fa-2x {
+    font-size: 2em;
+  }
+  
+  .wrapcss[_ngcontent-serverApp-c121] {
+    min-height: 0 !important;
+    height: 250px;
+    width: 110%;
+    border-left-width: 0;
+    border-right-width: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  .exploreBoxWrap[_ngcontent-serverApp-c121] {
+    padding: 15px;
+    box-shadow: 0 5px 10px rgb(31 101 255 / 10%);
+    border: 3px solid #8386f5;
+    border-radius: 10px;
+    min-height: 150px;
+    background: #8386f5;
+  }
+  
+  .categoryBoxHeader[_ngcontent-serverApp-c121] h3[_ngcontent-serverApp-c121] {
+    font-size: 18px;
+    margin: 0 0 15px;
+    color: #010c27;
+    line-height: 20px;
+    text-align: center;
+  }
+  
+  .exploreImageBox[_ngcontent-serverApp-c121] {
+    text-align: center;
+  }
+  
+  .imageCss[_ngcontent-serverApp-c121] {
+    height: 100px;
+  }
+  
+  .pTagText[_ngcontent-serverApp-c121],
+  .pTagText1[_ngcontent-serverApp-c121] {
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .pTagText[_ngcontent-serverApp-c121] {
+    color: #fff;
+  }
+  
+  .sectionHeading1[_ngcontent-serverApp-c121] {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+  
+  .sideBannerCss[_ngcontent-serverApp-c121] {
+    margin-top: 0 !important;
+  }
+  
+  .exploreBoxWrap1[_ngcontent-serverApp-c121],
+  .exploreBoxWrap2[_ngcontent-serverApp-c121] {
+    padding: 15px;
+    box-shadow: 0 5px 10px rgb(31 101 255 / 10%);
+    border: 3px solid #ffc1a7;
+    border-radius: 10px;
+    min-height: 150px;
+    background: #ffc1a7;
+  }
+  
+  .loadMoreText[_ngcontent-serverApp-c121] {
+    color: #07006e;
+    cursor: pointer;
+    text-decoration: underline;
+  } 
+
+/* discussion-forum-section-responsiveness with media query
+-------------------------------------------------------------- */
+
+/* discussion forum section for tablet device */
+@media only screen and (min-width:601px) and (max-width:991px) {
+  .marginExtra[_ngcontent-serverApp-c121] {
+    margin: 90px 20px 50px;
+}
+.pcview[_ngcontent-serverApp-c121] {
+  display: none;
+}
+}
+
+/* discussion forum section for tablet device */
+@media only screen and (max-width:600px) {
+  .marginExtra[_ngcontent-serverApp-c121] {
+    margin: 90px 20px 50px;
+}
+.marginExtra[_ngcontent-serverApp-c121] .row .col-md-2 {
+  position: relative;
+}
+.topImageHolder[_ngcontent-serverApp-c121] {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  width: 80px;
+}
+.secondaryHeading[_ngcontent-serverApp-c121] {
+  width: 75%;
+  text-align: left;
+  padding-left: 15px;
+}
+.secondaryHeading[_ngcontent-serverApp-c121] h2[_ngcontent-serverApp-c121] {
+  font-size: 15px;
+  line-height: 1.5em;
+}
+.secondaryHeading[_ngcontent-serverApp-c121] hr[_ngcontent-serverApp-c121] {
+  width: 80%;
+  margin-left: 0;
+  text-align: left;
+}
+.extraCss[_ngcontent-serverApp-c121] {
+  padding: 0;
+}
+.askAnonButton[_ngcontent-serverApp-c121] {
+  margin-bottom: 20px;
+  margin-left: 15px; 
+  width: fit-content;
+}
+.buttonTheme1[_ngcontent-serverApp-c121] {
+  font-size: 12px!important;
+  padding: 4px 12px;
+}
+.hrDivTag[_ngcontent-serverApp-c121] {
+  display: none;
+} 
+.categoryBoxHeader[_ngcontent-serverApp-c121], .categoryList[_ngcontent-serverApp-c121] {
+  display: none;
+}
+.margin[_ngcontent-serverApp-c121] {
+  margin: 40px 0 0;
+}
+.exploreBox[_ngcontent-serverApp-c121] {
+  margin: 0 0 30px;
+}
+.hideDesktop[_ngcontent-serverApp-c121], .hideDesktop[_ngcontent-serverApp-c121] .padding[_ngcontent-serverApp-c121] {
+  display: flex;
+  align-items: center;
+}
+.padding[_ngcontent-serverApp-c121] {
+  padding-top: 0;
+}
+.hideDesktop[_ngcontent-serverApp-c121] .forumText1[_ngcontent-serverApp-c121] {
+  padding-left: 2vw;
+  font-size: 11px;
+}
+.hideDesktop[_ngcontent-serverApp-c121] .forumTexta[_ngcontent-serverApp-c121] {
+  display: inline-block;
+}
+.forumContentBox[_ngcontent-serverApp-c121] {
+  padding: 0;
+  width: 100%;
+}
+.selected[_ngcontent-serverApp-c121] {
+  display: none;
+}
+.forumText[_ngcontent-serverApp-c121] {
+  font-size: 12px;
+  text-align: left!important;
+}
+.h5Tag[_ngcontent-serverApp-c121] {
+  width: 100%;
+  font-size: 14px;
+  line-height: 1.5em;
+  font-weight: 400!important;
+  text-align: left;
+  margin: 10px 0;
+}
+.forumText[_ngcontent-serverApp-c121] {
+  font-size: 12px;
+  text-align: left!important;
+}
+.hrClass[_ngcontent-serverApp-c121] {
+  display: none;
+}
+.hideMobile[_ngcontent-serverApp-c121] {
+  display: none;
+}
+.heartText[_ngcontent-serverApp-c121] {
+  position: absolute;
+  margin-top: 32px;
+  margin-left: -58px;
+  left: 75px !important;
+}
+.paddingShare[_ngcontent-serverApp-c121] {
+  padding-top: 0;
+  position: absolute;
+  width: 100%;
+  text-align: right;
+  right: 15px;
+  top: -52px;
+}
+.pcview[_ngcontent-serverApp-c121] {
+  display: none;
+}
+}
+
+
+  /* Discussion forum End */
+
+
+
+  
+  /* footer-section
+  ------------------- */
+  .footerWrap {
+    background: #07006e;
+    padding: 100px 0 50px;
+    color: #fff;
+    font-weight: 500;
+  }
+  .top-center {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 1rem;
+  }
+  .bootstrap-alert {
+    z-index: 2000;
+    position: fixed;
+  }
+  .footerCont {
+    max-width: 278px;
+  }
+  
+  .contactInfo {
+    margin-top: 15px;
+  }
+  .contactInfo li {
+    position: relative;
+    padding-left: 25px;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    list-style: none;
+  }
+  .contactInfo li i {
+    position: absolute;
+    left: 0;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .phoneCssFix a {
+    text-decoration: underline;
+    color: #fff;
+  }
+  .socialIconCont li {
+    display: inline-block;
+    padding-right: 10px;
+  }
+  .socialIconCont li a {
+    font-size: 21px;
+    color: #fff;
+  }
+  .quickLinkBox h3 {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  .quickLinkBox ul {
+    padding-inline-start: 0;
+  }
+  .quickLinkBox ul li {
+    padding-bottom: 8px;
+    list-style: none;
+  }
+  .quickLinkBox ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  .callbackBox h3 {
+    font-size: 20px;
+    margin: 0 0 19px;
+  }
+  .callbackInput input {
+    background: #f6f6f6;
+    font-size: 14px;
+    height: 50px;
+    padding: 10px 25px;
+    margin-bottom: 17px;
+  }
+  .callbackInput .primaryBtn:hover {
+    padding: 1.2vh 3.2vh;
+    border-radius: 0.8vh;
+    background: #2b1eeb;
+    font-size: 2.4vh;
+    display: inline-block;
+    color: #fff;
+  }
+  
+  .footerWarningBox {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    background: #07006e;
+    padding-bottom: 35px;
+    color: #fff;
+  }
+  .footerWarningBox a {
+    color: #f47d31;
+  }
+  
+  .primaryBtn {
+    padding: 1.2vh 3.2vh;
+    border-radius: 0.8vh;
+    background: #f68a40;
+    font-size: 2.4vh;
+    display: inline-block;
+    color: #fff;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  /* footer section responsiveness with media query
+    ---------------------------------------------------- */
+  /* footer-section for tablet */
+  @media only screen and (max-width: 991px) and (min-width: 601px) {
+    .footerWarningBox hr {
+      display: none !important;
+      margin: 0;
+      background-color: #fff;
+    }
+    .callbackInput .primaryBtn {
+      font-size: 1.6vh;
+      padding: 1vh 2vh;
+    }
+  }
+  
+  /* footer section for mobile */
+  @media only screen and (max-width: 600px) {
+    .footerWarningBox hr {
+      display: none !important;
+      margin: 0;
+      background-color: #07006e;
+    }
+    .quickLinkBox h3 {
+      margin: 12px 0;
+      font-size: 17px;
+    }
+    .callbackInput {
+      text-align: center;
+    }
+    .primaryBtn {
+      font-size: 12px;
+      padding: 5px 15px;
+    }
+    .primaryBtn:hover {
+      font-size: 12px;
+      padding: 5px 15px;
+    }
+    .footerWarningBox .container {
+      font-size: 12px;
+      padding: 40px 10px 60px;
+    }
+  }
