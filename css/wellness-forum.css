@@ -808,6 +808,11 @@
 .mobileview[_ngcontent-serverApp-c121] {
   display: block;
 }
+.forumText1[_ngcontent-serverApp-c121] {
+  font-size: 10px;
+  color: #1e2f4f;
+  text-align: left;
+}
 }
 
 /* discussion forum section for tablet device */
@@ -883,10 +888,7 @@
 .selected[_ngcontent-serverApp-c121] {
   display: none;
 }
-.forumText[_ngcontent-serverApp-c121] {
-  font-size: 12px;
-  text-align: left!important;
-}
+
 .h5Tag[_ngcontent-serverApp-c121] {
   width: 100%;
   font-size: 14px;
