@@ -805,6 +805,9 @@
 .pcview[_ngcontent-serverApp-c121] {
   display: none;
 }
+.mobileview[_ngcontent-serverApp-c121] {
+  display: block;
+}
 }
 
 /* discussion forum section for tablet device */
