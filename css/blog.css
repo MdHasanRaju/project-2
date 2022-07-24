@@ -389,15 +389,12 @@ a:not([href]):not([class]):hover {
   font-size: 14px;
   background-color: #fff !important;
   color: #fff !important;
-}
-/* .ng-select.ng-select-single .ng-select-container {
-  height: 36px;
-} */
-[_nghost-serverApp-c104] .ng-select.ng-select-single .ng-select-container {
+} 
+ .ng-select.ng-select-single .ng-select-container {
   height: 100% !important;
 }
 
-[_nghost-serverApp-c104] .ng-select .ng-select-container {
+ .ng-select .ng-select-container {
   color: #757575;
   background-color: #fff;
   border-radius: 4px;
@@ -420,7 +417,7 @@ a:not([href]):not([class]):hover {
   border-radius: 4px;
   border: none;
   min-height: 36px;
-  height: 80%;
+  height: 100%;
   align-items: center;
 }
 .ng-select .ng-select-container {
@@ -498,7 +495,7 @@ a:not([href]):not([class]):hover {
 }
 
 
-/* blog-section-gray-background part*/
+/* blog-page-gray-background part*/
 .gray-background {
     background: #eff2f7;
     margin-top: 50px;
@@ -544,11 +541,7 @@ a:not([href]):not([class]):hover {
 }
 .search-tabs, .sub-text {
   font-size: 14px;
-}
-/* .sub-text { 
-  white-space: pre-wrap;
-  text-align: justify;
-} */
+} 
 .orange-button {
   padding: 12px 28px;
   font-size: 14px;
@@ -600,15 +593,13 @@ a:not([href]):not([class]):hover {
   font-weight: 500;
   padding-top: 10px;
 }
-
-/* blog-page-wave-bg-part */
+ 
 .wave-bg {
-  background: url("/assets/images/wave.svg") no-repeat;
+  background: url("../assets/images/wave.svg") no-repeat;
   width: 100%;
   height: 220px;
 }
-
-/* blog-page-health-container-part */
+ 
 .heading-text {
   font-size: 36px;
   font-weight: 600;
@@ -618,32 +609,7 @@ a:not([href]):not([class]):hover {
 .health-container {
   width: 85%;
 }
-/* #categoryScroll {
-  width: 80vw;
-  margin: 0 auto;
-  overflow-y: hidden;
-}
-#categoryScroll ul {
-  margin: 0;
-  padding: 0;
-  display: table;
-  list-style: none;
-  border-spacing: 15px;
-}
-#categoryScroll li {
-  text-align: center;
-  display: table-cell;
-  vertical-align: middle;
-  border-radius: 10px;
-  width: 250px;
-  padding: 15px;
-} 
-.cursorPointer {
-  cursor: pointer;
-}
-#categoryScroll img {
-  height: 300px;
-}  */
+
 .freeReportListImg {
   border-radius: 0!important;
 }
@@ -653,6 +619,7 @@ a:not([href]):not([class]):hover {
 .report-description {
   text-align: justify;
   line-height: 1.3;
+  margin-bottom: 0;
   padding: 5px 2px 0;
   display: -webkit-box;
   max-width: 100%;
@@ -675,6 +642,9 @@ a:not([href]):not([class]):hover {
     font-size: 16px;
     font-weight: 600;
     margin-top: 30px;
+}
+.ng-select .ng-select-container { 
+  width: 80%;
 }
 .orange-seperator {
   width: 130px;
@@ -720,12 +690,9 @@ a:not([href]):not([class]):hover {
   background-color: #f68a40;
   border-radius: 8px;
   border: none;
-}
-  
+} 
 .wave-bg {
-  background: url("/assets/images/wave.svg") no-repeat;
-  width: 100%;
-  height: 150px;
+  height: 140px;
 } 
 .health-container {
   width: 90%;
@@ -757,9 +724,12 @@ a:not([href]):not([class]):hover {
   margin-left: 0;
 } 
   .categoryFilter {
-    width: 80%;
+    width:66%;
     max-width: 300px;
     margin-left: 8px; 
+}
+.ng-select .ng-select-container { 
+  width: 100%;
 }
 .gray-background {
   margin-top: 20px;
@@ -791,8 +761,6 @@ a:not([href]):not([class]):hover {
   grid-template-columns: auto;
   row-gap: 20px;
   width: 100%;
-  /* height: -webkit-max-content; */
-  /* height: -moz-max-content; */
   height: max-content;
   margin-left: 0;
   margin-top: 20px;
@@ -817,6 +785,9 @@ a:not([href]):not([class]):hover {
   padding: 8px 12px;
   border: none;
 } 
+.wave-bg { 
+  height: 80px;
+}
 .top-category-container {
   margin-top: 0;
 }
@@ -833,7 +804,6 @@ a:not([href]):not([class]):hover {
   margin-top: 10px;
 }
 .report-description {
-  margin-bottom: 0;
   font-size: 14px;
 }
 .showTxt {
@@ -846,14 +816,8 @@ a:not([href]):not([class]):hover {
   background-color: #f68a40;
   border-radius: 8px;
   border: none;
+} 
 }
-
-
-}
-
-
-
-
 
 
 /* subscribe-section
