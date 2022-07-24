@@ -826,6 +826,27 @@ a:not([href]):not([class]):hover {
 #categoryScroll ul li h2 {
   font-size: 16px;
 }
+.report-description {
+  font-size: 14px;
+}
+#categoryScroll ul li button {
+  margin-top: 10px;
+}
+.report-description {
+  margin-bottom: 0;
+  font-size: 14px;
+}
+.showTxt {
+  color: #f68a40;
+  text-decoration: underline;
+  margin-bottom: 0;
+}
+.orange-button {
+  color: #fff;
+  background-color: #f68a40;
+  border-radius: 8px;
+  border: none;
+}
 
 
 }
