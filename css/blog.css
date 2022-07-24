@@ -603,7 +603,7 @@ a:not([href]):not([class]):hover {
 
 /* blog-page-wave-bg-part */
 .wave-bg[_ngcontent-serverApp-c104] {
-  background: url(/assets/images/wave.svg) no-repeat;
+  background: url("/assets/images/wave.svg") no-repeat;
   width: 100%;
   height: 220px;
 }
@@ -664,15 +664,91 @@ a:not([href]):not([class]):hover {
   text-decoration: underline;
 }
 
+/* blog-page-all-section responsiveness with media query
+  ---------------------------------------------------- */
+/* blog-page-all-section for tablet device*/
+@media only screen and (min-width: 601px) and (max-width: 991px){
+  .blog{
+    margin-top: 70px;
+  }
+  .heading-text[_ngcontent-serverApp-c104] {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.orange-seperator[_ngcontent-serverApp-c104] {
+  width: 130px;
+  height: 10px;
+  border-radius: 9px;
+  background: #f68a40;
+  margin: 20px;
+}
+.featured-container[_ngcontent-serverApp-c104] {
+  width: 85%;
+  margin-top: 50px;
+  display: block;
+}
+.hero-left-content[_ngcontent-serverApp-c104] {
+  height: 675px;
+  width: 100%;
+}
+.small-text[_ngcontent-serverApp-c104] {
+  font-size: 12px;
+}
+.heading-blog-detail[_ngcontent-serverApp-c104] {
+  font-size: 24px;
+}
+.hero-right-content[_ngcontent-serverApp-c104] {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  height: 750px;
+  margin-left: 0;
+}
+.grid-image-1[_ngcontent-serverApp-c104] {
+  border-radius: 12px;
+  width: 100%;
+  height: 65%;
+}
+.sub-text[_ngcontent-serverApp-c104] {
+  font-size: 14px;
+}
+.orange-button[_ngcontent-serverApp-c104] {
+  padding: 10px 12px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #f68a40;
+  border-radius: 8px;
+  border: none;
+}
+  
+.wave-bg[_ngcontent-serverApp-c104] {
+  background: url("/assets/images/wave.svg") no-repeat;
+  width: 100%;
+  height: 150px;
+} 
+.health-container[_ngcontent-serverApp-c104] {
+  width: 90%;
+}
+.orange-button[_ngcontent-serverApp-c104] {
+  padding: 10px 12px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #f68a40;
+  border-radius: 8px;
+  border: none;
+}
 
 
 
+}
+ 
 
-
-
-
-/* blog-section-search-field part */
+/* blog-page-all-section for tablet device */
 @media only screen and (max-width:600px) {
+
+ 
+  /* blog-section-search-field part */
   .categoryFilter[_ngcontent-serverApp-c104] {
     width: 80%;
     max-width: 300px;
