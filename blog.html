@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>blog</title>
     <!-- bootstrap-cdn -->
     <link
@@ -14,10 +14,10 @@
     />
 
     <!-- google-font -->
-    <!-- <link
+    <link
       href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap"
       rel="stylesheet"
-    /> -->
+    />
 
     <!-- font-awesome -->
     <link
@@ -26,110 +26,54 @@
       integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    /> 
+    />
     <!-- style-sheet -->
     <link rel="stylesheet" href="./css/blog.css" />
-</head>
-<body>
+  </head>
+  <body>
     <!-- header-menu -->
     <header class="ng-star-inserted">
-        <div class="headerWrapper">
-          <div class="headingWrap">
-            <!-- Pc View -->
-            <div class="headingWrap pcView">
-              <div class="headingWrap-menu">
-                <div class="logo">
-                  <a routerlink="" href="/project-2"
-                    ><img
-                      src="https://felicity.care/assets/images/logo.png"
-                      alt="felicity-logo"
-                      class="logoImage"
-                  /></a>
-                </div>
-                <div class="headTryNow">
-                  <!----><!----><button
-                    id="getStartedHeader"
-                    class="buttonTheme2 ng-star-inserted"
-                    tabindex="0"
-                  >
-                    Get Started</button
-                  ><!---->
-                </div>
-                <div class="sidenav-container">
-                  <a id="sidenav-button"><i class="fa fa-bars"></i></a>
-                </div>
-                <div class="sidenav-plate closeSideNav">
-                  <span id="sidenav-x-button" class="mobile-menu-x"
-                    ><i class="fa-solid fa-xmark"></i
-                  ></span>
-                  <div class="sidenav-menuHolder">
-                    <ul class="list">
-                      <li> 
-                        <a href="/project-2/works.html">How it works</a>
-                      </li>
-                      <li> 
-                        <a href="/project-2/plans.html">Plans &amp; Pricing</a>
-                      </li>
-                      <li>
-                        <a
-                          routerlink="our-counselors"
-                          routerlinkactive="is-active"
-                          href="/project-2/counselors.html"
-                          >Our Counselors</a
-                        >
-                      </li>
-                      <li>
-                        <a
-                          routerlink="wellness-forum"
-                          routerlinkactive="is-active"
-                          href="/project-2/wellness-forum.html"
-                          >Wellness Forum</a
-                        >
-                      </li>
-                      <li>
-                        <a
-                          routerlink="blog"
-                          routerlinkactive="is-active"
-                          href="/project-2/blog.html"
-                          >Felicity Blog</a
-                        >
-                      </li>
-                      <li class="signup-btn ng-star-inserted">
-                        <button
-                          routerlink="sign-up"
-                          class="buttonTheme1 loginButton widthForButton"
-                          tabindex="0"
-                        >
-                          Sign Up
-                        </button>
-                      </li>
-                      <!---->
-                      <li class="login-btn ng-star-inserted">
-                        <button
-                          routerlink="login"
-                          class="buttonTheme2 widthForButton"
-                          tabindex="0"
-                        >
-                          Login
-                        </button>
-                      </li>
-                      <!---->
-                      <!---->
-                      <!---->
-                    </ul>
-                  </div>
-                </div>
-  
-                <div class="menuHolder">
+      <div class="headerWrapper">
+        <div class="headingWrap">
+          <!-- Pc View -->
+          <div class="headingWrap pcView">
+            <div class="headingWrap-menu">
+              <div class="logo">
+                <a routerlink="" href="/project-2"
+                  ><img
+                    src="https://felicity.care/assets/images/logo.png"
+                    alt="felicity-logo"
+                    class="logoImage"
+                /></a>
+              </div>
+              <div class="headTryNow">
+                <!----><!----><button
+                  id="getStartedHeader"
+                  class="buttonTheme2 ng-star-inserted"
+                  tabindex="0"
+                >
+                  Get Started</button
+                ><!---->
+              </div>
+              <div class="sidenav-container">
+                <a id="sidenav-button"><i class="fa fa-bars"></i></a>
+              </div>
+              <div class="sidenav-plate closeSideNav">
+                <span id="sidenav-x-button" class="mobile-menu-x"
+                  ><i class="fa-solid fa-xmark"></i
+                ></span>
+                <div class="sidenav-menuHolder">
                   <ul class="list">
-                    <li> 
+                    <li>
                       <a href="/project-2/works.html">How it works</a>
                     </li>
-                    <li> 
+                    <li>
                       <a href="/project-2/plans.html">Plans &amp; Pricing</a>
                     </li>
                     <li>
-                      <a 
+                      <a
+                        routerlink="our-counselors"
+                        routerlinkactive="is-active"
                         href="/project-2/counselors.html"
                         >Our Counselors</a
                       >
@@ -175,230 +119,925 @@
                   </ul>
                 </div>
               </div>
+
+              <div class="menuHolder">
+                <ul class="list">
+                  <li>
+                    <a href="/project-2/works.html">How it works</a>
+                  </li>
+                  <li>
+                    <a href="/project-2/plans.html">Plans &amp; Pricing</a>
+                  </li>
+                  <li>
+                    <a href="/project-2/counselors.html">Our Counselors</a>
+                  </li>
+                  <li>
+                    <a
+                      routerlink="wellness-forum"
+                      routerlinkactive="is-active"
+                      href="/project-2/wellness-forum.html"
+                      >Wellness Forum</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      routerlink="blog"
+                      routerlinkactive="is-active"
+                      href="/project-2/blog.html"
+                      >Felicity Blog</a
+                    >
+                  </li>
+                  <li class="signup-btn ng-star-inserted">
+                    <button
+                      routerlink="sign-up"
+                      class="buttonTheme1 loginButton widthForButton"
+                      tabindex="0"
+                    >
+                      Sign Up
+                    </button>
+                  </li>
+                  <!---->
+                  <li class="login-btn ng-star-inserted">
+                    <button
+                      routerlink="login"
+                      class="buttonTheme2 widthForButton"
+                      tabindex="0"
+                    >
+                      Login
+                    </button>
+                  </li>
+                  <!---->
+                  <!---->
+                  <!---->
+                </ul>
+              </div>
             </div>
           </div>
         </div>
-      </header>
-    <!-- blog-section-main -->
-      <div _ngcontent-serverapp-c104="" class="topMenuMargin"><div _ngcontent-serverapp-c104="" class="d-flex align-items-center flex-column"><div _ngcontent-serverapp-c104="" class="heading-text">Your Happy Place!</div><div _ngcontent-serverapp-c104="" class="orange-seperator"></div></div><div _ngcontent-serverapp-c104="" class="d-flex justify-content-center"><div _ngcontent-serverapp-c104="" class="filterHolder"><div _ngcontent-serverapp-c104="" class="searchContainer"><form _ngcontent-serverapp-c104="" novalidate="" class="ng-untouched ng-pristine ng-valid" siq_id="autopick_9938"><input _ngcontent-serverapp-c104="" type="search" placeholder="Search..." class="search-input-text ng-untouched ng-pristine ng-valid"></form></div><div _ngcontent-serverapp-c104="" class="categoryFilter"><ng-select _ngcontent-serverapp-c104="" class="menu-options ng-select ng-select-single ng-select-searchable ng-untouched ng-pristine ng-valid ng-star-inserted"><div class="ng-select-container ng-has-value"><div class="ng-value-container"><div class="ng-placeholder"></div><div class="ng-value ng-value-disabled ng-star-inserted"><!----><span aria-hidden="true" class="ng-value-icon left ng-star-inserted">×</span><span class="ng-value-label ng-star-inserted">Category</span><!----></div><!----><!----><!----><!----><div role="combobox" aria-haspopup="listbox" class="ng-input" aria-expanded="false"><input aria-autocomplete="list" type="text" autocorrect="off" autocapitalize="off" autocomplete="ab0f23354aa2" data-gaconnector-tracked="true"></div></div><!----><!----><span class="ng-arrow-wrapper"><span class="ng-arrow"></span></span></div><!----></ng-select><!----></div></div></div><div _ngcontent-serverapp-c104="" class="row"><div _ngcontent-serverapp-c104="" class="col-lg-6 col-md-6 col-12"><!----></div><div _ngcontent-serverapp-c104="" class="col-lg-3 col-md-6 col-12"><!----></div><div _ngcontent-serverapp-c104="" class="col-lg-3 col-md-6 col-12"><!----></div></div><div _ngcontent-serverapp-c104="" class="gray-background d-flex align-items-center flex-column"><div _ngcontent-serverapp-c104="" class="featured-container"><div _ngcontent-serverapp-c104="" class="hero-left-content ng-star-inserted" tabindex="0"><div _ngcontent-serverapp-c104="" class="hero-left-image" tabindex="0" style="background: url(&quot;https://felicity-uploads.s3.ap-south-1.amazonaws.com/blog-assets/55aff1087ca41103fe6a233f1a771961-rs.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVLITOL2MEF2TPDFP%2F20220723%2Fap-south-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20220723T150437Z&amp;X-Amz-Expires=18000&amp;X-Amz-Signature=cc403c9498c8d3120ebbed7b0b8b61b149b593e94da71dd939e594ac1afc8470&amp;X-Amz-SignedHeaders=host&quot;) 0% 0% / cover;"></div><div _ngcontent-serverapp-c104="" class="small-text" tabindex="0"> Saturday, 30 April </div><b _ngcontent-serverapp-c104="" class="heading-blog-detail" tabindex="0">Answers To All Your Questions About Depression</b></div><!----><div _ngcontent-serverapp-c104="" class="hero-right-content"><div _ngcontent-serverapp-c104="" class="ng-star-inserted"><div _ngcontent-serverapp-c104="" class="grid-image-1" tabindex="0" style="background: url(&quot;https://felicity-uploads.s3.ap-south-1.amazonaws.com/blog-assets/149d28ded0a3cd7622886a0920cf779f-rs.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVLITOL2MEF2TPDFP%2F20220723%2Fap-south-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20220723T150437Z&amp;X-Amz-Expires=18000&amp;X-Amz-Signature=087b457154c3572e11ab92c74a8a3bb580632124937f6598409f6b6ac2eed814&amp;X-Amz-SignedHeaders=host&quot;) center center / cover no-repeat;"></div><div _ngcontent-serverapp-c104="" class="small-text" tabindex="0"> Saturday, 16 July </div><b _ngcontent-serverapp-c104="" class="sub-text" tabindex="0">Learn to Rein in the Rage with Anger Management Therapy</b></div><div _ngcontent-serverapp-c104="" class="ng-star-inserted"><div _ngcontent-serverapp-c104="" class="grid-image-1" tabindex="0" style="background: url(&quot;https://felicity-uploads.s3.ap-south-1.amazonaws.com/blog-assets/732b15bdd9d6c7e1f397bc18972f8152-rs.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVLITOL2MEF2TPDFP%2F20220723%2Fap-south-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20220723T150437Z&amp;X-Amz-Expires=18000&amp;X-Amz-Signature=51cef14932e988ac22cd9137fcb8075b1283d5a743ac89f54d3b22972160f6f1&amp;X-Amz-SignedHeaders=host&quot;) center center / cover no-repeat;"></div><div _ngcontent-serverapp-c104="" class="small-text" tabindex="0"> Friday, 15 July </div><b _ngcontent-serverapp-c104="" class="sub-text" tabindex="0">A Beginner’s Guide to Finding the 'Right' Therapist</b></div><div _ngcontent-serverapp-c104="" class="ng-star-inserted"><div _ngcontent-serverapp-c104="" class="grid-image-1" tabindex="0" style="background: url(&quot;https://felicity-uploads.s3.ap-south-1.amazonaws.com/blog-assets/a677b8c1f7ae73fb308c850c5ec3fa2c-rs.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVLITOL2MEF2TPDFP%2F20220723%2Fap-south-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20220723T150437Z&amp;X-Amz-Expires=18000&amp;X-Amz-Signature=fac873f5247722696e83314ea62634368ea7a78f78307e30f48edd42df5dae5a&amp;X-Amz-SignedHeaders=host&quot;) center center / cover no-repeat;"></div><div _ngcontent-serverapp-c104="" class="small-text" tabindex="0"> Tuesday, 12 July </div><b _ngcontent-serverapp-c104="" class="sub-text" tabindex="0">Attaching the Detached: How Emotionally-Focused Therapy Works</b></div><div _ngcontent-serverapp-c104="" class="ng-star-inserted"><div _ngcontent-serverapp-c104="" class="grid-image-1" tabindex="0" style="background: url(&quot;https://felicity-uploads.s3.ap-south-1.amazonaws.com/blog-assets/c9422e15574e7848e42fbf7f5ae3fda1-rs.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVLITOL2MEF2TPDFP%2F20220723%2Fap-south-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20220723T150437Z&amp;X-Amz-Expires=18000&amp;X-Amz-Signature=8a181166b74083b9a88fa27d7297c02d22e6e9233605a4c03d0a61f5c4518954&amp;X-Amz-SignedHeaders=host&quot;) center center / cover no-repeat;"></div><div _ngcontent-serverapp-c104="" class="small-text" tabindex="0"> Monday, 11 July </div><b _ngcontent-serverapp-c104="" class="sub-text" tabindex="0">Closing the Distance over Online Platforms: How Virtual Therapy Works</b></div><!----></div></div><div _ngcontent-serverapp-c104="" class="d-flex justify-content-center"><button _ngcontent-serverapp-c104="" routerlink="../all-blogs" class="orange-button" tabindex="0"> View All Blogs </button></div><div _ngcontent-serverapp-c104="" class="top-category-container d-flex align-items-center flex-column"><div _ngcontent-serverapp-c104="" class="heading-text">Top Categories</div><div _ngcontent-serverapp-c104="" class="top-category-flex"><div _ngcontent-serverapp-c104="" id="categoryScroll"><ul _ngcontent-serverapp-c104="" class="ng-star-inserted"><li _ngcontent-serverapp-c104="" class="cursorPointer ng-star-inserted" tabindex="0"><a _ngcontent-serverapp-c104=""><img _ngcontent-serverapp-c104="" alt="" src="https://api.felicity.care/blog-assets/9a6d023a3aea29439354d30b7ba1ec2f-rs.png"></a><h2 _ngcontent-serverapp-c104="">Relationships</h2></li><li _ngcontent-serverapp-c104="" class="cursorPointer ng-star-inserted" tabindex="0"><a _ngcontent-serverapp-c104=""><img _ngcontent-serverapp-c104="" alt="" src="https://api.felicity.care/blog-assets/cc44d090a33036335be75d8fe3acfd5e-rs.png"></a><h2 _ngcontent-serverapp-c104="">Self-Care</h2></li><li _ngcontent-serverapp-c104="" class="cursorPointer ng-star-inserted" tabindex="0"><a _ngcontent-serverapp-c104=""><img _ngcontent-serverapp-c104="" alt="" src="https://api.felicity.care/blog-assets/a7fd2fcb79bab5b49b00f91c2fc65587-rs.png"></a><h2 _ngcontent-serverapp-c104="">COVID-19</h2></li><li _ngcontent-serverapp-c104="" class="cursorPointer ng-star-inserted" tabindex="0"><a _ngcontent-serverapp-c104=""><img _ngcontent-serverapp-c104="" alt="" src="https://api.felicity.care/blog-assets/93dbf619cc4a16ac95676cd5218eae79-rs.png"></a><h2 _ngcontent-serverapp-c104="">Anxiety</h2></li><li _ngcontent-serverapp-c104="" class="cursorPointer ng-star-inserted" tabindex="0"><a _ngcontent-serverapp-c104=""><img _ngcontent-serverapp-c104="" alt="" src="https://api.felicity.care/blog-assets/f6823c21d882843e72a49f9c559ffd0b-rs.png"></a><h2 _ngcontent-serverapp-c104="">Depression</h2></li><li _ngcontent-serverapp-c104="" class="cursorPointer ng-star-inserted" tabindex="0"><a _ngcontent-serverapp-c104=""><img _ngcontent-serverapp-c104="" alt="" src="https://api.felicity.care/blog-assets/228911f5dcacdd26da3c50463446bef3-rs.png"></a><h2 _ngcontent-serverapp-c104="">Mental Wellness</h2></li><li _ngcontent-serverapp-c104="" class="cursorPointer ng-star-inserted" tabindex="0"><a _ngcontent-serverapp-c104=""><img _ngcontent-serverapp-c104="" alt="" src="https://api.felicity.care/blog-assets/a9caf50462b14cd3c95f282325038fe7-rs.png"></a><h2 _ngcontent-serverapp-c104="">Therapy</h2></li><li _ngcontent-serverapp-c104="" class="cursorPointer ng-star-inserted" tabindex="0"><a _ngcontent-serverapp-c104=""><img _ngcontent-serverapp-c104="" alt="" src="https://api.felicity.care/blog-assets/328d2f2810d83fc3987c52907f915438-rs.png"></a><h2 _ngcontent-serverapp-c104="">OCD</h2></li><!----></ul><!----></div></div></div></div><div _ngcontent-serverapp-c104="" class="wave-bg"></div><div _ngcontent-serverapp-c104="" class="d-flex align-items-center flex-column"><div _ngcontent-serverapp-c104="" class="heading-text" style="margin-top: 0px;">What Our Users Say</div></div><div _ngcontent-serverapp-c104="" class="container-fluid"><div _ngcontent-serverapp-c104="" class="row justify-content-center"><div _ngcontent-serverapp-c104="" class="col-md-10"><ngx-slick-carousel _ngcontent-serverapp-c104="" class="carousel slick-initialized slick-slider"><button class="slick-prev slick-arrow" aria-label="Previous" type="button" style="display: block;">Previous</button><!----><div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 3751px; transform: translate3d(-1023px, 0px, 0px);"><div _ngcontent-serverapp-c104="" ngxslickitem="" class="carousel-card ng-star-inserted slick-slide slick-cloned" style="width: 281px;" tabindex="-1" role="tabpanel" aria-describedby="slick-slide-control01" data-slick-index="-3" aria-hidden="true"><div _ngcontent-serverapp-c104="" class="sub-text"><b _ngcontent-serverapp-c104="">Puja Mittal</b></div><div _ngcontent-serverapp-c104="" class="small-text" style="margin-top: 6px;"> Homemaker </div><div _ngcontent-serverapp-c104="" class="rating" style="margin-top: 30px;"></div><div _ngcontent-serverapp-c104="" class="sub-text card-content-width" style="margin-top: 30px;"> I was unsure about starting therapy when I reached out to Felicity. Their personalized therapy plans, 24/7 support &amp; absolute flexibility in terms of choosing time or therapist got me to enrol. I have learnt to manage my anxiety so well. My panic attacks are a thing of distant past now. </div><div _ngcontent-serverapp-c104="" class="quote"></div></div><div _ngcontent-serverapp-c104="" ngxslickitem="" class="carousel-card ng-star-inserted slick-slide slick-cloned" style="width: 281px;" tabindex="-1" role="tabpanel" aria-describedby="slick-slide-control02" data-slick-index="-2" aria-hidden="true"><div _ngcontent-serverapp-c104="" class="sub-text"><b _ngcontent-serverapp-c104="">Vikas Arora</b></div><div _ngcontent-serverapp-c104="" class="small-text" style="margin-top: 6px;"> CFO </div><div _ngcontent-serverapp-c104="" class="rating" style="margin-top: 30px;"></div><div _ngcontent-serverapp-c104="" class="sub-text card-content-width" style="margin-top: 30px;"> Felicity has helped me put more life in my years. I used to always feel low, had lost interest in everything despite having a perfect life. I could not understand what I was going through. Thanks to a friend who highly recommended Felicity to me, I gave it a shot. I feel so grateful to the psychologist &amp; psychiatrist at Felicity who made helped me understand &amp; treat my depression. </div><div _ngcontent-serverapp-c104="" class="quote"></div></div><div _ngcontent-serverapp-c104="" ngxslickitem="" class="carousel-card ng-star-inserted slick-slide slick-cloned" style="width: 281px;" tabindex="-1" role="tabpanel" aria-describedby="slick-slide-control03" data-slick-index="-1" aria-hidden="true"><div _ngcontent-serverapp-c104="" class="sub-text"><b _ngcontent-serverapp-c104="">Aishwarya Hegde</b></div><div _ngcontent-serverapp-c104="" class="small-text" style="margin-top: 6px;"> Student </div><div _ngcontent-serverapp-c104="" class="rating" style="margin-top: 30px;"></div><div _ngcontent-serverapp-c104="" class="sub-text card-content-width" style="margin-top: 30px;"> College was not what I expected. I felt so marginalised, had lost all confidence &amp; could not cope with the academic stress &amp; my strained relationship. My therapist at Felicity helped me find my self esteem &amp; confidence. She also helped me with effective coping mechanisms for my stress &amp; relationship issues. </div><div _ngcontent-serverapp-c104="" class="quote"></div></div><div _ngcontent-serverapp-c104="" ngxslickitem="" class="carousel-card ng-star-inserted slick-slide slick-current slick-active" style="width: 281px;" tabindex="0" role="tabpanel" id="slick-slide00" aria-describedby="slick-slide-control00" data-slick-index="0" aria-hidden="false"><div _ngcontent-serverapp-c104="" class="sub-text"><b _ngcontent-serverapp-c104="">Sana Javed</b></div><div _ngcontent-serverapp-c104="" class="small-text" style="margin-top: 6px;"> Software Engineer </div><div _ngcontent-serverapp-c104="" class="rating" style="margin-top: 30px;"></div><div _ngcontent-serverapp-c104="" class="sub-text card-content-width" style="margin-top: 30px;"> Therapy with Felicity gave me a new lease of life. I was at the point of ending things &amp; within a matter 21 days I felt like I got my life back. I am so grateful for the timely help and unconditional support from Felicity. </div><div _ngcontent-serverapp-c104="" class="quote"></div></div><div _ngcontent-serverapp-c104="" ngxslickitem="" class="carousel-card ng-star-inserted slick-slide slick-active" style="width: 281px;" tabindex="0" role="tabpanel" id="slick-slide01" aria-describedby="slick-slide-control01" data-slick-index="1" aria-hidden="false"><div _ngcontent-serverapp-c104="" class="sub-text"><b _ngcontent-serverapp-c104="">Puja Mittal</b></div><div _ngcontent-serverapp-c104="" class="small-text" style="margin-top: 6px;"> Homemaker </div><div _ngcontent-serverapp-c104="" class="rating" style="margin-top: 30px;"></div><div _ngcontent-serverapp-c104="" class="sub-text card-content-width" style="margin-top: 30px;"> I was unsure about starting therapy when I reached out to Felicity. Their personalized therapy plans, 24/7 support &amp; absolute flexibility in terms of choosing time or therapist got me to enrol. I have learnt to manage my anxiety so well. My panic attacks are a thing of distant past now. </div><div _ngcontent-serverapp-c104="" class="quote"></div></div><div _ngcontent-serverapp-c104="" ngxslickitem="" class="carousel-card ng-star-inserted slick-slide slick-active" style="width: 281px;" tabindex="0" role="tabpanel" id="slick-slide02" aria-describedby="slick-slide-control02" data-slick-index="2" aria-hidden="false"><div _ngcontent-serverapp-c104="" class="sub-text"><b _ngcontent-serverapp-c104="">Vikas Arora</b></div><div _ngcontent-serverapp-c104="" class="small-text" style="margin-top: 6px;"> CFO </div><div _ngcontent-serverapp-c104="" class="rating" style="margin-top: 30px;"></div><div _ngcontent-serverapp-c104="" class="sub-text card-content-width" style="margin-top: 30px;"> Felicity has helped me put more life in my years. I used to always feel low, had lost interest in everything despite having a perfect life. I could not understand what I was going through. Thanks to a friend who highly recommended Felicity to me, I gave it a shot. I feel so grateful to the psychologist &amp; psychiatrist at Felicity who made helped me understand &amp; treat my depression. </div><div _ngcontent-serverapp-c104="" class="quote"></div></div><div _ngcontent-serverapp-c104="" ngxslickitem="" class="carousel-card ng-star-inserted slick-slide" style="width: 281px;" tabindex="-1" role="tabpanel" id="slick-slide03" aria-describedby="slick-slide-control03" data-slick-index="3" aria-hidden="true"><div _ngcontent-serverapp-c104="" class="sub-text"><b _ngcontent-serverapp-c104="">Aishwarya Hegde</b></div><div _ngcontent-serverapp-c104="" class="small-text" style="margin-top: 6px;"> Student </div><div _ngcontent-serverapp-c104="" class="rating" style="margin-top: 30px;"></div><div _ngcontent-serverapp-c104="" class="sub-text card-content-width" style="margin-top: 30px;"> College was not what I expected. I felt so marginalised, had lost all confidence &amp; could not cope with the academic stress &amp; my strained relationship. My therapist at Felicity helped me find my self esteem &amp; confidence. She also helped me with effective coping mechanisms for my stress &amp; relationship issues. </div><div _ngcontent-serverapp-c104="" class="quote"></div></div><div _ngcontent-serverapp-c104="" ngxslickitem="" class="carousel-card ng-star-inserted slick-slide slick-cloned" style="width: 281px;" tabindex="-1" role="tabpanel" aria-describedby="slick-slide-control00" data-slick-index="4" aria-hidden="true"><div _ngcontent-serverapp-c104="" class="sub-text"><b _ngcontent-serverapp-c104="">Sana Javed</b></div><div _ngcontent-serverapp-c104="" class="small-text" style="margin-top: 6px;"> Software Engineer </div><div _ngcontent-serverapp-c104="" class="rating" style="margin-top: 30px;"></div><div _ngcontent-serverapp-c104="" class="sub-text card-content-width" style="margin-top: 30px;"> Therapy with Felicity gave me a new lease of life. I was at the point of ending things &amp; within a matter 21 days I felt like I got my life back. I am so grateful for the timely help and unconditional support from Felicity. </div><div _ngcontent-serverapp-c104="" class="quote"></div></div><div _ngcontent-serverapp-c104="" ngxslickitem="" class="carousel-card ng-star-inserted slick-slide slick-cloned" style="width: 281px;" tabindex="-1" role="tabpanel" aria-describedby="slick-slide-control01" data-slick-index="5" aria-hidden="true"><div _ngcontent-serverapp-c104="" class="sub-text"><b _ngcontent-serverapp-c104="">Puja Mittal</b></div><div _ngcontent-serverapp-c104="" class="small-text" style="margin-top: 6px;"> Homemaker </div><div _ngcontent-serverapp-c104="" class="rating" style="margin-top: 30px;"></div><div _ngcontent-serverapp-c104="" class="sub-text card-content-width" style="margin-top: 30px;"> I was unsure about starting therapy when I reached out to Felicity. Their personalized therapy plans, 24/7 support &amp; absolute flexibility in terms of choosing time or therapist got me to enrol. I have learnt to manage my anxiety so well. My panic attacks are a thing of distant past now. </div><div _ngcontent-serverapp-c104="" class="quote"></div></div><div _ngcontent-serverapp-c104="" ngxslickitem="" class="carousel-card ng-star-inserted slick-slide slick-cloned" style="width: 281px;" tabindex="-1" role="tabpanel" aria-describedby="slick-slide-control02" data-slick-index="6" aria-hidden="true"><div _ngcontent-serverapp-c104="" class="sub-text"><b _ngcontent-serverapp-c104="">Vikas Arora</b></div><div _ngcontent-serverapp-c104="" class="small-text" style="margin-top: 6px;"> CFO </div><div _ngcontent-serverapp-c104="" class="rating" style="margin-top: 30px;"></div><div _ngcontent-serverapp-c104="" class="sub-text card-content-width" style="margin-top: 30px;"> Felicity has helped me put more life in my years. I used to always feel low, had lost interest in everything despite having a perfect life. I could not understand what I was going through. Thanks to a friend who highly recommended Felicity to me, I gave it a shot. I feel so grateful to the psychologist &amp; psychiatrist at Felicity who made helped me understand &amp; treat my depression. </div><div _ngcontent-serverapp-c104="" class="quote"></div></div><div _ngcontent-serverapp-c104="" ngxslickitem="" class="carousel-card ng-star-inserted slick-slide slick-cloned" style="width: 281px;" tabindex="-1" role="tabpanel" aria-describedby="slick-slide-control03" data-slick-index="7" aria-hidden="true"><div _ngcontent-serverapp-c104="" class="sub-text"><b _ngcontent-serverapp-c104="">Aishwarya Hegde</b></div><div _ngcontent-serverapp-c104="" class="small-text" style="margin-top: 6px;"> Student </div><div _ngcontent-serverapp-c104="" class="rating" style="margin-top: 30px;"></div><div _ngcontent-serverapp-c104="" class="sub-text card-content-width" style="margin-top: 30px;"> College was not what I expected. I felt so marginalised, had lost all confidence &amp; could not cope with the academic stress &amp; my strained relationship. My therapist at Felicity helped me find my self esteem &amp; confidence. She also helped me with effective coping mechanisms for my stress &amp; relationship issues. </div><div _ngcontent-serverapp-c104="" class="quote"></div></div></div></div><button class="slick-next slick-arrow" aria-label="Next" type="button" style="display: block;">Next</button></ngx-slick-carousel></div></div></div><div _ngcontent-serverapp-c104="" class="d-flex align-items-center flex-column"><div _ngcontent-serverapp-c104="" class="heading-text">Free Mental Health Tests</div><div _ngcontent-serverapp-c104="" class="health-container d-flex"><div _ngcontent-serverapp-c104="" id="categoryScroll"><ul _ngcontent-serverapp-c104="" class="ng-star-inserted"><li _ngcontent-serverapp-c104="" class="cursorPointer ng-star-inserted"><a _ngcontent-serverapp-c104=""><img _ngcontent-serverapp-c104="" alt="" class="freeReportListImg" tabindex="0" src="/assets/images/anxiety-test.jpg"></a><p _ngcontent-serverapp-c104="" class="report-description showLess"> The Generalized Anxiety Disorder Scale-7 (GAD-7) is a self-rated scale developed by Spitzer and colleagues as a screening tool and severity indicator for GAD. It is easily scored and helps in diagnosis of GAD. </p><p _ngcontent-serverapp-c104="" class="showTxt ng-star-inserted"> Show More </p><!----><!----><button _ngcontent-serverapp-c104="" class="orange-button" tabindex="0"> Anxiety </button></li><li _ngcontent-serverapp-c104="" class="cursorPointer ng-star-inserted"><a _ngcontent-serverapp-c104=""><img _ngcontent-serverapp-c104="" alt="" class="freeReportListImg" tabindex="0" src="/assets/images/depression-test.jpg"></a><p _ngcontent-serverapp-c104="" class="report-description showLess"> The Patient Health Questionnaire (PHQ)-9 is the major depressive disorder (MDD) module of the full PHQ. It is used to provisionally diagnose depression and grade severity of symptoms. It quantifies depression symptoms and monitors severity. </p><p _ngcontent-serverapp-c104="" class="showTxt ng-star-inserted"> Show More </p><!----><!----><button _ngcontent-serverapp-c104="" class="orange-button" tabindex="0"> Depression </button></li><li _ngcontent-serverapp-c104="" class="cursorPointer ng-star-inserted"><a _ngcontent-serverapp-c104=""><img _ngcontent-serverapp-c104="" alt="" class="freeReportListImg" tabindex="0" src="/assets/images/ACE.jpg"></a><p _ngcontent-serverapp-c104="" class="report-description showLess"> Adverse Childhood Experiences (ACEs) are the number of traumatic experiences a person had in their early to late childhood. The ACE Questionnaire is built to determine the level of risk for various mental health conditions due to adverse experiences in early childhood. </p><p _ngcontent-serverapp-c104="" class="showTxt ng-star-inserted"> Show More </p><!----><!----><button _ngcontent-serverapp-c104="" class="orange-button" tabindex="0"> Adverse Childhood </button></li><li _ngcontent-serverapp-c104="" class="cursorPointer ng-star-inserted"><a _ngcontent-serverapp-c104=""><img _ngcontent-serverapp-c104="" alt="" class="freeReportListImg" tabindex="0" src="/assets/images/Anger.jpg"></a><p _ngcontent-serverapp-c104="" class="report-description showLess"> The Clinical Anger Scale (CAS) is used by healthcare professionals to estimate the degree of Clinical Anger (Chronic and pervasive anger). Clinical anger differs from the common emotion in terms of the distress caused to the individual and the time period for which the person has experienced the emotion. </p><p _ngcontent-serverapp-c104="" class="showTxt ng-star-inserted"> Show More </p><!----><!----><button _ngcontent-serverapp-c104="" class="orange-button" tabindex="0"> Anger </button></li><li _ngcontent-serverapp-c104="" class="cursorPointer ng-star-inserted"><a _ngcontent-serverapp-c104=""><img _ngcontent-serverapp-c104="" alt="" class="freeReportListImg" tabindex="0" src="/assets/images/OCD.jpg"></a><p _ngcontent-serverapp-c104="" class="report-description showLess"> Yale-Brown Obsessive-Compulsive Scale (Y-BOCS) is a test to rate the severity of obsessive–compulsive disorder (OCD) symptoms. This scale, which measures obsessions separately from compulsions, specifically measures the severity of symptoms of obsessive–compulsive disorder. </p><p _ngcontent-serverapp-c104="" class="showTxt ng-star-inserted"> Show More </p><!----><!----><button _ngcontent-serverapp-c104="" class="orange-button" tabindex="0"> OCD </button></li><li _ngcontent-serverapp-c104="" class="cursorPointer ng-star-inserted"><a _ngcontent-serverapp-c104=""><img _ngcontent-serverapp-c104="" alt="" class="freeReportListImg" tabindex="0" src="/assets/images/PTSD Test.jpg"></a><p _ngcontent-serverapp-c104="" class="report-description showLess"> PCL-5 Questionnaire for is used to assess the degree and severity of Post-Traumatic Stress disorder using the 20 symptoms listed for the same in the Diagnostic Statistics Manual-5 (DSM-5). This questionnaire asks about trauma events that happened to you directly, something you witnessed, or something you learned happened to a close family member or close friend.  </p><p _ngcontent-serverapp-c104="" class="showTxt ng-star-inserted"> Show More </p><!----><!----><button _ngcontent-serverapp-c104="" class="orange-button" tabindex="0"> PTSD </button></li><li _ngcontent-serverapp-c104="" class="cursorPointer ng-star-inserted"><a _ngcontent-serverapp-c104=""><img _ngcontent-serverapp-c104="" alt="" class="freeReportListImg" tabindex="0" src="/assets/images/GriefImage.webp"></a><p _ngcontent-serverapp-c104="" class="report-description showLess"> The International Prolonged Grief Disorder Scale (IPGDS) is a self-report test created by the WHO ICD-11 Working Group, to diagnose Prolonged Grief Disorder. It is characterized by a feeling of longing and excessive preoccupation with the deceased and has a very particular set of symptoms.  </p><p _ngcontent-serverapp-c104="" class="showTxt ng-star-inserted"> Show More </p><!----><!----><button _ngcontent-serverapp-c104="" class="orange-button" tabindex="0"> Prolonged Grief </button></li><li _ngcontent-serverapp-c104="" class="cursorPointer ng-star-inserted"><a _ngcontent-serverapp-c104=""><img _ngcontent-serverapp-c104="" alt="" class="freeReportListImg" tabindex="0" src="/assets/images/ADHD.webp"></a><p _ngcontent-serverapp-c104="" class="report-description showLess"> The Adult Self-Report Scale (ASRS) Screener is a test developed by World Health Organization (WHO) to help you recognize the signs and symptoms of adult ADHD. ADHD is not a “one size fits all” disorder and many factors must be considered before a definitive diagnosis is made and an appropriate treatment is found. </p><p _ngcontent-serverapp-c104="" class="showTxt ng-star-inserted"> Show More </p><!----><!----><button _ngcontent-serverapp-c104="" class="orange-button" tabindex="0"> ADHD </button></li><!----></ul><!----></div></div></div><div _ngcontent-serverapp-c104="" class="d-flex align-items-center flex-column"><div _ngcontent-serverapp-c104="" class="heading-text">Free Exercises</div><div _ngcontent-serverapp-c104="" class="free-exercise-content"><div _ngcontent-serverapp-c104="" class="col-md-12"><ngx-slick-carousel _ngcontent-serverapp-c104="" class="mySwiper slick-initialized slick-slider"><!----><div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 1232px; transform: translate3d(0px, 0px, 0px);"><div _ngcontent-serverapp-c104="" ngxslickitem="" class="ng-star-inserted slick-slide slick-current slick-active" style="width: 616px;" tabindex="0" role="tabpanel" id="slick-slide10" aria-describedby="slick-slide-control10" data-slick-index="0" aria-hidden="false"><div _ngcontent-serverapp-c104="" class="likeVideoHolder"><iframe _ngcontent-serverapp-c104="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="you-may-like-videos" src="https://www.youtube.com/embed/WnZyxl84QVo"></iframe></div></div><div _ngcontent-serverapp-c104="" ngxslickitem="" class="ng-star-inserted slick-slide slick-active" style="width: 616px;" tabindex="0" role="tabpanel" id="slick-slide11" aria-describedby="slick-slide-control11" data-slick-index="1" aria-hidden="false"><div _ngcontent-serverapp-c104="" class="likeVideoHolder"><iframe _ngcontent-serverapp-c104="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="you-may-like-videos" src="https://www.youtube.com/embed/8OAf77htqFY"></iframe></div></div></div></div></ngx-slick-carousel><swiper _ngcontent-serverapp-c104="" class="mySwiper swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-ios"><div class="swiper-button-prev ng-star-inserted"></div><div class="swiper-button-next ng-star-inserted"></div><!----><!----><!----><div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-bullets-dynamic ng-star-inserted"></div><!----><div class="swiper-wrapper" style="transition-duration: 0ms;"><!----><!----><!----><!----><!----><!----></div><!----></swiper></div></div></div><div _ngcontent-serverapp-c104="" class="d-flex align-items-center flex-column"><div _ngcontent-serverapp-c104="" class="heading-text">Expert Speak</div></div><div _ngcontent-serverapp-c104="" class="container-fluid"><div _ngcontent-serverapp-c104="" class="row justify-content-center"><div _ngcontent-serverapp-c104="" class="col-md-10"><ngx-slick-carousel _ngcontent-serverapp-c104="" class="mySwiper slick-initialized slick-slider slick-dotted"><button class="slick-prev slick-arrow" aria-label="Previous" type="button" style="display: block;">Previous</button><div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 7154px; transform: translate3d(-2044px, 0px, 0px);"><div _ngcontent-serverapp-c104="" swiperslide="" ngxslickitem="" class="slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" style="width: 1022px;" tabindex="-1"><div _ngcontent-serverapp-c104="" class="expertSlideHolder"><iframe _ngcontent-serverapp-c104="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="expert-videos" src="https://www.youtube.com/embed/lFXaCBH4QgU"></iframe></div></div><div _ngcontent-serverapp-c104="" swiperslide="" ngxslickitem="" class="slick-slide ng-star-inserted" data-slick-index="0" aria-hidden="true" style="width: 1022px;" tabindex="-1" role="tabpanel" id="slick-slide20" aria-describedby="slick-slide-control20"><div _ngcontent-serverapp-c104="" class="expertSlideHolder"><iframe _ngcontent-serverapp-c104="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="expert-videos" src="https://www.youtube.com/embed/cxzZSsOj2CA"></iframe></div></div><div _ngcontent-serverapp-c104="" swiperslide="" ngxslickitem="" class="slick-slide ng-star-inserted slick-current slick-active" data-slick-index="1" aria-hidden="false" style="width: 1022px;" tabindex="0" role="tabpanel" id="slick-slide21" aria-describedby="slick-slide-control21"><div _ngcontent-serverapp-c104="" class="expertSlideHolder"><iframe _ngcontent-serverapp-c104="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="expert-videos" src="https://www.youtube.com/embed/UREM4rnkcvo"></iframe></div></div><div _ngcontent-serverapp-c104="" swiperslide="" ngxslickitem="" class="slick-slide ng-star-inserted" data-slick-index="2" aria-hidden="true" style="width: 1022px;" tabindex="-1" role="tabpanel" id="slick-slide22" aria-describedby="slick-slide-control22"><div _ngcontent-serverapp-c104="" class="expertSlideHolder"><iframe _ngcontent-serverapp-c104="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="expert-videos" src="https://www.youtube.com/embed/lFXaCBH4QgU"></iframe></div></div><div _ngcontent-serverapp-c104="" swiperslide="" ngxslickitem="" class="slick-slide slick-cloned" data-slick-index="3" aria-hidden="true" style="width: 1022px;" tabindex="-1"><div _ngcontent-serverapp-c104="" class="expertSlideHolder"><iframe _ngcontent-serverapp-c104="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="expert-videos" src="https://www.youtube.com/embed/cxzZSsOj2CA"></iframe></div></div><div _ngcontent-serverapp-c104="" swiperslide="" ngxslickitem="" class="slick-slide slick-cloned" data-slick-index="4" aria-hidden="true" style="width: 1022px;" tabindex="-1"><div _ngcontent-serverapp-c104="" class="expertSlideHolder"><iframe _ngcontent-serverapp-c104="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="expert-videos" src="https://www.youtube.com/embed/UREM4rnkcvo"></iframe></div></div><div _ngcontent-serverapp-c104="" swiperslide="" ngxslickitem="" class="slick-slide slick-cloned" data-slick-index="5" aria-hidden="true" style="width: 1022px;" tabindex="-1"><div _ngcontent-serverapp-c104="" class="expertSlideHolder"><iframe _ngcontent-serverapp-c104="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="expert-videos" src="https://www.youtube.com/embed/lFXaCBH4QgU"></iframe></div></div></div></div><!----><button class="slick-next slick-arrow" aria-label="Next" type="button" style="display: block;">Next</button><ul class="slick-dots" style="display: block;" role="tablist"><li class="" role="presentation"><button type="button" role="tab" id="slick-slide-control20" aria-controls="slick-slide20" aria-label="1 of 3" tabindex="-1">1</button></li><li role="presentation" class="slick-active"><button type="button" role="tab" id="slick-slide-control21" aria-controls="slick-slide21" aria-label="2 of 3" tabindex="0" aria-selected="true">2</button></li><li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control22" aria-controls="slick-slide22" aria-label="3 of 3" tabindex="-1">3</button></li></ul></ngx-slick-carousel></div></div></div><div _ngcontent-serverapp-c104="" class="d-flex align-items-center flex-column"><div _ngcontent-serverapp-c104="" class="heading-text">Videos You May Like</div></div><div _ngcontent-serverapp-c104="" class="container-fluid"><div _ngcontent-serverapp-c104="" class="row justify-content-center"><div _ngcontent-serverapp-c104="" class="col-md-10"><ngx-slick-carousel _ngcontent-serverapp-c104="" class="mySwiper slick-initialized slick-slider"><button class="slick-prev slick-arrow" aria-label="Previous" type="button" style="display: block;">Previous</button><!----><div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 5110px; transform: translate3d(-1533px, 0px, 0px);"><div _ngcontent-serverapp-c104="" ngxslickitem="" class="ng-star-inserted slick-slide slick-cloned" style="width: 511px;" tabindex="-1" role="tabpanel" aria-describedby="slick-slide-control32" data-slick-index="-2" aria-hidden="true"><div _ngcontent-serverapp-c104="" class="likeVideoHolder"><iframe _ngcontent-serverapp-c104="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="you-may-like-videos" src="https://www.youtube.com/embed/HvTkZP3uxJU"></iframe></div></div><div _ngcontent-serverapp-c104="" ngxslickitem="" class="ng-star-inserted slick-slide slick-cloned" style="width: 511px;" tabindex="-1" role="tabpanel" aria-describedby="slick-slide-control33" data-slick-index="-1" aria-hidden="true"><div _ngcontent-serverapp-c104="" class="likeVideoHolder"><iframe _ngcontent-serverapp-c104="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="you-may-like-videos" src="https://www.youtube.com/embed/gF8KtV16SvE"></iframe></div></div><div _ngcontent-serverapp-c104="" ngxslickitem="" class="ng-star-inserted slick-slide" style="width: 511px;" tabindex="-1" role="tabpanel" id="slick-slide30" aria-describedby="slick-slide-control30" data-slick-index="0" aria-hidden="true"><div _ngcontent-serverapp-c104="" class="likeVideoHolder"><iframe _ngcontent-serverapp-c104="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="you-may-like-videos" src="https://www.youtube.com/embed/gBvoku4SVGQ"></iframe></div></div><div _ngcontent-serverapp-c104="" ngxslickitem="" class="ng-star-inserted slick-slide slick-current slick-active" style="width: 511px;" tabindex="0" role="tabpanel" id="slick-slide31" aria-describedby="slick-slide-control31" data-slick-index="1" aria-hidden="false"><div _ngcontent-serverapp-c104="" class="likeVideoHolder"><iframe _ngcontent-serverapp-c104="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="you-may-like-videos" src="https://www.youtube.com/embed/Fd0g_ceSI5M"></iframe></div></div><div _ngcontent-serverapp-c104="" ngxslickitem="" class="ng-star-inserted slick-slide slick-active" style="width: 511px;" tabindex="0" role="tabpanel" id="slick-slide32" aria-describedby="slick-slide-control32" data-slick-index="2" aria-hidden="false"><div _ngcontent-serverapp-c104="" class="likeVideoHolder"><iframe _ngcontent-serverapp-c104="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="you-may-like-videos" src="https://www.youtube.com/embed/HvTkZP3uxJU"></iframe></div></div><div _ngcontent-serverapp-c104="" ngxslickitem="" class="ng-star-inserted slick-slide" style="width: 511px;" tabindex="-1" role="tabpanel" id="slick-slide33" aria-describedby="slick-slide-control33" data-slick-index="3" aria-hidden="true"><div _ngcontent-serverapp-c104="" class="likeVideoHolder"><iframe _ngcontent-serverapp-c104="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="you-may-like-videos" src="https://www.youtube.com/embed/gF8KtV16SvE"></iframe></div></div><div _ngcontent-serverapp-c104="" ngxslickitem="" class="ng-star-inserted slick-slide slick-cloned" style="width: 511px;" tabindex="-1" role="tabpanel" aria-describedby="slick-slide-control30" data-slick-index="4" aria-hidden="true"><div _ngcontent-serverapp-c104="" class="likeVideoHolder"><iframe _ngcontent-serverapp-c104="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="you-may-like-videos" src="https://www.youtube.com/embed/gBvoku4SVGQ"></iframe></div></div><div _ngcontent-serverapp-c104="" ngxslickitem="" class="ng-star-inserted slick-slide slick-cloned" style="width: 511px;" tabindex="-1" role="tabpanel" aria-describedby="slick-slide-control31" data-slick-index="5" aria-hidden="true"><div _ngcontent-serverapp-c104="" class="likeVideoHolder"><iframe _ngcontent-serverapp-c104="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="you-may-like-videos" src="https://www.youtube.com/embed/Fd0g_ceSI5M"></iframe></div></div><div _ngcontent-serverapp-c104="" ngxslickitem="" class="ng-star-inserted slick-slide slick-cloned" style="width: 511px;" tabindex="-1" role="tabpanel" aria-describedby="slick-slide-control32" data-slick-index="6" aria-hidden="true"><div _ngcontent-serverapp-c104="" class="likeVideoHolder"><iframe _ngcontent-serverapp-c104="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="you-may-like-videos" src="https://www.youtube.com/embed/HvTkZP3uxJU"></iframe></div></div><div _ngcontent-serverapp-c104="" ngxslickitem="" class="ng-star-inserted slick-slide slick-cloned" style="width: 511px;" tabindex="-1" role="tabpanel" aria-describedby="slick-slide-control33" data-slick-index="7" aria-hidden="true"><div _ngcontent-serverapp-c104="" class="likeVideoHolder"><iframe _ngcontent-serverapp-c104="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="you-may-like-videos" src="https://www.youtube.com/embed/gF8KtV16SvE"></iframe></div></div></div></div><button class="slick-next slick-arrow" aria-label="Next" type="button" style="display: block;">Next</button></ngx-slick-carousel></div></div></div><div _ngcontent-serverapp-c104=""><div _ngcontent-serverapp-c104="" class="container"><div _ngcontent-serverapp-c104="" class="boxRound subsBox"><div _ngcontent-serverapp-c104="" class="secondaryHeading"><h2 _ngcontent-serverapp-c104=""> The latest mental health news and tips, delivered to your inbox weekly. </h2><hr _ngcontent-serverapp-c104=""></div><div _ngcontent-serverapp-c104="" class="subsEmail formRound1"><form _ngcontent-serverapp-c104="" novalidate="" class="ng-untouched ng-pristine ng-invalid" siq_id="autopick_3092"><div _ngcontent-serverapp-c104="" class="d-flex"><input _ngcontent-serverapp-c104="" type="text" placeholder="Enter your mail address here" formcontrolname="email" class="form-control ng-untouched ng-pristine ng-invalid" data-gaconnector-tracked="true"><button _ngcontent-serverapp-c104="" type="submit" class="buttonTheme1 subsButton"> Subscribe </button></div></form></div></div></div></div></div>
+      </div>
+    </header>
 
-    <!-- subscribe-section -->
-    <section>
-        <div class="container">
-          <div class="boxRound subsBox">
-            <div class="secondaryHeading">
-              <h2>
-                The latest mental health news and tips, delivered to your inbox
-                weekly.
-              </h2>
-              <hr />
-            </div>
-            <div class="subsEmail formRound1">
+    <!-- blog-section-main -->
+    <div _nghost-serverapp-c104="" class="ng-star-inserted">
+      <div _ngcontent-serverapp-c104="" class="topMenuMargin">
+        <div
+          _ngcontent-serverapp-c104=""
+          class="d-flex align-items-center flex-column"
+        >
+          <div _ngcontent-serverapp-c104="" class="heading-text">
+            Your Happy Place!
+          </div>
+          <div _ngcontent-serverapp-c104="" class="orange-seperator"></div>
+        </div>
+        <div _ngcontent-serverapp-c104="" class="d-flex justify-content-center">
+          <div _ngcontent-serverapp-c104="" class="filterHolder">
+            <div _ngcontent-serverapp-c104="" class="searchContainer">
               <form
+                _ngcontent-serverapp-c104=""
                 novalidate=""
-                class="ng-untouched ng-pristine ng-invalid"
-                siq_id="autopick_1031"
+                class="ng-untouched ng-pristine ng-valid"
               >
-                <div class="d-flex align-items-center">
-                  <input
-                    type="text"
-                    placeholder="Enter your email address here"
-                    formcontrolname="email"
-                    class="form-control emailBox ng-untouched ng-pristine ng-invalid"
-                    data-gaconnector-tracked="true"
-                  /><button type="submit" class="primaryBtn subsButton">
-                    Subscribe
-                  </button>
-                </div>
+                <input
+                  _ngcontent-serverapp-c104=""
+                  type="search"
+                  placeholder="Search..."
+                  class="search-input-text ng-untouched ng-pristine ng-valid"
+                />
               </form>
             </div>
+            <div _ngcontent-serverapp-c104="" class="categoryFilter">
+              <ng-select
+                _ngcontent-serverapp-c104=""
+                class="menu-options ng-select ng-select-single ng-select-searchable ng-untouched ng-pristine ng-valid ng-star-inserted"
+                ><div class="ng-select-container ng-has-value">
+                  <div class="ng-value-container">
+                    <div class="ng-placeholder"></div>
+                    <div class="ng-value ng-value-disabled ng-star-inserted">
+                      <!----><span
+                        aria-hidden="true"
+                        class="ng-value-icon left ng-star-inserted"
+                        >×</span
+                      ><span class="ng-value-label ng-star-inserted"
+                        >
+                        <!-- category -->
+                        </span
+                      ><!---->
+                    </div>
+                    <!----><!----><!----><!---->
+                    <div
+                      role="combobox"
+                      aria-haspopup="listbox"
+                      class="ng-input"
+                      aria-expanded="false"
+                    >
+                      <input
+                      placeholder="Category"
+                        aria-autocomplete="list"
+                        type="text"
+                        autocorrect="off"
+                        autocapitalize="off"
+                        autocomplete="a66e9b77b96e"
+                        data-gaconnector-tracked="true"
+                      />
+                    </div>
+                  </div>
+                  <!----><!----><span class="ng-arrow-wrapper"
+                    ><span class="ng-arrow"></span
+                  ></span>
+                </div>
+                <!----></ng-select
+              ><!---->
+            </div>
           </div>
         </div>
-      </section>
+        <div
+          _ngcontent-serverapp-c104=""
+          class="gray-background d-flex align-items-center flex-column"
+        >
+          <div _ngcontent-serverapp-c104="" class="featured-container">
+            <div
+              _ngcontent-serverapp-c104=""
+              class="hero-left-content ng-star-inserted"
+              tabindex="0"
+            >
+              <div
+                _ngcontent-serverapp-c104=""
+                class="hero-left-image"
+                tabindex="0"
+                style="
+                  background: url('https://felicity-uploads.s3.ap-south-1.amazonaws.com/blog-assets/55aff1087ca41103fe6a233f1a771961-rs.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVLITOL2MEF2TPDFP%2F20220724%2Fap-south-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20220724T094140Z&amp;X-Amz-Expires=18000&amp;X-Amz-Signature=56d6e61ade921985d2b3e7cf297d08b22045f62ac3b513b090786a99a91da2f3&amp;X-Amz-SignedHeaders=host')
+                    0% 0% / cover;
+                "
+              ></div>
+              <div _ngcontent-serverapp-c104="" class="small-text" tabindex="0">
+                Saturday, 30 April
+              </div>
+              <b
+                _ngcontent-serverapp-c104=""
+                class="heading-blog-detail"
+                tabindex="0"
+                >Answers To All Your Questions About Depression</b
+              >
+            </div>
+            <!---->
+            <div _ngcontent-serverapp-c104="" class="hero-right-content">
+              <div _ngcontent-serverapp-c104="" class="ng-star-inserted">
+                <div
+                  _ngcontent-serverapp-c104=""
+                  class="grid-image-1"
+                  tabindex="0"
+                  style="
+                    background: url('https://felicity-uploads.s3.ap-south-1.amazonaws.com/blog-assets/149d28ded0a3cd7622886a0920cf779f-rs.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVLITOL2MEF2TPDFP%2F20220724%2Fap-south-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20220724T094140Z&amp;X-Amz-Expires=18000&amp;X-Amz-Signature=a6ca6fd25310fc0181f54e7c9b306fb7f2b600610de98c840d4242fb51b4a02f&amp;X-Amz-SignedHeaders=host')
+                      center center / cover no-repeat;
+                  "
+                ></div>
+                <div
+                  _ngcontent-serverapp-c104=""
+                  class="small-text"
+                  tabindex="0"
+                >
+                  Saturday, 16 July
+                </div>
+                <b _ngcontent-serverapp-c104="" class="sub-text" tabindex="0"
+                  >Learn to Rein in the Rage with Anger Management Therapy</b
+                >
+              </div>
+              <div _ngcontent-serverapp-c104="" class="ng-star-inserted">
+                <div
+                  _ngcontent-serverapp-c104=""
+                  class="grid-image-1"
+                  tabindex="0"
+                  style="
+                    background: url('https://felicity-uploads.s3.ap-south-1.amazonaws.com/blog-assets/732b15bdd9d6c7e1f397bc18972f8152-rs.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVLITOL2MEF2TPDFP%2F20220724%2Fap-south-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20220724T094140Z&amp;X-Amz-Expires=18000&amp;X-Amz-Signature=b46537e41f3f40124811bc6f6b785c2168ac29096d08225ea69d58edf70bc1ef&amp;X-Amz-SignedHeaders=host')
+                      center center / cover no-repeat;
+                  "
+                ></div>
+                <div
+                  _ngcontent-serverapp-c104=""
+                  class="small-text"
+                  tabindex="0"
+                >
+                  Friday, 15 July
+                </div>
+                <b _ngcontent-serverapp-c104="" class="sub-text" tabindex="0"
+                  >A Beginner’s Guide to Finding the 'Right' Therapist</b
+                >
+              </div>
+              <div _ngcontent-serverapp-c104="" class="ng-star-inserted">
+                <div
+                  _ngcontent-serverapp-c104=""
+                  class="grid-image-1"
+                  tabindex="0"
+                  style="
+                    background: url('https://felicity-uploads.s3.ap-south-1.amazonaws.com/blog-assets/a677b8c1f7ae73fb308c850c5ec3fa2c-rs.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVLITOL2MEF2TPDFP%2F20220724%2Fap-south-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20220724T094140Z&amp;X-Amz-Expires=18000&amp;X-Amz-Signature=e1aa9418ce61bfc00899ab7bddea9b96d5f41c869f2a3337ae45c4c5e1eb04c4&amp;X-Amz-SignedHeaders=host')
+                      center center / cover no-repeat;
+                  "
+                ></div>
+                <div
+                  _ngcontent-serverapp-c104=""
+                  class="small-text"
+                  tabindex="0"
+                >
+                  Tuesday, 12 July
+                </div>
+                <b _ngcontent-serverapp-c104="" class="sub-text" tabindex="0"
+                  >Attaching the Detached: How Emotionally-Focused Therapy
+                  Works</b
+                >
+              </div>
+              <div _ngcontent-serverapp-c104="" class="ng-star-inserted">
+                <div
+                  _ngcontent-serverapp-c104=""
+                  class="grid-image-1"
+                  tabindex="0"
+                  style="
+                    background: url('https://felicity-uploads.s3.ap-south-1.amazonaws.com/blog-assets/c9422e15574e7848e42fbf7f5ae3fda1-rs.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVLITOL2MEF2TPDFP%2F20220724%2Fap-south-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20220724T094140Z&amp;X-Amz-Expires=18000&amp;X-Amz-Signature=a341729d710afc4095d5510b890f99e88bae19a90e97c7ba4e5ac88c6e71d1e6&amp;X-Amz-SignedHeaders=host')
+                      center center / cover no-repeat;
+                  "
+                ></div>
+                <div
+                  _ngcontent-serverapp-c104=""
+                  class="small-text"
+                  tabindex="0"
+                >
+                  Monday, 11 July
+                </div>
+                <b _ngcontent-serverapp-c104="" class="sub-text" tabindex="0"
+                  >Closing the Distance over Online Platforms: How Virtual
+                  Therapy Works</b
+                >
+              </div>
+              <!---->
+            </div>
+          </div>
+          <div
+            _ngcontent-serverapp-c104=""
+            class="d-flex justify-content-center"
+          >
+            <button
+              _ngcontent-serverapp-c104=""
+              routerlink="../all-blogs"
+              class="orange-button"
+              tabindex="0"
+            >
+              View All Blogs
+            </button>
+          </div>
+          <div
+            _ngcontent-serverapp-c104=""
+            class="top-category-container d-flex align-items-center flex-column"
+          >
+            <div _ngcontent-serverapp-c104="" class="heading-text">
+              Top Categories
+            </div>
+            <div _ngcontent-serverapp-c104="" class="top-category-flex">
+              <div _ngcontent-serverapp-c104="" id="categoryScroll">
+                <ul _ngcontent-serverapp-c104="" class="ng-star-inserted">
+                  <li
+                    _ngcontent-serverapp-c104=""
+                    class="cursorPointer ng-star-inserted"
+                    tabindex="0"
+                  >
+                    <a _ngcontent-serverapp-c104=""
+                      ><img
+                        _ngcontent-serverapp-c104=""
+                        alt=""
+                        src="./assets/images/9a6d023a3aea29439354d30b7ba1ec2f-rs.png"
+                    /></a>
+                    <h2 _ngcontent-serverapp-c104="">Relationships</h2>
+                  </li>
+                  <li
+                    _ngcontent-serverapp-c104=""
+                    class="cursorPointer ng-star-inserted"
+                    tabindex="0"
+                  >
+                    <a _ngcontent-serverapp-c104=""
+                      ><img
+                        _ngcontent-serverapp-c104=""
+                        alt=""
+                        src="./assets/images/cc44d090a33036335be75d8fe3acfd5e-rs.png"
+                    /></a>
+                    <h2 _ngcontent-serverapp-c104="">Self-Care</h2>
+                  </li>
+                  <li
+                    _ngcontent-serverapp-c104=""
+                    class="cursorPointer ng-star-inserted"
+                    tabindex="0"
+                  >
+                    <a _ngcontent-serverapp-c104=""
+                      ><img
+                        _ngcontent-serverapp-c104=""
+                        alt=""
+                        src="https://api.felicity.care/blog-assets/a7fd2fcb79bab5b49b00f91c2fc65587-rs.png"
+                    /></a>
+                    <h2 _ngcontent-serverapp-c104="">COVID-19</h2>
+                  </li>
+                  <li
+                    _ngcontent-serverapp-c104=""
+                    class="cursorPointer ng-star-inserted"
+                    tabindex="0"
+                  >
+                    <a _ngcontent-serverapp-c104=""
+                      ><img
+                        _ngcontent-serverapp-c104=""
+                        alt=""
+                        src="./assets/images/93dbf619cc4a16ac95676cd5218eae79-rs.png"
+                    /></a>
+                    <h2 _ngcontent-serverapp-c104="">Anxiety</h2>
+                  </li>
+                  <li
+                    _ngcontent-serverapp-c104=""
+                    class="cursorPointer ng-star-inserted"
+                    tabindex="0"
+                  >
+                    <a _ngcontent-serverapp-c104=""
+                      ><img
+                        _ngcontent-serverapp-c104=""
+                        alt=""
+                        src="./assets/images/f6823c21d882843e72a49f9c559ffd0b-rs.png"
+                    /></a>
+                    <h2 _ngcontent-serverapp-c104="">Depression</h2>
+                  </li>
+                  <li
+                    _ngcontent-serverapp-c104=""
+                    class="cursorPointer ng-star-inserted"
+                    tabindex="0"
+                  >
+                    <a _ngcontent-serverapp-c104=""
+                      ><img
+                        _ngcontent-serverapp-c104=""
+                        alt=""
+                        src="./assets/images/228911f5dcacdd26da3c50463446bef3-rs.png"
+                    /></a>
+                    <h2 _ngcontent-serverapp-c104="">Mental Wellness</h2>
+                  </li>
+                  <li
+                    _ngcontent-serverapp-c104=""
+                    class="cursorPointer ng-star-inserted"
+                    tabindex="0"
+                  >
+                    <a _ngcontent-serverapp-c104=""
+                      ><img
+                        _ngcontent-serverapp-c104=""
+                        alt=""
+                        src="./assets/images/a9caf50462b14cd3c95f282325038fe7-rs.png"
+                    /></a>
+                    <h2 _ngcontent-serverapp-c104="">Therapy</h2>
+                  </li>
+                  <li
+                    _ngcontent-serverapp-c104=""
+                    class="cursorPointer ng-star-inserted"
+                    tabindex="0"
+                  >
+                    <a _ngcontent-serverapp-c104=""
+                      ><img
+                        _ngcontent-serverapp-c104=""
+                        alt=""
+                        src="./assets/images/328d2f2810d83fc3987c52907f915438-rs.png"
+                    /></a>
+                    <h2 _ngcontent-serverapp-c104="">OCD</h2>
+                  </li>
+                  <!---->
+                </ul>
+                <!---->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div _ngcontent-serverapp-c104="" class="wave-bg"></div>
+        <div
+          _ngcontent-serverapp-c104=""
+          class="d-flex align-items-center flex-column"
+        >
+          <div _ngcontent-serverapp-c104="" class="heading-text">
+            Free Mental Health Tests
+          </div>
+          <div _ngcontent-serverapp-c104="" class="health-container d-flex">
+            <div _ngcontent-serverapp-c104="" id="categoryScroll">
+              <ul _ngcontent-serverapp-c104="" class="ng-star-inserted">
+                <li
+                  _ngcontent-serverapp-c104=""
+                  class="cursorPointer ng-star-inserted"
+                >
+                  <a _ngcontent-serverapp-c104=""
+                    ><img
+                      _ngcontent-serverapp-c104=""
+                      alt=""
+                      class="freeReportListImg"
+                      tabindex="0"
+                      src="./assets/images/anxiety-test.jpg"
+                  /></a>
+                  <p
+                    _ngcontent-serverapp-c104=""
+                    class="report-description showLess"
+                  >
+                    The Generalized Anxiety Disorder Scale-7 (GAD-7) is a
+                    self-rated scale developed by Spitzer and colleagues as a
+                    screening tool and severity indicator for GAD. It is easily
+                    scored and helps in diagnosis of GAD.
+                  </p>
+                  <p
+                    _ngcontent-serverapp-c104=""
+                    class="showTxt ng-star-inserted"
+                  >
+                    Show More
+                  </p>
+                  <!----><!----><button
+                    _ngcontent-serverapp-c104=""
+                    class="orange-button"
+                    tabindex="0"
+                  >
+                    Anxiety
+                  </button>
+                </li>
+                <li
+                  _ngcontent-serverapp-c104=""
+                  class="cursorPointer ng-star-inserted"
+                >
+                  <a _ngcontent-serverapp-c104=""
+                    ><img
+                      _ngcontent-serverapp-c104=""
+                      alt=""
+                      class="freeReportListImg"
+                      tabindex="0"
+                      src="./assets/images/depression-test.jpg"
+                  /></a>
+                  <p
+                    _ngcontent-serverapp-c104=""
+                    class="report-description showLess"
+                  >
+                    The Patient Health Questionnaire (PHQ)-9 is the major
+                    depressive disorder (MDD) module of the full PHQ. It is used
+                    to provisionally diagnose depression and grade severity of
+                    symptoms. It quantifies depression symptoms and monitors
+                    severity.
+                  </p>
+                  <p
+                    _ngcontent-serverapp-c104=""
+                    class="showTxt ng-star-inserted"
+                  >
+                    Show More
+                  </p>
+                  <!----><!----><button
+                    _ngcontent-serverapp-c104=""
+                    class="orange-button"
+                    tabindex="0"
+                  >
+                    Depression
+                  </button>
+                </li>
+                <li
+                  _ngcontent-serverapp-c104=""
+                  class="cursorPointer ng-star-inserted"
+                >
+                  <a _ngcontent-serverapp-c104=""
+                    ><img
+                      _ngcontent-serverapp-c104=""
+                      alt=""
+                      class="freeReportListImg"
+                      tabindex="0"
+                      src="./assets/images/ACE.jpg"
+                  /></a>
+                  <p
+                    _ngcontent-serverapp-c104=""
+                    class="report-description showLess"
+                  >
+                    Adverse Childhood Experiences (ACEs) are the number of
+                    traumatic experiences a person had in their early to late
+                    childhood. The ACE Questionnaire is built to determine the
+                    level of risk for various mental health conditions due to
+                    adverse experiences in early childhood.
+                  </p>
+                  <p
+                    _ngcontent-serverapp-c104=""
+                    class="showTxt ng-star-inserted"
+                  >
+                    Show More
+                  </p>
+                  <!----><!----><button
+                    _ngcontent-serverapp-c104=""
+                    class="orange-button"
+                    tabindex="0"
+                  >
+                    Adverse Childhood
+                  </button>
+                </li>
+                <li
+                  _ngcontent-serverapp-c104=""
+                  class="cursorPointer ng-star-inserted"
+                >
+                  <a _ngcontent-serverapp-c104=""
+                    ><img
+                      _ngcontent-serverapp-c104=""
+                      alt=""
+                      class="freeReportListImg"
+                      tabindex="0"
+                      src="./assets/images/Anger.jpg"
+                  /></a>
+                  <p
+                    _ngcontent-serverapp-c104=""
+                    class="report-description showLess"
+                  >
+                    The Clinical Anger Scale (CAS) is used by healthcare
+                    professionals to estimate the degree of Clinical Anger
+                    (Chronic and pervasive anger). Clinical anger differs from
+                    the common emotion in terms of the distress caused to the
+                    individual and the time period for which the person has
+                    experienced the emotion.
+                  </p>
+                  <p
+                    _ngcontent-serverapp-c104=""
+                    class="showTxt ng-star-inserted"
+                  >
+                    Show More
+                  </p>
+                  <!----><!----><button
+                    _ngcontent-serverapp-c104=""
+                    class="orange-button"
+                    tabindex="0"
+                  >
+                    Anger
+                  </button>
+                </li>
+                <li
+                  _ngcontent-serverapp-c104=""
+                  class="cursorPointer ng-star-inserted"
+                >
+                  <a _ngcontent-serverapp-c104=""
+                    ><img
+                      _ngcontent-serverapp-c104=""
+                      alt=""
+                      class="freeReportListImg"
+                      tabindex="0"
+                      src="./assets/images/OCD.jpg"
+                  /></a>
+                  <p
+                    _ngcontent-serverapp-c104=""
+                    class="report-description showLess"
+                  >
+                    Yale-Brown Obsessive-Compulsive Scale (Y-BOCS) is a test to
+                    rate the severity of obsessive–compulsive disorder (OCD)
+                    symptoms. This scale, which measures obsessions separately
+                    from compulsions, specifically measures the severity of
+                    symptoms of obsessive–compulsive disorder.
+                  </p>
+                  <p
+                    _ngcontent-serverapp-c104=""
+                    class="showTxt ng-star-inserted"
+                  >
+                    Show More
+                  </p>
+                  <!----><!----><button
+                    _ngcontent-serverapp-c104=""
+                    class="orange-button"
+                    tabindex="0"
+                  >
+                    OCD
+                  </button>
+                </li>
+                <li
+                  _ngcontent-serverapp-c104=""
+                  class="cursorPointer ng-star-inserted"
+                >
+                  <a _ngcontent-serverapp-c104=""
+                    ><img
+                      _ngcontent-serverapp-c104=""
+                      alt=""
+                      class="freeReportListImg"
+                      tabindex="0"
+                      src="./assets/images/PTSD Test.jpg"
+                  /></a>
+                  <p
+                    _ngcontent-serverapp-c104=""
+                    class="report-description showLess"
+                  >
+                    PCL-5 Questionnaire for is used to assess the degree and
+                    severity of Post-Traumatic Stress disorder using the 20
+                    symptoms listed for the same in the Diagnostic Statistics
+                    Manual-5 (DSM-5). This questionnaire asks about trauma
+                    events that happened to you directly, something you
+                    witnessed, or something you learned happened to a close
+                    family member or close friend.
+                  </p>
+                  <p
+                    _ngcontent-serverapp-c104=""
+                    class="showTxt ng-star-inserted"
+                  >
+                    Show More
+                  </p>
+                  <!----><!----><button
+                    _ngcontent-serverapp-c104=""
+                    class="orange-button"
+                    tabindex="0"
+                  >
+                    PTSD
+                  </button>
+                </li>
+                <li
+                  _ngcontent-serverapp-c104=""
+                  class="cursorPointer ng-star-inserted"
+                >
+                  <a _ngcontent-serverapp-c104=""
+                    ><img
+                      _ngcontent-serverapp-c104=""
+                      alt=""
+                      class="freeReportListImg"
+                      tabindex="0"
+                      src="./assets/images/GriefImage.jpg"
+                  /></a>
+                  <p
+                    _ngcontent-serverapp-c104=""
+                    class="report-description showLess"
+                  >
+                    The International Prolonged Grief Disorder Scale (IPGDS) is
+                    a self-report test created by the WHO ICD-11 Working Group,
+                    to diagnose Prolonged Grief Disorder. It is characterized by
+                    a feeling of longing and excessive preoccupation with the
+                    deceased and has a very particular set of symptoms.
+                  </p>
+                  <p
+                    _ngcontent-serverapp-c104=""
+                    class="showTxt ng-star-inserted"
+                  >
+                    Show More
+                  </p>
+                  <!----><!----><button
+                    _ngcontent-serverapp-c104=""
+                    class="orange-button"
+                    tabindex="0"
+                  >
+                    Prolonged Grief
+                  </button>
+                </li>
+                <li
+                  _ngcontent-serverapp-c104=""
+                  class="cursorPointer ng-star-inserted"
+                >
+                  <a _ngcontent-serverapp-c104=""
+                    ><img
+                      _ngcontent-serverapp-c104=""
+                      alt=""
+                      class="freeReportListImg"
+                      tabindex="0"
+                      src="./assets/images/ADHD.jpg"
+                  /></a>
+                  <p
+                    _ngcontent-serverapp-c104=""
+                    class="report-description showLess"
+                  >
+                    The Adult Self-Report Scale (ASRS) Screener is a test
+                    developed by World Health Organization (WHO) to help you
+                    recognize the signs and symptoms of adult ADHD. ADHD is not
+                    a “one size fits all” disorder and many factors must be
+                    considered before a definitive diagnosis is made and an
+                    appropriate treatment is found.
+                  </p>
+                  <p
+                    _ngcontent-serverapp-c104=""
+                    class="showTxt ng-star-inserted"
+                  >
+                    Show More
+                  </p>
+                  <!----><!----><button
+                    _ngcontent-serverapp-c104=""
+                    class="orange-button"
+                    tabindex="0"
+                  >
+                    ADHD
+                  </button>
+                </li>
+                <!---->
+              </ul>
+              <!---->
+            </div>
+          </div>
+        </div>
+        <!-- subscribe-section -->
+        <div _ngcontent-serverapp-c104="">
+          <div _ngcontent-serverapp-c104="" class="container">
+            <div _ngcontent-serverapp-c104="" class="boxRound subsBox">
+              <div _ngcontent-serverapp-c104="" class="secondaryHeading">
+                <h2 _ngcontent-serverapp-c104="">
+                  The latest mental health news and tips, delivered to your
+                  inbox weekly.
+                </h2>
+                <hr _ngcontent-serverapp-c104="" />
+              </div>
+              <div _ngcontent-serverapp-c104="" class="subsEmail formRound1">
+                <form
+                  _ngcontent-serverapp-c104=""
+                  novalidate=""
+                  class="ng-untouched ng-pristine ng-invalid"
+                >
+                  <div _ngcontent-serverapp-c104="" class="d-flex">
+                    <input
+                      _ngcontent-serverapp-c104=""
+                      type="text"
+                      placeholder="Enter your mail address here"
+                      formcontrolname="email"
+                      class="form-control ng-untouched ng-pristine ng-invalid"
+                      data-gaconnector-tracked="true"
+                    /><button
+                      _ngcontent-serverapp-c104=""
+                      type="submit"
+                      class="buttonTheme1 subsButton"
+                    >
+                      Subscribe
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-      
-
+    
     <!-- footer -->
     <footer class="ng-star-inserted">
-        <div>
-          <div class="footerWrap">
-            <bootstrap-alert alertposition="top-center" class="ng-tns-c63-0"
-              ><div class="bootstrap-alert col-lg-4 ng-tns-c63-0 top-center">
-                <!---->
-              </div></bootstrap-alert
-            >
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                  <div class="footerCont">
-                    <img
-                      src="./assets/icons/logo-white.svg"
-                      alt="Felicity"
-                      draggable="false"
-                      class="img-fluid"
-                    />
-                    <ul class="contactInfo">
-                      <li>
-                        <i class="fa fa-map-marker"></i>
-                        Sapphire Space, Bani Park,
-                        <br />
-                        Jaipur 302016, India
-                      </li>
-                      <li class="phoneCssFix">
-                        <a href="mailto:hola@felicity.care"
-                          ><i class="fa fa-envelope"></i> hola@felicity.care</a
-                        >
-                      </li>
-                      <li class="phoneCssFix">
-                        <a href="tel:+918035385678"
-                          ><i class="fa fa-phone"></i> +918035385678</a
-                        >
-                      </li>
-                    </ul>
-                    <ul class="socialIconCont">
-                      <li>
-                        <a
-                          target="_blank"
-                          href="https://www.facebook.com/felicitycareofficial/"
-                          ><i class="fa-brands fa-facebook-f"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a target="_blank" href="https://twitter.com/CareFelicity"
-                          ><i class="fa-brands fa-twitter-square"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a
-                          target="_blank"
-                          href="https://www.instagram.com/felicity_care/"
-                          ><i class="fa-brands fa-instagram"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UC5JO-2aftdLYSUupZm2Ca1A"
-                          ><i class="fa-brands fa-youtube"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a
-                          target="_blank"
-                          href="https://in.pinterest.com/felicity_care/"
-                          ><i class="fa-brands fa-pinterest"></i
-                        ></a>
-                      </li>
-                    </ul>
-                  </div>
+      <div>
+        <div class="footerWrap">
+          <bootstrap-alert alertposition="top-center" class="ng-tns-c63-0"
+            ><div class="bootstrap-alert col-lg-4 ng-tns-c63-0 top-center">
+              <!---->
+            </div></bootstrap-alert
+          >
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                <div class="footerCont">
+                  <img
+                    src="./assets/icons/logo-white.svg"
+                    alt="Felicity"
+                    draggable="false"
+                    class="img-fluid"
+                  />
+                  <ul class="contactInfo">
+                    <li>
+                      <i class="fa fa-map-marker"></i>
+                      Sapphire Space, Bani Park,
+                      <br />
+                      Jaipur 302016, India
+                    </li>
+                    <li class="phoneCssFix">
+                      <a href="mailto:hola@felicity.care"
+                        ><i class="fa fa-envelope"></i> hola@felicity.care</a
+                      >
+                    </li>
+                    <li class="phoneCssFix">
+                      <a href="tel:+918035385678"
+                        ><i class="fa fa-phone"></i> +918035385678</a
+                      >
+                    </li>
+                  </ul>
+                  <ul class="socialIconCont">
+                    <li>
+                      <a
+                        target="_blank"
+                        href="https://www.facebook.com/felicitycareofficial/"
+                        ><i class="fa-brands fa-facebook-f"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a target="_blank" href="https://twitter.com/CareFelicity"
+                        ><i class="fa-brands fa-twitter-square"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        target="_blank"
+                        href="https://www.instagram.com/felicity_care/"
+                        ><i class="fa-brands fa-instagram"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        target="_blank"
+                        href="https://www.youtube.com/channel/UC5JO-2aftdLYSUupZm2Ca1A"
+                        ><i class="fa-brands fa-youtube"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        target="_blank"
+                        href="https://in.pinterest.com/felicity_care/"
+                        ><i class="fa-brands fa-pinterest"></i
+                      ></a>
+                    </li>
+                  </ul>
                 </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 col-6">
-                  <div class="quickLinkBox">
-                    <h3>Quick Links</h3>
-                    <ul>
-                      <li>
-                        <a
-                          routerlink="/corporate-mental-wellness-programs/get-demo"
-                          href="/corporate-mental-wellness-programs/get-demo"
-                          >For Corporates</a
-                        >
-                      </li>
-                      <li>
-                        <a
-                          routerlink="/counseling-therapy-clinical-psychology-jobs/get-onboard"
-                          href="/counseling-therapy-clinical-psychology-jobs/get-onboard"
-                          >For Therapists</a
-                        >
-                      </li>
-                      <li>
-                        <a
-                          routerlink="online-counseling-psychologists/contact-us"
-                          href="/online-counseling-psychologists/contact-us"
-                          >Contact</a
-                        >
-                      </li>
-                      <li>
-                        <a
-                          routerlink="mental-health-community/about-the-company"
-                          href="/mental-health-community/about-the-company"
-                          >About us</a
-                        >
-                      </li>
-                    </ul>
-                  </div>
+              </div>
+              <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                <div class="quickLinkBox">
+                  <h3>Quick Links</h3>
+                  <ul>
+                    <li>
+                      <a
+                        routerlink="/corporate-mental-wellness-programs/get-demo"
+                        href="/corporate-mental-wellness-programs/get-demo"
+                        >For Corporates</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        routerlink="/counseling-therapy-clinical-psychology-jobs/get-onboard"
+                        href="/counseling-therapy-clinical-psychology-jobs/get-onboard"
+                        >For Therapists</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        routerlink="online-counseling-psychologists/contact-us"
+                        href="/online-counseling-psychologists/contact-us"
+                        >Contact</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        routerlink="mental-health-community/about-the-company"
+                        href="/mental-health-community/about-the-company"
+                        >About us</a
+                      >
+                    </li>
+                  </ul>
                 </div>
-                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
-                  <div class="quickLinkBox">
-                    <h3>Legal Stuff</h3>
-                    <ul>
-                      <li>
-                        <a
-                          routerlink="/online-counseling-psychologists/disclaimer"
-                          href="#"
-                          >Disclaimer</a
-                        >
-                      </li>
-                      <li>
-                        <a
-                          routerlink="/online-counseling-psychologists/privacy-policy"
-                          href="#"
-                          >Privacy Policy</a
-                        >
-                      </li>
-                      <li>
-                        <a
-                          routerlink="/online-counseling-psychologists/terms-of-service"
-                          href="#"
-                          >Terms Of Service</a
-                        >
-                      </li>
-                    </ul>
-                  </div>
+              </div>
+              <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <div class="quickLinkBox">
+                  <h3>Legal Stuff</h3>
+                  <ul>
+                    <li>
+                      <a
+                        routerlink="/online-counseling-psychologists/disclaimer"
+                        href="#"
+                        >Disclaimer</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        routerlink="/online-counseling-psychologists/privacy-policy"
+                        href="#"
+                        >Privacy Policy</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        routerlink="/online-counseling-psychologists/terms-of-service"
+                        href="#"
+                        >Terms Of Service</a
+                      >
+                    </li>
+                  </ul>
                 </div>
-                <div class="col-lg-4 col-md-12 col-sm-8 col-12">
-                  <div class="callbackBox">
-                    <form
-                      novalidate=""
-                      class="ng-untouched ng-pristine ng-invalid"
-                      siq_id="autopick_3359"
-                    >
-                      <h3>We are here to make sure that you are always happy</h3>
-                      <div class="callbackInput">
-                        <input
-                          type="text"
-                          placeholder="Enter your phone number"
-                          formcontrolname="phone"
-                          class="form-control one ng-untouched ng-pristine ng-invalid"
-                          data-gaconnector-tracked="true"
-                        /><a type="submit" class="primaryBtn">
-                          Request Callback
-                        </a>
-                      </div>
-                    </form>
-                  </div>
+              </div>
+              <div class="col-lg-4 col-md-12 col-sm-8 col-12">
+                <div class="callbackBox">
+                  <form
+                    novalidate=""
+                    class="ng-untouched ng-pristine ng-invalid"
+                    siq_id="autopick_3359"
+                  >
+                    <h3>We are here to make sure that you are always happy</h3>
+                    <div class="callbackInput">
+                      <input
+                        type="text"
+                        placeholder="Enter your phone number"
+                        formcontrolname="phone"
+                        class="form-control one ng-untouched ng-pristine ng-invalid"
+                        data-gaconnector-tracked="true"
+                      /><a type="submit" class="primaryBtn">
+                        Request Callback
+                      </a>
+                    </div>
+                  </form>
                 </div>
               </div>
             </div>
           </div>
-          <div class="footerWarningBox">
-            <hr class="d-none" />
-            <div class="container">
-              If you are in a life-threatening situation – DO NOT use this site.
-              Use these
-              <a target="_blank" href="#">resources</a>
-              to get immediate help. <br />
-              ©Felicity. All rights reserved.
-            </div>
+        </div>
+        <div class="footerWarningBox">
+          <hr class="d-none" />
+          <div class="container">
+            If you are in a life-threatening situation – DO NOT use this site.
+            Use these
+            <a target="_blank" href="#">resources</a>
+            to get immediate help. <br />
+            ©Felicity. All rights reserved.
           </div>
         </div>
-      </footer>
-  
+      </div>
+    </footer>
+
     <!-- bundle-js -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-  
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
     <script src="./js/menu.js"></script>
-</body>
+  </body>
 </html>
