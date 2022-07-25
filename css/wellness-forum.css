@@ -691,7 +691,7 @@
     width: 70px;
     height: 70px;
     padding-top: 80px;
-    background: url(heart.26fd544….png) no-repeat 0 50%;
+    background: url("../assets/images/heart.26fd544a1a52b52b1c46.png") no-repeat 0 50%;
     background-size: 2900%;
   }
   
@@ -911,7 +911,7 @@
   position: absolute;
   margin-top: 32px;
   margin-left: -58px;
-  left: 75px !important;
+  left: 128px !important;
 }
 .paddingShare[_ngcontent-serverApp-c121] {
   padding-top: 0;
@@ -921,11 +921,11 @@
   right: 15px;
   top: -52px;
 }
+
 .pcview[_ngcontent-serverApp-c121] {
   display: none;
 }
-}
-
+} 
 
   /* Discussion forum End */
 
